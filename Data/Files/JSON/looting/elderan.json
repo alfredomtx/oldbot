@@ -1,0 +1,13 @@
+{
+	"__extends": "otclient.json",
+	"delays": {
+		"delayBeforeLooting": 600,
+		"delayAfterClickOnOpenOption": 0,
+		"delayAfterDraggingLoot": 250,
+		"delayBeforeSearchingOpenCorpseOption": 75,
+		"delayBeforeSearchingItemsAfterOpenCorpse": 400
+	},
+	"images": {
+		"openCorpseImage": "elderan.png"
+	}
+}

@@ -1,0 +1,31 @@
+{
+	"images": {
+		"use": "use_pxg.png",
+		"useVariation": 50
+	},
+	"minimap": {
+		"images": {
+			"center": "center_pxg.png",
+			"zoomPlus": "zoom_plus_pxg.png",
+			"zoomMinus": "zoom_minus_pxg.png",
+			"variation": 60
+		},
+		"areaSetup": {
+			"baseImage": "minimap_button_pxg.png",
+			"baseImageVariation": 60,
+			"offsetFromBaseImagePositionX": -174,
+			"offsetFromBaseImagePositionY": 10,
+			"width": 198,
+			"height": "",
+			"getHeight": true,
+			"heightImage": "minus\\zoom_minus_pxg.png",
+			"heightImageVariation": 60,
+			"offsetFromHeightImagePositionY": 4
+		}
+	},
+	"options": {
+		"checkStoppedInterval": 800,
+		"debug": false,
+		"debugCharArea": false
+	}
+}

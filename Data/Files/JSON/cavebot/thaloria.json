@@ -1,0 +1,8 @@
+{
+	"__extends": "cavebot_dura.json",
+	"minimap": {
+		"manualAdjust": {
+			"enabled": false
+		}
+	}
+}

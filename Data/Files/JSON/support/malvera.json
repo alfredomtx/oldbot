@@ -1,0 +1,10 @@
+{
+	"__extends": "otclient.json",
+	"statusBarAreaSetup": {
+		"baseImage": "logout_otclient_4.png",
+		"baseImageVariation": 60,
+		"width": 110,
+		"offsetFromBaseImagePositionX": -117,
+		"offsetFromBaseImagePositionY": 23
+	}
+}

@@ -1,0 +1,16 @@
+{
+	"__extends": "otclient.json",
+	"equipment": {
+		"leftHandArea": {
+			"offsets": {
+				"x": -73,
+				"y": -36
+			}
+		},
+		"bootsArea": {
+			"offsets": {
+				"x": 37
+			}
+		}
+	}
+}

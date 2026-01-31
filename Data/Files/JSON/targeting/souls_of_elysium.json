@@ -1,0 +1,31 @@
+{
+	"__extends": "otclient.json",
+	"battleListImages": {
+		"baseImage": "souls_of_elysium.png",
+		"baseImageVariation": 60,
+		"emptyImage": "souls_of_elysium.png",
+		"emptyImageVariation": 60,
+		"battleListButtonsVisibleVariation": 60,
+		"battleListButtonsVisible": "kingdomswap.png",
+		"battleListButtonsVisible2": "tibiascape.png"
+	},
+	"battleListSetup": {
+		"attackOffsetY": 35,
+		"offsetFromBaseImagePositionX": 0,
+		"width": 165,
+		"getHeight": false,
+		"height": 300,
+		"lifeBar": {
+			"offsetFromBaseImagePositionX": 27,
+			"offsetFromBaseImagePositionY": 63,
+			"width": 138,
+			"spaceBetweenBars": 26
+		}
+	},
+	"redPixelArea": {
+		"pixelImage": "red_pixel.png"
+	},
+	"options": {
+		"debug": false
+	}
+}

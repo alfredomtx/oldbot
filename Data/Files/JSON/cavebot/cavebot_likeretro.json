@@ -1,0 +1,29 @@
+{
+	"coordinates": {
+		"offsetClickX": -1,
+		"offsetClickY": -1
+	},
+	"minimap": {
+		"images": {
+			"center": "center_wearetibia.png",
+			"zoomPlus": "zoom_plus_aurera.png",
+			"zoomMinus": "zoom_minus_aurera.png",
+			"variation": 50
+		},
+		"areaSetup": {
+			"baseImage": "minus\\zoom_minus_pagodera.png",
+			"baseImageVariation": 50,
+			"offsetFromBaseImagePositionX": -116,
+			"offsetFromBaseImagePositionY": -45,
+			"width": 108,
+			"height": 108
+		}
+	},
+	"options": {
+		"searchCenterButtonEntireScreen": true,
+		"dontAdjustMinimapHeightWaypoint": true,
+		"checkStoppedInterval": 800,
+		"debug": false,
+		"debugCharArea": false
+	}
+}

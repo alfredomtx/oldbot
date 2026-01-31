@@ -1,0 +1,147 @@
+{
+	"__extends": "tibia14.json",
+	"clientFeatures": {
+		"autoStack": "1",
+		"chatOnOff": "1",
+		"cooldownBar": "1",
+		"fullLight": "1",
+		"protectionZoneIndicator": "1",
+		"useItemWithHotkey": "1",
+		"walkThroughPlayers": "1"
+	},
+	"disconnectedCheck": {
+		"connectedWindowTitle": "Tibia -",
+		"enabled": "1"
+	},
+	"files": {
+		"cavebot": "cavebot.json",
+		"fishing": "fishing.json",
+		"healing": "healing.json",
+		"itemRefill": "itemRefill.json",
+		"looting": "looting.json",
+		"map": "map.json",
+		"sioFriend": "sioFriend.json",
+		"support": "support.json",
+		"targeting": "targeting.json"
+	},
+	"images": {
+		"client": {
+			"buttons": {
+				"exit": "exit.png",
+				"exitVariation": "30"
+			},
+			"chat": {
+				"chatImagesVariation": "50",
+				"chatOff": "chatoff.png",
+				"chatOn": "chaton.png",
+				"clearMessages": "clear_chat.png",
+				"defaultChatTab": "default_chat.png",
+				"defaultChatTabUnselected": "default_chat_unselected.png",
+				"defaultChatTabUnselectedRed": "default_chat_red.png",
+				"paste": "paste.png",
+				"selectAll": "select_all.png",
+				"serverLogChatTab": "server_log_chat.png",
+				"serverLogChatTabUnselected": "server_log_chat_unselected.png",
+				"serverLogChatTabUnselectedRed": "server_log_chat_red.png"
+			},
+			"menu": {
+				"follow": "follow.png",
+				"menuImagesVariation": "40",
+				"openBackpackNewWindow": "open_backpack_new_window.png"
+			}
+		},
+		"convertGold": {
+			"100goldCoin": "100_gold_coin.png",
+			"100platinumCoin": "100_platinum_coin.png"
+		}
+	},
+	"input": {
+		"backgroundImageSearch": "1",
+		"backgroundKeyboardInput": "1",
+		"backgroundMouseInput": "1",
+		"classicControlDisabled": "0",
+		"classicControlDisabledByDefault": "0",
+		"defaultImageSearch": "1",
+		"keyPressDelay": "0",
+		"mouseClickDefaultMethod": "1",
+		"mouseDragDefaultMethod": "1",
+		"postMsgArrowKeys": "1",
+		"postMsgEscKey": "0",
+		"pressEscDefaultMethod": "1",
+		"pressF1toF12KeysDefaultMethod": "1",
+		"pressKeyDefaultMethod": "1",
+		"pressLetterKeysDefaultMethod": "1",
+		"useCSend": "0"
+	},
+	"loadingOptions": {
+		"loadCreatures": "1",
+		"loadItems": "1"
+	},
+	"map": {
+		"folders": {},
+		"minimap": {
+			"centerButtonOffset": "0",
+			"crossSize": "6",
+			"height": "111",
+			"width": "108",
+			"zoomButtonsOffset": "0"
+		},
+		"settings": {
+			"mapHeight": "2048",
+			"mapWidth": "2560",
+			"pathFiles": "1"
+		},
+		"viewer": {
+			"defaultCoordX": "32346",
+			"defaultCoordY": "32224"
+		}
+	},
+	"minimap": {
+		"centerButtonOffset": "0",
+		"crossSize": "6",
+		"height": "111",
+		"width": "108",
+		"zoomButtonsOffset": "0"
+	},
+	"options": {
+		"itemSearchVariation": "34"
+	},
+	"others": {
+		"ignoreCheckClientSettings": "0"
+	},
+	"pathFiles": "1",
+	"settings": {
+		"cavebot": {
+			"automaticFloorDetection": "1",
+			"coordinatesFunctioningMode": "1",
+			"getCharCoordinatesFromMemory": "1",
+			"tradeWindowSummerUpdate1290": "1"
+		},
+		"looting": {
+			"disableQuickLootingHotkeyChange": "0",
+			"fastManualLootingByDefault": "1"
+		},
+		"mapHeight": "2048",
+		"mapWidth": "2560",
+		"others": {},
+		"pathFiles": "1"
+	},
+	"tibiaClient": {
+		"clientImagesCategoryIdentifier": "rltibia",
+		"memoryIdentifier": "KimeraOT",
+		"removeStringFromTitle": "",
+		"selectClientButtonOpenFolderInsteadOfClient": "0",
+		"tibia12": "1",
+		"windowClassFilter": "Qt5",
+		"windowTitle": "Tibia"
+	},
+	"uncompatibleFunctions": {},
+	"uncompatibleModuleFunctions": {},
+	"uncompatibleModules": [
+		"fullLight"
+	],
+	"viewer": {
+		"defaultCoordX": "32346",
+		"defaultCoordY": "32224"
+	}
+}

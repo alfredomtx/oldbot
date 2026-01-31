@@ -1,0 +1,28 @@
+{
+	"__extends": "targeting_likeretro.json",
+	"battleListImages": {
+		"baseImage": "battle_list_likeretro.png",
+		"baseImageVariation": 50,
+		"emptyImage": "thaloria.png",
+		"emptyImageVariation": 50
+	},
+	"battleListSetup": {
+		"attackOffsetY": 30,
+		"offsetFromBaseImagePositionX": -3,
+		"offsetFromBaseImagePositionY": -2
+	},
+	"redPixelArea": {
+		"pixelImage": "red_pixel.png",
+		"pixelImageVariation": 20,
+		"offsetFromBattleListX": 22,
+		"offsetFromBattleListY": 0,
+		"width": 8,
+		"getCreatureImage": {
+			"offsetX": 20,
+			"offsetY": 2
+		}
+	},
+	"options": {
+		"debug": false
+	}
+}

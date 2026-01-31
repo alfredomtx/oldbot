@@ -1,0 +1,146 @@
+{
+	"clientFeatures": {
+		"autoStack": 1,
+		"chatOnOff": 0,
+		"cooldownBar": 0,
+		"fullLight": 1,
+		"protectionZoneIndicator": 0,
+		"useItemWithHotkey": 0,
+		"walkThroughPlayers": 0
+	},
+	"configFile": "settings_kingdomswap.json",
+	"disconnectedCheck": {
+		"connectedWindowTitle": "Ascalon - ",
+		"enabled": 1
+	},
+	"files": {
+		"cavebot": "cavebot_kingdomswap.json",
+		"fishing": "otclient.json",
+		"healing": "otclient_large.json",
+		"itemRefill": "itemRefill_kingdomswap.json",
+		"looting": "looting_kingdomswap.json",
+		"sioFriend": "sioFriend_kingdomswap.json",
+		"support": "support_kingdomswap.json",
+		"targeting": "targeting_kingdomswap.json"
+	},
+	"images": {
+		"client": {
+			"buttons": {
+				"exit": "exit_kingdomswap.png",
+				"exitVariation": 20
+			},
+			"chat": {
+				"chatImagesVariation": 50,
+				"chatOff": "chatoff_kingdomswap.png",
+				"chatOn": "chaton_kingdomswap.png",
+				"clearMessages": "clearmessages_otclientv8.png",
+				"defaultChatTab": "default_tab_otclientv8.png",
+				"defaultChatTabUnselected": "default_tab_unselected_otclientv8.png",
+				"defaultChatTabUnselectedRed": "default_tab_unselected_red_otclientv8.png"
+			},
+			"menu": {
+				"follow": "follow_kingdomswap.png",
+				"menuImagesVariation": 40
+			}
+		},
+		"convertGold": {
+			"100goldCoin": "100_gold_coin.png",
+			"100platinumCoin": "100_platinum_coin.png"
+		}
+	},
+	"input": {
+		"backgroundKeyboardInput": 1,
+		"backgroundImageSearch": 1,
+		"backgroundMouseInput": 1,
+		"classicControlDisabled": 0,
+		"classicControlDisabledByDefault": 0,
+		"defaultImageSearch": 0,
+		"keyPressDelay": 0,
+		"mouseDragDefaultMethod": 1,
+		"physicalPressModifierKeys": 1,
+		"postMsgArrowKeys": 1,
+		"postMsgEscKey": 0,
+		"pressEscDefaultMethod": 1,
+		"pressF1toF12KeysDefaultMethod": 1,
+		"pressKeyDefaultMethod": 1,
+		"pressLetterKeysDefaultMethod": 0
+	},
+	"loadingOptions": {
+		"loadCreatures": 1,
+		"loadItems": 1
+	},
+	"map": {
+		"folders": {
+			"mapFiles": "otclientv8",
+			"mapFilesInternal": "otclientv8"
+		},
+		"minimap": {
+			"centerButtonOffset": 0,
+			"crossSize": 12,
+			"crossThickness": 4,
+			"height": 250,
+			"width": 179,
+			"zoomButtonsOffset": 0
+		},
+		"settings": {
+			"mapHeight": 1536,
+			"mapWidth": 1536,
+			"pathFiles": 0
+		},
+		"viewer": {
+			"defaultCoordX": 32218,
+			"defaultCoordY": 31709
+		}
+	},
+	"options": {
+		"itemSearchVariation": 50,
+		"manualCharacterPosition": 1
+	},
+	"settings": {
+		"cavebot": {
+			"getCharCoordinatesFromMemory": true,
+			"automaticFloorDetection": 1,
+			"coordinatesFunctioningMode": 1,
+			"dragItemsFromSqmBeforeUsingRopeShovel": 1
+		},
+		"looting": {
+			"fastManualLootingByDefault": 1
+		}
+	},
+	"tibiaClient": {
+		"tibia7x": 1,
+		"memoryIdentifier": "ascalon",
+		"clientImagesCategoryIdentifier": "ascalon",
+		"removeStringFromTitle": "",
+		"windowClassFilter": "Ascalon",
+		"windowTitle": "Ascalon",
+		"clientExeName": ""
+	},
+	"uncompatibleModuleFunctions": {
+		"alerts": [
+			"pkOnScreen",
+			"pkOnScreen",
+			"playerOnScreen",
+			"privateMessage"
+		],
+		"itemRefill": [
+			"quiverRefill"
+		],
+		"others": [
+			"smartExit"
+		],
+		"reconnect": [
+			"autoReconnect"
+		],
+		"support": [
+			"autoEatFood",
+			"autoShoot",
+			"cureCurse",
+			"cureFire"
+		]
+	},
+	"uncompatibleModules": [
+		"reconnect",
+		"fullLight"
+	]
+}

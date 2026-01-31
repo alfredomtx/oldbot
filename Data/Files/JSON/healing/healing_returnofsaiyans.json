@@ -1,0 +1,26 @@
+{
+	"life": {
+		"pixelImageName": "life_pixel_returnofsaiyans.png",
+		"pixelColor": "0x36C92B",
+		"pixelVariation": 40,
+		"offsetFromBaseImagePositionX": -120,
+		"offsetFromBaseImagePositionY": 2
+	},
+	"mana": {
+		"pixelImageName": "mana_pixel_returnofsaiyans.png",
+		"pixelVariation": 40,
+		"pixelColor": "0x2C9ECE",
+		"offsetFromLifeBarX": 144,
+		"offsetFromLifeBarY": 0
+	},
+	"options": {
+		"invertLifeBarDirection": true,
+		"checkHealingIntervalDelay": 125,
+		"baseImage": "life_bar_returnofsaiyans.png",
+		"baseImageVariation": 60,
+		"barWidth": 126,
+		"barHeight": 21,
+		"debugMana": false,
+		"debug": false
+	}
+}

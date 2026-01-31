@@ -1,0 +1,13 @@
+{
+	"__extends": "mp_rivalia.json",
+	"areaSetup": {
+		"offsetFromBaseImagePositionX": -5,
+		"offsetFromBaseImagePositionY": -5,
+		"baseImageVariation": 30,
+		"getWidth": false,
+		"width": 188,
+		"widthImageVariation": 30,
+		"heightImageVariation": 30,
+		"offsetHeightAdjustY": 0
+	}
+}

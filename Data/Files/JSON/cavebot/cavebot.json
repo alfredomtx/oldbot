@@ -1,0 +1,16 @@
+{
+	"images": {
+		"use": "use.png",
+		"useVariation": 40,
+		"protectionZone": "pz_zone.png",
+		"protectionZoneVariation": 30
+	},
+	"options": {
+		"checkStoppedInterval": 800,
+		"debug": false
+	},
+	"uncompatibleActions": [
+		"minimapcenter",
+		"minimapheight"
+	]
+}

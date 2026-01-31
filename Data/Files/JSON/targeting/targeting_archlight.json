@@ -1,0 +1,45 @@
+{
+	"attackSpells": {
+		"useScriptImageForRunes": true
+	},
+	"battleListImages": {
+		"baseImage": "battle_list_archlight.png",
+		"baseImageVariation": 50,
+		"emptyImage": "battle_list_empty_archlight.png",
+		"emptyImageVariation": 50
+	},
+	"battleListSetup": {
+		"attackOffsetY": 30,
+		"offsetFromBaseImagePositionX": -5,
+		"offsetFromBaseImagePositionY": 0,
+		"width": 165,
+		"getHeight": false,
+		"height": 300
+	},
+	"redPixelArea": {
+		"pixelImage": "red_pixel.png",
+		"pixelImage2": "red_pixel_archlight.png",
+		"pixelImageVariation": 30,
+		"offsetFromBattleListX": 26,
+		"offsetFromBattleListY": 0,
+		"width": 7,
+		"getCreatureImage": {
+			"offsetX": 1,
+			"offsetY": 1
+		}
+	},
+	"useItemOnCorpse": {
+		"customCorpseImages": true,
+		"corpseImageVariation": 15,
+		"delayBeforeSearchingForCorpses": 500
+	},
+	"options": {
+		"searchCreatureVariation": 25,
+		"disableAttackModeChange": true,
+		"disableCreatureLifeCheck": true,
+		"disableCreatureUnreachableCheck": true,
+		"randomizeSameCreatureAttackByDefault": true,
+		"getCreatureImageManually": true,
+		"debug": false
+	}
+}

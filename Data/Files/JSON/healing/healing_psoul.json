@@ -1,0 +1,19 @@
+{
+	"life": {
+		"pixelImageName": "life_pixel_psoul.png",
+		"pixelColor": "0xF64242",
+		"pixelVariation": 40,
+		"offsetFromBaseImagePositionX": 0,
+		"offsetFromBaseImagePositionY": 0
+	},
+	"mana": {
+	},
+	"options": {
+		"disableMana": true,
+		"baseImage": "life_bar_psoul.png",
+		"baseImageVariation": 60,
+		"barWidth": 106,
+		"barHeight": 13,
+		"debug": false
+	}
+}

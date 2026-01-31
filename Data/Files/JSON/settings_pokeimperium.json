@@ -1,0 +1,83 @@
+{
+	"disconnectedCheck": {
+		"enabled": true,
+		"connectedWindowTitle": "Pokeimperium -"
+	},
+	"files": {
+		"cavebot": "cavebot_pokeimperium.json",
+		"healing": "healing_pokeimperium.json",
+		"itemRefill": "itemRefill.json",
+		"looting": "looting.json",
+		"sioFriend": "sioFriend.json",
+		"support": "support.json",
+		"targeting": "targeting_pokeimperium.json"
+	},
+	"input": {
+		"classicControlDisabled": false,
+		"backgroundKeyboardInput": false,
+		"backgroundMouseInput": false,
+		"defaultImageSearch": false,
+		"pressKeyDefaultMethod": false,
+		"mouseClickDelay": 120
+	},
+	"settings": {
+		"cavebot": {
+			"getCharCoordinatesFromMemory": true,
+			"automaticFloorDetection": true,
+			"coordinatesFunctioningMode": 1
+		}
+	},
+	"options": {
+		"forceGameWindowHeight": true,
+		"manualCharacterPosition": true
+	},
+	"tibiaClient": {
+		"memoryIdentifier": "pokeimperium",
+		"clientImagesCategoryIdentifier": "pokeimperium",
+		"removeStringFromTitle": "",
+		"windowTitle": "Pok",
+		"windowClassFilter": "PokeImperium",
+		"clientExeName": "otclient_dx"
+	},
+	"uncompatibleFunctions": {
+		"itemRefill": [],
+		"support": [
+			"quiverRefillEnabled"
+		]
+	},
+	"uncompatibleModules": [
+		"floorSpy",
+		"support",
+		"fullLight",
+		"itemRefill",
+		"looting",
+		"sioFriend",
+		"reconnect"
+	],
+	"uncompatibleModuleFunctions": {
+		"alerts": [
+			"pkOnScreen",
+			"pkOnScreen",
+			"playerOnScreen",
+			"privateMessage"
+		],
+		"healing": [
+			"manaHealing",
+			"manaTrain"
+		],
+		"support": [
+			"autoHaste",
+			"autoUtamoVita",
+			"autoBuffSpell",
+			"autoEatFood",
+			"autoShoot",
+			"cureParalyze",
+			"curePoison",
+			"cureCurse",
+			"cureFire"
+		],
+		"others": [
+			"smartExit"
+		]
+	}
+}

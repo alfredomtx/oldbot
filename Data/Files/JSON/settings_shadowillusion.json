@@ -1,0 +1,35 @@
+{
+	"__extends": "otclient.json",
+	"clientFeatures": {
+		"useItemWithHotkey": 1,
+		"fullLight": 1,
+		"walkThroughPlayers": 1
+	},
+	"disconnectedCheck": {
+		"connectedWindowTitle": "Shadowillusion - ",
+		"enabled": 1
+	},
+	"files": {
+		"clientMenus": "cm_otclient_classic.json",
+		"containers": "crs_otclient_five.json",
+		"cavebot": "cavebot_shadowillusion.json",
+		"healing": "healing_shadowillusion.json",
+		"itemRefill": "itemRefill_kingdomswap.json",
+		"looting": "looting_shadowillusion.json",
+		"sioFriend": "sioFriend_kingdomswap.json",
+		"support": "shadowillusion.json",
+		"targeting": "targeting_kingdomswap.json"
+	},
+	"settings": {
+		"looting": {
+			"fastManualLootingByDefault": 1
+		}
+	},
+	"tibiaClient": {
+		"memoryIdentifier": "shadowillusion",
+		"clientImagesCategoryIdentifier": "otclientv8",
+		"windowClassFilter": "shadowillusion",
+		"windowTitle": "Shadowillusion",
+		"clientExeName": "ShadowIllusion_dx.exe"
+	}
+}

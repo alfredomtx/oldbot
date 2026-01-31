@@ -1,0 +1,91 @@
+{
+	"clientFeatures": {
+		"autoStack": 1,
+		"chatOnOff": 0,
+		"cooldownBar": 0,
+		"fullLight": 1,
+		"protectionZoneIndicator": 0,
+		"useItemWithHotkey": 0,
+		"walkThroughPlayers": 0
+	},
+	"disconnectedCheck": {
+		"connectedWindowTitle": "",
+		"enabled": false
+	},
+	"files": {
+		"cavebot": "cavebot_odenia.json",
+		"healing": "healing_otclient.json",
+		"itemRefill": "otclient_classic.json",
+		"looting": "looting_odenia.json",
+		"sioFriend": "sioFriend_otclient.json",
+		"support": "support_otclient.json",
+		"targeting": "targeting_aurera.json"
+	},
+	"images": {
+		"client": {
+			"chat": {
+				"chatImagesVariation": 50,
+				"chatOff": "chatoff.png",
+				"chatOn": "chaton.png"
+			},
+			"menu": {
+				"follow": "follow.png",
+				"menuImagesVariation": 40,
+				"openBackpackNewWindow": "open_backpack_new_window.png"
+			}
+		}
+	},
+	"input": {
+		"backgroundKeyboardInput": 1,
+		"backgroundImageSearch": 1,
+		"backgroundMouseInput": 1,
+		"classicControlDisabled": 0,
+		"classicControlDisabledByDefault": 0,
+		"defaultImageSearch": 0,
+		"keyPressDelay": 0,
+		"mouseDragDefaultMethod": 0,
+		"physicalPressModifierKeys": 0,
+		"postMsgArrowKeys": 1,
+		"postMsgEscKey": 0,
+		"pressEscDefaultMethod": 1,
+		"pressF1toF12KeysDefaultMethod": 1,
+		"pressKeyDefaultMethod": 1,
+		"pressLetterKeysDefaultMethod": 0
+	},
+	"loadingOptions": {
+		"loadCreatures": 1,
+		"loadItems": 1
+	},
+	"others": {
+		"ignoreCheckClientSettings": 0
+	},
+	"options": {
+		"manualCharacterPosition": 1
+	},
+	"settings": {
+		"cavebot": {
+			"getCharCoordinatesFromMemory": true,
+			"automaticFloorDetection": 1,
+			"coordinatesFunctioningMode": 1,
+			"dragItemsFromSqmBeforeUsingRopeShovel": 1
+		},
+		"looting": {
+			"fastManualLootingByDefault": 1
+		}
+	},
+	"tibiaClient": {
+		"tibia7x": 1,
+		"memoryIdentifier": "odenia",
+		"clientImagesCategoryIdentifier": "otclientv8",
+		"selectClientButtonOpenFolderInsteadOfClient": 1,
+		"windowClassFilter": "Odenia ",
+		"removeStringFromTitle": "",
+		"windowTitle": "Odenia"
+	},
+	"uncompatibleFunctions": [],
+	"uncompatibleModuleFunctions": {},
+	"uncompatibleModules": [
+		"reconnect",
+		"floorSpy"
+	]
+}

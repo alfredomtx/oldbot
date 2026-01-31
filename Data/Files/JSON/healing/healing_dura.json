@@ -1,0 +1,22 @@
+{
+	"life": {
+		"pixelImageName": "life_pixel_dura.png",
+		"pixelColor": "0xF16161",
+		"pixelVariation": 30,
+		"offsetFromBaseImagePositionX": 0,
+		"offsetFromBaseImagePositionY": 0
+	},
+	"mana": {
+		"pixelImageName": "mana_pixel_dura.png",
+		"pixelVariation": 30,
+		"pixelColor": "0x5350DA",
+		"offsetFromLifeBarY": 13
+	},
+	"options": {
+		"baseImage": "life_bar_dura.png",
+		"baseImageVariation": 40,
+		"barWidth": 90,
+		"barHeight": 10,
+		"debug": false
+	}
+}

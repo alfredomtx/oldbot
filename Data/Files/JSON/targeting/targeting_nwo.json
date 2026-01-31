@@ -1,0 +1,47 @@
+{
+	"attackSpells": {
+		"useScriptImageForRunes": true
+	},
+	"battleListImages": {
+		"baseImage": "nwo.png",
+		"baseImageVariation": 50,
+		"emptyImage": "nwo.png",
+		"emptyImageVariation": 50,
+		"battleListButtonsVisibleVariation": 50,
+		"battleListButtonsVisible": "nwo.png"
+	},
+	"battleListSetup": {
+		"attackOffsetY": 29,
+		"offsetFromBaseImagePositionX": -10,
+		"offsetFromBaseImagePositionY": 0,
+		"width": 165,
+		"getHeight": false,
+		"height": 300
+	},
+	"redPixelArea": {
+		"pixelImage": "red_pixel.png",
+		"pixelImageVariation": 20,
+		"offsetFromBattleListX": 6,
+		"offsetFromBattleListY": 0,
+		"width": 8,
+		"getCreatureImage": {
+			"offsetX": 20,
+			"offsetY": 2
+		}
+	},
+	"useItemOnCorpse": {
+		"customCorpseImages": true,
+		"corpseImageVariation": 15,
+		"delayBeforeSearchingForCorpses": 500
+	},
+	"options": {
+		"disableAttackModeChange": true,
+		"disableCreatureLifeCheck": true,
+		"disableCreaturePositionCheck": false,
+		"disableCreatureUnreachableCheck": true,
+		"searchOpenOptionOnEntireScreen": false,
+		"getCreatureImageManually": true,
+		"randomizeSameCreatureAttackByDefault": false,
+		"debug": false
+	}
+}

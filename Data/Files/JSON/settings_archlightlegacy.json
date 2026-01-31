@@ -1,0 +1,90 @@
+{
+	"disconnectedCheck": {
+		"enabled": true,
+		"connectedWindowTitle": "Legacy - "
+	},
+	"files": {
+		"cavebot": "cavebot_archlight.json",
+		"healing": "healing.json",
+		"itemRefill": "itemRefill.json",
+		"looting": "archlight.json",
+		"sioFriend": "sioFriend.json",
+		"support": "support.json",
+		"targeting": "targeting_archlight.json"
+	},
+	"input": {
+		"backgroundKeyboardInput": 1,
+		"backgroundImageSearch": 1,
+		"backgroundMouseInput": 1,
+		"classicControlDisabled": 0,
+		"classicControlDisabledByDefault": 0,
+		"defaultImageSearch": 0,
+		"keyPressDelay": 0,
+		"mouseDragDefaultMethod": 1,
+		"physicalPressModifierKeys": 1,
+		"postMsgArrowKeys": 1,
+		"postMsgEscKey": 0,
+		"pressEscDefaultMethod": 1,
+		"pressF1toF12KeysDefaultMethod": 1,
+		"pressKeyDefaultMethod": 1,
+		"pressLetterKeysDefaultMethod": 0
+	},
+	"images": {
+		"client": {
+			"menu": {
+				"follow": "follow_archlight.png",
+				"menuImagesVariation": 40
+			}
+		}
+	},
+	"options": {
+		"sqmSizeModifier": 0.067,
+		"verticalSqms": 9,
+		"horizontalSqms": 7,
+		"entireGameWindowArea": true,
+		"manualCharacterPosition": true
+	},
+	"settings": {
+		"cavebot": {
+			"getCharCoordinatesFromMemory": true,
+			"automaticFloorDetection": true,
+			"coordinatesFunctioningMode": 1
+		}
+	},
+	"tibiaClient": {
+		"memoryIdentifier": "archlightlegacy",
+		"clientImagesCategoryIdentifier": "archlight",
+		"windowTitle": "Legacy",
+		"windowClassFilter": "legacy",
+		"clientExeName": "legacy.exe"
+	},
+	"uncompatibleModules": [
+		"healing",
+		"fullLight",
+		"itemRefill",
+		"reconnect",
+		"sioFriend",
+		"support"
+	],
+	"uncompatibleModuleFunctions": {
+		"alerts": [
+			"PK on screen",
+			"Player on screen",
+			"Private message"
+		],
+		"itemRefill": [
+			"quiverRefill"
+		],
+		"support": [
+			"autoShoot",
+			"autoEatFood",
+			"cureParalyze",
+			"curePoison",
+			"cureCurse",
+			"cureFire",
+			"autoHaste",
+			"autoUtamoVita",
+			"autoBuffSpell"
+		]
+	}
+}

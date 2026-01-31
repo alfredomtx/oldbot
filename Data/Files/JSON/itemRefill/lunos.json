@@ -1,0 +1,31 @@
+{
+	"distanceWeapon": {
+		"leftHandImage": "lunos.png",
+		"torchImage": "lunos.png",
+		"variation": 35,
+		"timerIntervalMs": 1000
+	},
+	"ring": {
+		"ringSlotImage": "lunos.png",
+		"secondaryImage": "",
+		"variation": 35,
+		"timerIntervalMs": 600
+	},
+	"amulet": {
+		"amuletSlotImage": "lunos.png",
+		"secondaryImage": "",
+		"variation": 35,
+		"timerIntervalMs": 600
+	},
+	"boots": {
+		"bootsSlotImage": "lunos.png",
+		"secondaryImage": "",
+		"variation": 35,
+		"timerIntervalMs": 2000
+	},
+	"options": {
+		"disableUnequipItem": true,
+		"equipItemMode": "mouse",
+		"debug": false
+	}
+}

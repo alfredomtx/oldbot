@@ -1,0 +1,65 @@
+{
+	"attackSpells": {
+		"useScriptImageForRunes": true
+	},
+	"battleListImages": {
+		"baseImage": "elderan.png",
+		"baseImageVariation": 60,
+		"emptyImage": "elderan.png",
+		"emptyImageVariation": 60,
+		"battleListButtonsVisibleVariation": 60,
+		"battleListButtonsVisible": "elderan.png"
+	},
+	"battleListSetup": {
+		"attackOffsetY": 35,
+		"offsetFromBaseImagePositionX": 0,
+		"offsetFromBaseImagePositionY": 0,
+		"width": 165,
+		"getHeight": false,
+		"height": 300,
+		"lifeBar": {
+			"offsetFromBaseImagePositionY": 38,
+			"spaceBetweenBars": 24
+		},
+		"lifeBarPixelColors": [
+			{
+				"greenFull": "0x00BC00"
+			},
+			{
+				"green": "0x50A150"
+			},
+			{
+				"yellow": "0xA1A100"
+			},
+			{
+				"red": "0xBF0A0A"
+			},
+			{
+				"black": "0x910F0F"
+			}
+		]
+	},
+	"redPixelArea": {
+		"pixelImage": "red_pixel.png",
+		"pixelImageVariation": 20,
+		"offsetFromBattleListX": 22,
+		"width": 8,
+		"getCreatureImage": {
+			"offsetX": 21,
+			"offsetY": 1
+		}
+	},
+	"useItemOnCorpse": {
+		"customCorpseImages": true,
+		"corpseImageVariation": 15,
+		"delayBeforeSearchingForCorpses": 500
+	},
+	"options": {
+		"disableAttackModeChange": true,
+		"disableCreatureLifeCheck": false,
+		"disableCreatureUnreachableCheck": true,
+		"randomizeSameCreatureAttackByDefault": false,
+		"getCreatureImageManually": true,
+		"debug": false
+	}
+}

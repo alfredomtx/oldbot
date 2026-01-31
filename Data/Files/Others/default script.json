@@ -1,0 +1,151 @@
+{
+    "waypoints": {
+        "Special": [
+            {
+                "action": "",
+                "coordinates": {
+                    "x": 32345,
+                    "y": 32225,
+                    "z": 7
+                },
+                "label": "IsTrapped",
+                "rangeX": 2,
+                "rangeY": 2,
+                "type": "Action"
+            },
+            {
+                "action": "",
+                "coordinates": {
+                    "x": 32345,
+                    "y": 32225,
+                    "z": 7
+                },
+                "label": "BeforeLootingQueue",
+                "rangeX": 2,
+                "rangeY": 2,
+                "type": "Action"
+            },
+            {
+                "action": "",
+                "coordinates": {
+                    "x": 32345,
+                    "y": 32225,
+                    "z": 7
+                },
+                "label": "BeforeLooting",
+                "rangeX": 2,
+                "rangeY": 2,
+                "type": "Action"
+            },
+            {
+                "action": "",
+                "coordinates": {
+                    "x": 32345,
+                    "y": 32225,
+                    "z": 7
+                },
+                "label": "AfterLooting",
+                "rangeX": 2,
+                "rangeY": 2,
+                "type": "Action"
+            },
+            {
+                "action": "",
+                "coordinates": {
+                    "x": 32345,
+                    "y": 32225,
+                    "z": 7
+                },
+                "label": "AfterLootingQueue",
+                "rangeX": 2,
+                "rangeY": 2,
+                "type": "Action"
+            },
+            {
+                "action": "",
+                "coordinates": {
+                    "x": 32345,
+                    "y": 32225,
+                    "z": 7
+                },
+                "label": "BeforeAttack",
+                "rangeX": 2,
+                "rangeY": 2,
+                "type": "Action"
+            },
+            {
+                "action": "",
+                "coordinates": {
+                    "x": 32345,
+                    "y": 32225,
+                    "z": 7
+                },
+                "label": "AfterAttack",
+                "rangeX": 2,
+                "rangeY": 2,
+                "type": "Action"
+            },
+            {
+                "action": "",
+                "coordinates": {
+                    "x": 32345,
+                    "y": 32225,
+                    "z": 7
+                },
+                "label": "BeforeWaypoint",
+                "rangeX": 2,
+                "rangeY": 2,
+                "type": "Action"
+            },
+            {
+                "action": "",
+                "coordinates": {
+                    "x": 32345,
+                    "y": 32225,
+                    "z": 7
+                },
+                "label": "AfterWaypoint",
+                "rangeX": 2,
+                "rangeY": 2,
+                "type": "Action"
+            },
+            {
+                "action": "",
+                "coordinates": {
+                    "x": 32345,
+                    "y": 32225,
+                    "z": 7
+                },
+                "label": "Navigation1",
+                "rangeX": 2,
+                "rangeY": 2,
+                "type": "Action"
+            },
+            {
+                "action": "",
+                "coordinates": {
+                    "x": 32345,
+                    "y": 32225,
+                    "z": 7
+                },
+                "label": "Navigation2",
+                "rangeX": 2,
+                "rangeY": 2,
+                "type": "Action"
+            },
+            {
+                "action": "",
+                "coordinates": {
+                    "x": 32345,
+                    "y": 32225,
+                    "z": 7
+                },
+                "label": "Navigation3",
+                "rangeX": 2,
+                "rangeY": 2,
+                "type": "Action"
+            }
+        ],
+        "Waypoints": []
+    }
+}

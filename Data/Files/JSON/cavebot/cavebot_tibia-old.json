@@ -1,0 +1,43 @@
+{
+	"coordinates": {
+		"offsetClickX": -1,
+		"offsetClickY": 1
+	},
+	"images": {
+		"use": "use_aibit.png",
+		"useVariation": 50
+	},
+	"minimap": {
+		"manualAdjust": {
+			"enabled": false,
+			"clicks": {
+				"plus": 10,
+				"minus": 5
+			}
+		},
+		"images": {
+			"center": "tibia-old.png",
+			"zoomPlus": "zoom_plus_aibit.png",
+			"zoomMinus": "zoom_minus_aibit.png",
+			"variation": 50
+		},
+		"areaSetup": {
+			"baseImage": "center\\tibia-old.png",
+			"baseImageVariation": 50,
+			"offsetFromBaseImagePositionX": -1,
+			"offsetFromBaseImagePositionY": -1,
+			"width": 172,
+			"height": "",
+			"getHeight": true,
+			"heightImage": "minus\\zoom_minus_aibit.png",
+			"heightImageVariation": 40,
+			"offsetFromHeightImagePositionY": 21,
+			"offsetHeightAfterAdjust": 3
+		}
+	},
+	"options": {
+		"checkStoppedInterval": 800,
+		"debug": false,
+		"debugCharArea": false
+	}
+}

@@ -1,0 +1,30 @@
+{
+	"attackSpells": {},
+	"battleListImages": {
+		"baseImage": "rubinot.png",
+		"baseImageVariation": 60,
+		"emptyImage": "rubinot.png",
+		"emptyImageVariation": 50
+	},
+	"battleListSetup": {
+		"attackOffsetY": "0",
+		"offsetFromBaseImagePositionX": 0,
+		"offsetFromBaseImagePositionY": 0,
+		"width": 165,
+		"height": 250
+	},
+	"redPixelArea": {
+		"pixelImage": "red_pixel.png",
+		"pixelImageVariation": 20,
+		"getCreatureImage": {
+			"offsetX": 2,
+			"offsetY": 3
+		}
+	},
+	"useItemOnCorpse": {
+		"corpseImageVariation": 40
+	},
+	"options": {
+		"debug": false
+	}
+}

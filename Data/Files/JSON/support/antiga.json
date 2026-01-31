@@ -1,0 +1,13 @@
+{
+	"__extends": "otclient_classic.json",
+	"statusBarAreaSetup": {
+		"baseImage": "logout_otclient_2.png",
+		"offsetFromBaseImagePositionX": -115,
+		"offsetFromBaseImagePositionY": 1,
+		"width": 107,
+		"height": 15
+	},
+	"options": {
+		"debug": false
+	}
+}

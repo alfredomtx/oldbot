@@ -1,0 +1,31 @@
+{
+	"__extends": "otclient.json",
+	"clientFeatures": {
+		"autoStack": 1,
+		"fullLight": 1
+	},
+	"disconnectedCheck": {
+		"connectedWindowTitle": "Mythibia -",
+		"enabled": true
+	},
+	"files": {
+		"clientMenus": "cm_otclient.json",
+		"cavebot": "kingdomswap.json",
+		"clientAreas": "mythibia.json",
+		"containers": "crs_mythibia.json",
+		"fishing": "otclient.json",
+		"healing": "mythibia.json",
+		"itemRefill": "itemRefill_imperianic.json",
+		"looting": "otclient.json",
+		"sioFriend": "sioFriend_imperianic.json",
+		"support": "mythibia.json",
+		"targeting": "otclient_2.json"
+	},
+	"tibiaClient": {
+		"memoryIdentifier": "mythibia",
+		"clientImagesCategoryIdentifier": "mythibia",
+		"windowClassFilter": "Mythibia",
+		"windowTitle": "Mythibia",
+		"clientExeName": "MythibiaGL"
+	}
+}

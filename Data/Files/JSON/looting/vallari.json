@@ -1,0 +1,12 @@
+{
+	"__extends": "otclient.json",
+	"mainBackpacks": {
+		"backpacksList": [
+			"backpack_otclient_thin_border.png",
+			"bag_otclient_thin_border.png"
+		],
+		"options": {
+			"offsetFromImageY": 3
+		}
+	}
+}

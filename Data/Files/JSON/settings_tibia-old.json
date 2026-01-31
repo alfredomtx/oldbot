@@ -1,0 +1,38 @@
+{
+	"__extends": "otclient.json",
+	"clientFeatures": {
+		"fullLight": 1
+	},
+	"disconnectedCheck": {
+		"connectedWindowTitle": "",
+		"enabled": false
+	},
+	"files": {
+		"cavebot": "cavebot_tibia-old.json",
+		"containers": "crs_tibia-old.json",
+		"clientAreas": "tibia-old.json",
+		"healing": "otclient_classic.json",
+		"itemRefill": "tibia-old.json",
+		"minimap": "mp_tibia-old.json",
+		"sioFriend": "otclient.json",
+		"looting": "looting_tibia-old.json",
+		"support": "tibia-old.json",
+		"targeting": "tibia-old.json"
+	},
+	"images": {
+		"client": {
+			"menu": {
+				"follow": "follow_nostalrius.png"
+			}
+		},
+		"convertGold": {
+			"100goldCoin": "100_gold_coin_tibia-old.png"
+		}
+	},
+	"tibiaClient": {
+		"memoryIdentifier": "tibia-old",
+		"windowClassFilter": "Tibia Old Server",
+		"windowTitle": "",
+		"clientExeName": "Tibia Old DirectX"
+	}
+}

@@ -1,0 +1,12 @@
+{
+	"__extends": "otclient_classic.json",
+	"delays": {
+		"delayBeforeLooting": 650
+	},
+	"mainBackpacks": {
+		"backpacksList": [
+			"backpack_tibiara.png",
+			"bag_tibiara.png"
+		]
+	}
+}

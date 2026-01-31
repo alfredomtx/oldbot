@@ -1,0 +1,31 @@
+{
+	"distanceWeapon": {
+		"leftHandImage": "hand_realesta.png",
+		"torchImage": "arrow_realesta.png",
+		"variation": 30,
+		"timerIntervalMs": 1000
+	},
+	"ring": {
+		"ringSlotImage": "ring_realesta.png",
+		"secondaryImage": "",
+		"variation": 30,
+		"timerIntervalMs": 600
+	},
+	"amulet": {
+		"amuletSlotImage": "amulet_realesta.png",
+		"secondaryImage": "",
+		"variation": 30,
+		"timerIntervalMs": 600
+	},
+	"boots": {
+		"bootsSlotImage": "boots_realesta.png",
+		"secondaryImage": "",
+		"variation": 50,
+		"timerIntervalMs": 2000
+	},
+	"options": {
+		"disableUnequipItem": true,
+		"equipItemMode": "mouse",
+		"debug": false
+	}
+}

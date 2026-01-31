@@ -1,0 +1,14 @@
+{
+	"__extends": "mp_otclient.json",
+	"images": {
+		"center": "otclient_small.png",
+		"zoomPlus": "zoom_plus_otclient.png",
+		"zoomMinus": "zoom_minus_otclient.png"
+	},
+	"areaSetup": {
+		"baseImage": "center\\otclient_small.png",
+		"width": 172,
+		"getWidth": false,
+		"heightImage": "minus\\zoom_minus_otclient.png"
+	}
+}

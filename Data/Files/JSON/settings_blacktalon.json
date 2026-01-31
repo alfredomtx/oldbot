@@ -1,0 +1,94 @@
+{
+	"disconnectedCheck": {
+		"enabled": false,
+		"connectedWindowTitle": "BlackTalon - "
+	},
+	"files": {
+		"clientMenus": "cm_blacktalon.json",
+		"cavebot": "blacktalon.json",
+		"healing": "healing.json",
+		"itemRefill": "itemRefill.json",
+		"looting": "looting.json",
+		"sioFriend": "sioFriend.json",
+		"support": "support.json",
+		"targeting": "blacktalon.json"
+	},
+	"input": {
+		"backgroundKeyboardInput": 1,
+		"backgroundImageSearch": 1,
+		"backgroundMouseInput": 1,
+		"classicControlDisabled": 0,
+		"classicControlDisabledByDefault": 0,
+		"defaultImageSearch": 0,
+		"keyPressDelay": 0,
+		"mouseDragDefaultMethod": 1,
+		"physicalPressModifierKeys": 1,
+		"postMsgArrowKeys": 1,
+		"postMsgEscKey": 0,
+		"pressEscDefaultMethod": 1,
+		"pressF1toF12KeysDefaultMethod": 1,
+		"pressKeyDefaultMethod": 1,
+		"pressLetterKeysDefaultMethod": 0
+	},
+	"images": {
+		"client": {
+			"menu": {
+				"follow": "follow_archlight.png",
+				"menuImagesVariation": 40
+			}
+		}
+	},
+	"options": {
+		"entireGameWindowArea": false,
+		"sqmSizeModifier": 0.063,
+		"verticalSqms": 12,
+		"horizontalSqms": 8,
+		"manualCharacterPosition": true
+	},
+	"settings": {
+		"cavebot": {
+			"getCharCoordinatesFromMemory": true,
+			"automaticFloorDetection": true,
+			"coordinatesFunctioningMode": 1
+		}
+	},
+	"tibiaClient": {
+		"tibia7x": 1,
+		"memoryIdentifier": "blacktalon",
+		"clientImagesCategoryIdentifier": "blacktalon",
+		"selectClientButtonOpenFolderInsteadOfClient": true,
+		"windowTitle": "Black",
+		"windowClassFilter": "Black",
+		"clientExeName": "otclient_dx"
+	},
+	"uncompatibleModules": [
+		"healing",
+		"fullLight",
+		"itemRefill",
+		"looting",
+		"reconnect",
+		"sioFriend",
+		"support"
+	],
+	"uncompatibleModuleFunctions": {
+		"alerts": [
+			"PK on screen",
+			"Player on screen",
+			"Private message"
+		],
+		"itemRefill": [
+			"quiverRefill"
+		],
+		"support": [
+			"autoShoot",
+			"autoEatFood",
+			"cureParalyze",
+			"curePoison",
+			"cureCurse",
+			"cureFire",
+			"autoHaste",
+			"autoUtamoVita",
+			"autoBuffSpell"
+		]
+	}
+}

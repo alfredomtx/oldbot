@@ -1,0 +1,33 @@
+{
+	"images": {
+		"use": "use_pagodera.png",
+		"useVariation": 40
+	},
+	"minimap": {
+		"autoAdjustToZoom2": true,
+		"images": {
+			"zoomPlus": "zoom_plus_pagodera.png",
+			"zoomMinus": "zoom_minus_pagodera.png",
+			"variation": 30
+		},
+		"areaSetup": {
+			"baseImage": "minus\\zoom_minus_pagodera.png",
+			"baseImageVariation": 30,
+			"offsetFromBaseImagePositionX": -118,
+			"offsetFromBaseImagePositionY": -51,
+			"width": 108,
+			"height": 111
+		}
+	},
+	"memory": {
+		"readCapacityMemory": true
+	},
+	"options": {
+		"checkStoppedInterval": 800,
+		"debug": false
+	},
+	"uncompatibleActions": [
+		"minimapcenter",
+		"minimapheight"
+	]
+}

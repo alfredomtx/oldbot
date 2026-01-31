@@ -1,0 +1,33 @@
+﻿_AbstractStatefulControl.SET_DEFAULT_STATE(_CavebotIniSettings)
+
+    new _Checkbox().title("Setar waypoint inicial altera waypoint no Cavebot", "Set initial waypoint changes waypoint in Cavebot")
+    .name("setWaypointChangesOnCavebot")
+    .x(10).yadd(10).w(this.guiW - 20)
+    .tt("Com essa opção marcada, quando setado um waypoint initial, se o Cavebot estiver rodando, será enviada uma ação de " _Str.quoted("go to label") " e o Cavebot irá rodar a partir do waypoint inicial.", "With this option checked, when setting an initial waypoint, if the Cavebot is running, an action of " _Str.quoted("go to label") " will be sent and the Cavebot will run from the initial waypoint.")
+    .add()
+
+    new _Text().title("Walk delay:")
+    .xs().yadd(20)
+    .add()
+
+    new _Edit().name("walkDelay")
+    .x()
+    .rule(new _ControlRule().default(new _CavebotIniSettings().getAttribute("walkDelay")))
+    .numeric()
+    .center()
+    .disabled()
+    .parent()
+    .add()
+
+    new _Text().title("Stop walking delay:")
+    .xs().yadd(10)
+    .add()
+
+    new _Edit().name("stopWalkingDelay")
+    .x()
+    .rule(new _ControlRule().default(new _CavebotIniSettings().getAttribute("stopWalkingDelay")))
+    .numeric()
+    .center()
+    .disabled()
+    .parent()
+    .add()

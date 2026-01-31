@@ -1,0 +1,153 @@
+{
+	"clientFeatures": {
+		"chatOnOff": 0,
+		"fullLight": 0,
+		"protectionZoneIndicator": 0,
+		"walkThroughPlayers": 0,
+		"useItemWithHotkey": 0,
+		"autoStack": 1,
+		"cooldownBar": 0
+	},
+	"configFile": "settings_medivia.json",
+	"disconnectedCheck": {
+		"connectedWindowTitle": "",
+		"enabled": 0
+	},
+	"files": {
+		"cavebot": "cavebot_medivia.json",
+		"fishing": "otclient.json",
+		"healing": "healing_medivia.json",
+		"itemRefill": "itemRefill_medivia.json",
+		"looting": "looting_medivia.json",
+		"sioFriend": "sioFriend_medivia.json",
+		"support": "support_medivia.json",
+		"targeting": "targeting_medivia.json"
+	},
+	"images": {
+		"client": {
+			"buttons": {
+				"exit": "exit.png",
+				"exitVariation": 30
+			},
+			"chat": {
+				"chatImagesVariation": 50
+			},
+			"menu": {
+				"follow": "follow.png",
+				"menuImagesVariation": 30
+			}
+		},
+		"convertGold": {
+			"100goldCoin": "100_gold_coin.png",
+			"100platinumCoin": "100_platinum_coin.png"
+		}
+	},
+	"input": {
+		"backgroundImageSearch": 1,
+		"backgroundKeyboardInput": 1,
+		"backgroundMouseInput": 1,
+		"classicControlDisabled": 0,
+		"classicControlDisabledByDefault": 0,
+		"defaultImageSearch": 0,
+		"keyPressDelay": 0,
+		"mouseClickDefaultMethod": 0,
+		"mouseClickDelay": 100,
+		"mouseDragDefaultMethod": 1,
+		"physicalPressModifierKeys": 0,
+		"postMsgArrowKeys": 1,
+		"postMsgEscKey": 0,
+		"pressEscDefaultMethod": 1,
+		"pressF1toF12KeysDefaultMethod": 1,
+		"pressKeyDefaultMethod": 1,
+		"pressLetterKeysDefaultMethod": 1,
+		"useCSend": 1
+	},
+	"loadingOptions": {
+		"loadCreatures": 1,
+		"loadItems": 1
+	},
+	"map": {
+		"folders": {},
+		"minimap": {
+			"crossSize": 6,
+			"height": 111,
+			"width": 108,
+			"zoomButtonsOffset": 0
+		},
+		"settings": {
+			"mapHeight": 2048,
+			"mapWidth": 2560,
+			"pathFiles": 1
+		},
+		"viewer": {
+			"defaultCoordX": 32346,
+			"defaultCoordY": 32224
+		}
+	},
+	"options": {
+		"itemSearchVariation": 34,
+		"manualCharacterPosition": 1
+	},
+	"settings": {
+		"cavebot": {
+			"automaticFloorDetection": 1,
+			"coordinatesFunctioningMode": 1,
+			"dragItemsFromSqmBeforeUsingRopeShovel": 1,
+			"getCharCoordinatesFromMemory": 1,
+			"tradeWindowSummerUpdate1290": 0
+		},
+		"looting": {
+			"fastManualLootingByDefault": 1
+		},
+		"mapHeight": 2048,
+		"mapWidth": 2560
+	},
+	"support": [
+		"autoShoot",
+		"autoEatFood",
+		"autoUtamoVita",
+		"autoBuffSpell",
+		"cureCurse",
+		"cureFire",
+		"cureParalyze"
+	],
+	"tibiaClient": {
+		"tibia7x": 1,
+		"clientExeName": "Medivia.exe",
+		"clientImagesCategoryIdentifier": "medivia",
+		"memoryIdentifier": "medivia",
+		"removeStringFromTitle": "",
+		"selectClientButtonOpenFolderInsteadOfClient": 0,
+		"windowClassFilter": "SDL_app",
+		"windowTitle": "Medivia"
+	},
+	"uncompatibleFunctions": {},
+	"uncompatibleModuleFunctions": {
+		"alerts": [
+			"pkOnScreen",
+			"pkOnScreen",
+			"playerOnScreen",
+			"privateMessage"
+		],
+		"itemRefill": [],
+		"reconnect": [
+			"autoReconnect"
+		],
+		"support": [
+			"autoShoot",
+			"autoEatFood",
+			"autoUtamoVita",
+			"autoBuffSpell",
+			"cureCurse",
+			"cureFire",
+			"cureParalyze"
+		]
+	},
+	"uncompatibleModules": [
+		"reconnect"
+	],
+	"viewer": {
+		"defaultCoordX": 32346,
+		"defaultCoordY": 32224
+	}
+}

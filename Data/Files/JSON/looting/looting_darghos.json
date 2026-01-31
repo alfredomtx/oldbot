@@ -1,0 +1,27 @@
+{
+	"delays": {
+		"delayBeforeLooting": 250,
+		"delayAfterClickOnOpenOption": 0,
+		"delayAfterDraggingLoot": 300,
+		"delayBeforeSearchingOpenCorpseOption": 60,
+		"delayBeforeSearchingItemsAfterOpenCorpse": 300
+	},
+	"images": {
+		"okButtonImage": "darghos.png",
+		"openCorpseImage": "open_darghos.png"
+	},
+	"mainBackpacks": {
+		"bag": "bag_darghos.png",
+		"alias": "bag",
+		"options": {
+			"offsetFromImageX": -9,
+			"offsetFromImageY": 0
+		}
+	},
+	"options": {
+		"clickOnOkButtonInsteadOfEnter": true,
+		"searchOpenOptionOnEntireScreen": true,
+		"openCorpsesAround": true,
+		"debug": false
+	}
+}

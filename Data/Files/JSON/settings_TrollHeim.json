@@ -1,0 +1,30 @@
+{
+	"__extends": "otclient.json",
+	"clientFeatures": {
+		"fullLight": 1,
+		"walkThroughPlayers": 1
+	},
+	"disconnectedCheck": {
+		"connectedWindowTitle": "Trollheim Online -",
+		"enabled": true
+	},
+	"files": {
+		"clientAreas": "trollheim.json",
+		"clientMenus": "cm_otclient.json",
+		"containers": "crs_trollheim.json",
+		"healing": "otclient_large.json",
+		"minimap": "mp_otclient.json",
+		"support": "otclient_tall.json",
+		"targeting": "trollheim.json"
+	},
+	"tibiaClient": {
+		"memoryIdentifier": "trollheim",
+		"clientImagesCategoryIdentifier": "trollheim",
+		"selectClientButtonOpenFolderInsteadOfClient": 1,
+		"windowClassFilter": "Trollheim",
+		"windowTitle": "Trollheim Online"
+	},
+	"uncompatibleModules": [
+		"fullLight"
+	]
+}

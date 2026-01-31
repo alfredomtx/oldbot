@@ -1,0 +1,60 @@
+{
+	"__extends": "otclient.json",
+	"clientFeatures": {
+		"chatOnOff": 1,
+		"fullLight": 1,
+		"useItemWithHotkey": 1,
+		"autoStack": 1
+	},
+	"disconnectedCheck": {
+		"connectedWindowTitle": "Olders Online -",
+		"enabled": 1
+	},
+	"files": {
+		"cavebot": "cavebot_olders.json",
+		"healing": "healing_olders.json",
+		"itemRefill": "itemRefill_olders.json",
+		"looting": "looting_olders.json",
+		"sioFriend": "sioFriend_olders.json",
+		"support": "support_olders.json",
+		"minimap": "mp_olders.json",
+		"targeting": "targeting_olders.json"
+	},
+	"images": {
+		"client": {
+			"menu": {
+				"follow": "follow_nostalrius.png",
+				"menuImagesVariation": 40
+			},
+			"chat": {
+				"chatImagesVariation": 50,
+				"chatOff": "chat_off_olders.png",
+				"chatOn": "chat_on_olders.png"
+			}
+		},
+		"convertGold": {
+			"100goldCoin": "100_gold_coin_olders.png",
+			"100platinumCoin": "100_platinum_coin_olders.png"
+		}
+	},
+	"settings": {
+		"looting": {
+			"defaultLootingMethod": "Click on the item",
+			"fastManualLootingByDefault": 1
+		},
+		"others": {
+			"defaultMenuClickMethodDefaultValue": 0
+		}
+	},
+	"tibiaClient": {
+		"memoryIdentifier": "olders",
+		"clientImagesCategoryIdentifier": "olders",
+		"windowClassFilter": "Olders_September",
+		"windowTitle": "Olders Online",
+		"clientExeName": "Olders_DX9.exe"
+	},
+	"uncompatibleModules": [
+		"reconnect",
+		"fullLight"
+	]
+}

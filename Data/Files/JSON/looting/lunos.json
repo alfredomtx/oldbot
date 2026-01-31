@@ -1,0 +1,24 @@
+{
+	"delays": {
+		"delayBeforeLooting": 75,
+		"delayAfterClickOnOpenOption": 0,
+		"delayAfterDraggingLoot": 150,
+		"delayBeforeSearchingOpenCorpseOption": 50,
+		"delayBeforeSearchingItemsAfterOpenCorpse": 200
+	},
+	"images": {
+		"openCorpseImage": "lunos.png"
+	},
+	"mainBackpacks": {
+		"bag": "bag_lunos.png",
+		"alias": "bag",
+		"options": {
+			"offsetFromImageX": -6,
+			"offsetFromImageY": 5
+		}
+	},
+	"options": {
+		"openCorpsesAround": true,
+		"debug": false
+	}
+}

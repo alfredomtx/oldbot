@@ -1,0 +1,21 @@
+{
+	"battleListSetup": {
+		"baseImage": "kingdomswap.png",
+		"baseImageVariation": 60,
+		"offsetFromBaseImagePositionX": 0,
+		"offsetFromBaseImagePositionY": 0,
+		"width": 165,
+		"height": 260
+	},
+	"followOptions": {
+		"pixelImage": "following_otclient.png",
+		"pixelImageVariation": 40
+	},
+	"options": {
+		"playerImageWidth": 60,
+		"useRuneWithoutHotkey": true,
+		"enableAttackRune": false,
+		"dedicatedSioBattleList": false,
+		"debug": false
+	}
+}

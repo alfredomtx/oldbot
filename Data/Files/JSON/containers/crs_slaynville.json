@@ -1,0 +1,16 @@
+{
+    "__extends": "crs_otclient_classic.json",
+    "backpack": {
+        "areaSetup": {
+            "height": 213,
+            "width": 178,
+            "offsets": {
+                "x": -24
+            }
+        },
+        "list": [
+            "backpack_otclient_dark_word.png",
+            "bag_otclient_dark_word.png"
+        ]
+    }
+}

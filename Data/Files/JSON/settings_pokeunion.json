@@ -1,0 +1,82 @@
+{
+	"disconnectedCheck": {
+		"enabled": true,
+		"connectedWindowTitle": "Pokemon Union - "
+	},
+	"files": {
+		"cavebot": "cavebot_pokeunion.json",
+		"healing": "healing_pokeunion.json",
+		"itemRefill": "itemRefill.json",
+		"looting": "looting.json",
+		"sioFriend": "sioFriend.json",
+		"support": "support.json",
+		"targeting": "targeting_pokeunion.json"
+	},
+	"input": {
+		"backgroundKeyboardInput": 1,
+		"backgroundImageSearch": 1,
+		"backgroundMouseInput": 1,
+		"classicControlDisabled": 0,
+		"classicControlDisabledByDefault": 0,
+		"defaultImageSearch": 0,
+		"keyPressDelay": 0,
+		"mouseDragDefaultMethod": 1,
+		"physicalPressModifierKeys": 1,
+		"postMsgArrowKeys": 1,
+		"postMsgEscKey": 0,
+		"pressEscDefaultMethod": 1,
+		"pressF1toF12KeysDefaultMethod": 1,
+		"pressKeyDefaultMethod": 1,
+		"pressLetterKeysDefaultMethod": 0,
+		"mouseClickDelay": 120
+	},
+	"options": {
+		"manualCharacterPosition": true
+	},
+	"settings": {
+		"cavebot": {
+			"getCharCoordinatesFromMemory": true,
+			"automaticFloorDetection": 1,
+			"coordinatesFunctioningMode": 1
+		}
+	},
+	"tibiaClient": {
+		"memoryIdentifier": "pokeunion",
+		"clientImagesCategoryIdentifier": "pokeunion",
+		"removeStringFromTitle": "",
+		"windowTitle": "Pokemon Union",
+		"windowClassFilter": "PokeUnion",
+		"clientExeName": "pokeunion_dx"
+	},
+	"telegram": {
+		"sendPhotoAsDocument": false
+	},
+	"uncompatibleFunctions": {
+		"itemRefill": [],
+		"support": [
+			"quiverRefillEnabled"
+		]
+	},
+	"uncompatibleModules": [
+		"fullLight",
+		"itemRefill",
+		"sioFriend",
+		"support",
+		"reconnect"
+	],
+	"uncompatibleModuleFunctions": {
+		"alerts": [
+			"pkOnScreen",
+			"pkOnScreen",
+			"playerOnScreen",
+			"privateMessage"
+		],
+		"healing": [
+			"manaHealing",
+			"manaTrain"
+		],
+		"others": [
+			"smartExit"
+		]
+	}
+}

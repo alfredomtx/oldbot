@@ -1,0 +1,41 @@
+{
+	"coordinates": {
+		"offsetClickX": -1,
+		"offsetClickY": -1
+	},
+	"images": {
+		"use": "tavern.png",
+		"useVariation": 70
+	},
+	"minimap": {
+		"images": {
+			"variation": 60,
+			"center": "tavern.png",
+			"zoomPlus": "tavern.png",
+			"zoomMinus": "tavern.png"
+		},
+		"areaSetup": {
+			"baseImage": "center\\tavern.png",
+			"baseImageVariation": 60,
+			"offsetFromBaseImagePositionX": -7,
+			"offsetFromBaseImagePositionY": -8,
+			"width": 176,
+			"height": "",
+			"getHeight": true,
+			"heightImage": "minus\\tavern.png",
+			"heightImageVariation": 60,
+			"offsetFromHeightImagePositionY": 21,
+			"offsetHeightAdjustY": 6
+		}
+	},
+	"options": {
+		"checkStoppedInterval": 800,
+		"debug": false
+	},
+	"uncompatibleActions": [
+		"npchi",
+		"npctrade",
+		"sellitemnpc",
+		"takeitemfromstash"
+	]
+}

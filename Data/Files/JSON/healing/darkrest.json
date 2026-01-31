@@ -1,0 +1,11 @@
+{
+	"__extends": "otclient.json",
+	"mana": {
+		"offsetFromLifeBarY": 14
+	},
+	"options": {
+		"baseImage": "darkrest.png",
+		"baseImageVariation": 60,
+		"debug": false
+	}
+}

@@ -1,0 +1,45 @@
+{
+	"attackSpells": {
+		"useScriptImageForRunes": true
+	},
+	"battleListImages": {
+		"baseImage": "battle_list_aibit.png",
+		"baseImageVariation": 50,
+		"emptyImage": "Tibia Remains.png",
+		"emptyImageVariation": 50
+	},
+	"battleListSetup": {
+		"attackOffsetY": 25,
+		"offsetFromBaseImagePositionX": 25,
+		"offsetFromBaseImagePositionY": 0,
+		"width": 165,
+		"getHeight": false,
+		"height": 300
+	},
+	"redPixelArea": {
+		"pixelImage": "red_pixel.png",
+		"pixelImageVariation": 20,
+		"offsetFromBattleListX": 6,
+		"offsetFromBattleListY": 3,
+		"width": 5,
+		"getCreatureImage": {
+			"offsetX": 20,
+			"offsetY": 2
+		}
+	},
+	"useItemOnCorpse": {
+		"customCorpseImages": true,
+		"corpseImageVariation": 15,
+		"delayBeforeSearchingForCorpses": 500
+	},
+	"options": {
+		"disableAttackModeChange": true,
+		"disableCreatureLifeCheck": true,
+		"disableCreaturePositionCheck": false,
+		"disableCreatureUnreachableCheck": true,
+		"searchOpenOptionOnEntireScreen": false,
+		"getCreatureImageManually": true,
+		"randomizeSameCreatureAttackByDefault": false,
+		"debug": false
+	}
+}

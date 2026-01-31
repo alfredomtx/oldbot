@@ -1,0 +1,61 @@
+{
+	"__extends": "tibia14.json",
+	"clientFeatures": {
+		"autoStack": "1",
+		"chatOnOff": "1",
+		"cooldownBar": "1",
+		"fullLight": "1",
+		"protectionZoneIndicator": "1",
+		"useItemWithHotkey": "1",
+		"walkThroughPlayers": "1"
+	},
+	"disconnectedCheck": {
+		"connectedWindowTitle": "Project Talus -",
+		"enabled": "1"
+	},
+	"files": {
+		"cavebot": "cavebot.json",
+		"fishing": "fishing.json",
+		"healing": "healing.json",
+		"itemRefill": "itemRefill.json",
+		"looting": "looting.json",
+		"map": "map.json",
+		"sioFriend": "sioFriend.json",
+		"support": "support.json",
+		"targeting": "targeting.json"
+	},
+	"options": {
+		"itemSearchVariation": "70"
+	},
+	"others": {
+		"ignoreCheckClientSettings": "1"
+	},
+	"pathFiles": "0",
+	"settings": {
+		"cavebot": {
+			"automaticFloorDetection": "1",
+			"coordinatesFunctioningMode": "1",
+			"getCharCoordinatesFromMemory": "1"
+		},
+		"looting": {
+			"disableQuickLootingHotkeyChange": "0",
+			"fastManualLootingByDefault": "1"
+		}
+	},
+	"tibiaClient": {
+  	"clientExeName": "ProjectTalus.exe",
+		"clientImagesCategoryIdentifier": "project_talus",
+		"memoryIdentifier": "Project Talus",
+		"removeStringFromTitle": "",
+		"selectClientButtonOpenFolderInsteadOfClient": "0",
+		"tibia7x": "1",
+		"tibia12": "0",
+		"windowClassFilter": "BASED_ON_TIBIA_GAME_ENGINE",
+		"windowTitle": "Project Talus"
+	},
+	"uncompatibleFunctions": {},
+	"uncompatibleModuleFunctions": {},
+	"uncompatibleModules": [
+		"fullLight"
+	]
+	}

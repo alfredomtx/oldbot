@@ -1,0 +1,16 @@
+{
+	"__extends": "otclient_classic.json",
+	"life": {
+		"pixelImageName": "life_pixel_otclient_strong_color.png",
+		"pixelColor": "0x913E3E"
+	},
+	"mana": {
+		"pixelImageName": "mana_pixel_otclient_strong_color.png",
+		"pixelColor": "0x5555CA"
+	},
+	"options": {
+		"baseImage": "otclient_strong_color.png",
+		"barWidth": 90,
+		"debug": false
+	}
+}

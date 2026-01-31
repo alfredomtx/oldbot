@@ -1,0 +1,9 @@
+{
+	"__extends": "otclient_classic.json",
+	"battleListSetup": {
+		"attackOffsetY": 12
+	},
+	"redPixelArea": {
+		"pixelImage": "red_pixel.png"
+	}
+}

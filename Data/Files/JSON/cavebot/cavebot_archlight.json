@@ -1,0 +1,39 @@
+{
+	"coordinates": {
+		"offsetClickX": -1,
+		"offsetClickY": 13
+	},
+	"images": {
+		"use": "use_archlight.png",
+		"useVariation": 50
+	},
+	"minimap": {
+		"images": {
+			"center": "center_archlight.png",
+			"zoomPlus": "zoom_plus_archlight.png",
+			"zoomMinus": "zoom_minus_archlight.png"
+		},
+		"areaSetup": {
+			"baseImage": "center\\center_archlight.png",
+			"baseImageVariation": 30,
+			"offsetFromBaseImagePositionX": -6,
+			"offsetFromBaseImagePositionY": -6,
+			"width": 198,
+			"height": "",
+			"getWidth": false,
+			"getHeight": true,
+			"heightImage": "minus\\zoom_minus_archlight.png",
+			"heightImageVariation": 40,
+			"widthImage": "minus\\zoom_minus_archlight.png",
+			"widthImageVariation": 40,
+			"offsetFromHeightImagePositionY": 25,
+			"offsetFromWidthImagePositionX": 26,
+			"offsetHeightAdjustY": 5
+		}
+	},
+	"options": {
+		"checkStoppedInterval": 800,
+		"debugCharArea": false,
+		"debug": false
+	}
+}

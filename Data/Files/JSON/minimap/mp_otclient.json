@@ -1,0 +1,28 @@
+{
+	"images": {
+		"variation": 70,
+		"center": "center_kingdomswap.png",
+		"zoomPlus": "zoom_plus_kingdomswap.png",
+		"zoomMinus": "zoom_minus_kingdomswap.png"
+	},
+	"areaSetup": {
+		"baseImage": "center\\center_kingdomswap.png",
+		"baseImageVariation": 60,
+		"offsetFromBaseImagePositionX": -5,
+		"offsetFromBaseImagePositionY": -5,
+		"width": "",
+		"height": "",
+		"getWidth": true,
+		"getHeight": true,
+		"heightImage": "minus\\zoom_minus_kingdomswap.png",
+		"heightImageVariation": 60,
+		"widthImage": "minus\\zoom_minus_kingdomswap.png",
+		"widthImageVariation": 60,
+		"offsetFromWidthImagePositionX": 25,
+		"offsetFromHeightImagePositionY": 25,
+		"offsetHeightAdjustY": 3
+	},
+	"options": {
+		"dontAdjustMinimapHeightWaypoint": false
+	}
+}

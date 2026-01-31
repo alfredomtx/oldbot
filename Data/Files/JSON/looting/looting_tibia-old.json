@@ -1,0 +1,21 @@
+{
+	"__extends": "otclient_classic.json",
+	"delays": {
+		"delayBeforeLooting": 650
+	},
+	"images": {
+		"openCorpseImage": "open_aibit.png"
+	},
+	"mainBackpacks": {
+		"backpacksList": [
+			"backpack_tibia-old.png",
+			"bag_tibia-old.png"
+		],
+		"options": {
+			"offsetFromImageX": -1
+		}
+	},
+	"options": {
+		"debug": false
+	}
+}

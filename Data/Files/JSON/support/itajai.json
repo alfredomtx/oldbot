@@ -1,0 +1,18 @@
+{
+	"__extends": "otclient.json",
+	"autoHaste": {
+		"statusBarImage": "haste_otclient_stretched.png"
+	},
+	"curePoison": {
+		"statusBarImage": "poison_otclient_stretched.png"
+	},
+	"statusBarAreaSetup": {
+		"offsetFromBaseImagePositionX": -123,
+		"offsetFromBaseImagePositionY": 10,
+		"width": 110,
+		"height": 17
+	},
+	"options": {
+		"debug": false
+	}
+}

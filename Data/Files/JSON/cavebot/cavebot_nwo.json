@@ -1,0 +1,41 @@
+{
+	"coordinates": {
+		"offsetClickX": 0,
+		"offsetClickY": -1
+	},
+	"images": {
+		"use": "use_darghos.png",
+		"useVariation": 40
+	},
+	"minimap": {
+		"manualAdjust": {
+			"enabled": true,
+			"clicks": {
+				"plus": 10,
+				"minus": 5
+			}
+		},
+		"images": {
+			"center": "nwo.png",
+			"zoomPlus": "nwo.png",
+			"zoomMinus": "nwo.png",
+			"variation": 50
+		},
+		"areaSetup": {
+			"baseImage": "center\\nwo.png",
+			"baseImageVariation": 50,
+			"offsetFromBaseImagePositionX": -7,
+			"offsetFromBaseImagePositionY": -6,
+			"width": 186,
+			"getHeight": true,
+			"heightImage": "minus\\nwo.png",
+			"heightImageVariation": 50,
+			"offsetFromHeightImagePositionY": 24
+		}
+	},
+	"options": {
+		"checkStoppedInterval": 800,
+		"debug": false,
+		"debugCharArea": false
+	}
+}

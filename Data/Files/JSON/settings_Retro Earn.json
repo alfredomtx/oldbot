@@ -1,0 +1,31 @@
+{
+	"__extends": "otclient.json",
+	"clientFeatures": {
+		"fullLight": 1
+	},
+	"disconnectedCheck": {
+		"connectedWindowTitle": "Retro Earn - ",
+		"enabled": 1
+	},
+	"files": {
+		"containers": "crs_retronia.json",
+		"clientMenus": "cm_otclient_classic.json",
+		"clientAreas": "Retro Earn.json",
+		"minimap": "mp_otclient_classic_2.json",
+		"cavebot": "otclient.json",
+		"fishing": "otclient.json",
+		"healing": "otclient_classic.json",
+		"itemRefill": "otclient_classic.json",
+		"looting": "carunia.json",
+		"sioFriend": "otclient_alt.json",
+		"support": "Retro Earn.json",
+		"targeting": "otclient_classic.json"
+	},
+	"tibiaClient": {
+		"memoryIdentifier": "Retro Earn",
+		"clientExeName": "retroearn",
+		"windowClassFilter": "Retro Earn",
+		"windowTitle": "Retro Earn"
+	},
+	"uncompatibleModules": []
+}

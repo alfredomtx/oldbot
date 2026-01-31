@@ -1,0 +1,9 @@
+{
+	"__extends": "otclient_large.json",
+	"mana": {
+		"offsetFromLifeBarY": 18
+	},
+	"options": {
+		"barWidth": 158
+	}
+}

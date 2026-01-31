@@ -1,0 +1,20 @@
+{
+	"input": {
+		"backgroundMouseDrag": true
+	},
+	"images": {
+		"openCorpseImage": "open_corpse_otclientNewer.png"
+	},
+	"mainBackpacks": {
+		"bag": "bag_otclient_newer.png",
+		"options": {
+			"offsetFromImageX": -3,
+			"offsetFromImageY": 1
+		}
+	},
+	"options": {
+		"delayBeforeLooting": 800,
+		"openCorpsesAround": true,
+		"debug": false
+	}
+}

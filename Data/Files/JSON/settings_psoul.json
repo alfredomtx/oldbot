@@ -1,0 +1,79 @@
+{
+	"disconnectedCheck": {
+		"enabled": true,
+		"connectedWindowTitle": "PSoul - "
+	},
+	"files": {
+		"cavebot": "cavebot_psoul.json",
+		"healing": "healing_psoul.json",
+		"itemRefill": "itemRefill.json",
+		"looting": "looting_psoul.json",
+		"sioFriend": "sioFriend.json",
+		"support": "support.json",
+		"targeting": "targeting_psoul.json"
+	},
+	"input": {
+		"classicControlDisabled": false,
+		"backgroundKeyboardInput": true,
+		"backgroundMouseInput": true,
+		"defaultImageSearch": false,
+		"pressKeyDefaultMethod": false
+	},
+	"settings": {
+		"cavebot": {
+			"getCharCoordinatesFromMemory": true,
+			"automaticFloorDetection": true,
+			"coordinatesFunctioningMode": 1
+		}
+	},
+	"options": {
+		"forceGameWindowHeight": true,
+		"manualCharacterPosition": true
+	},
+	"tibiaClient": {
+		"memoryIdentifier": "psoul",
+		"clientImagesCategoryIdentifier": "psoul",
+		"removeStringFromTitle": "",
+		"windowTitle": "PSoul",
+		"windowClassFilter": "PSoul",
+		"clientExeName": "PSoul_DX.exe"
+	},
+	"uncompatibleFunctions": {
+		"itemRefill": [],
+		"support": [
+			"quiverRefillEnabled"
+		]
+	},
+	"uncompatibleModules": [
+		"fullLight",
+		"itemRefill",
+		"sioFriend",
+		"reconnect"
+	],
+	"uncompatibleModuleFunctions": {
+		"alerts": [
+			"pkOnScreen",
+			"pkOnScreen",
+			"playerOnScreen",
+			"privateMessage"
+		],
+		"healing": [
+			"manaHealing",
+			"manaTrain"
+		],
+		"support": [
+			"autoHaste",
+			"autoUtamoVita",
+			"autoBuffSpell",
+			"autoEatFood",
+			"autoShoot",
+			"cureParalyze",
+			"curePoison",
+			"cureCurse",
+			"cureFire"
+		],
+		"others": [
+			"smartExit"
+		]
+	}
+}

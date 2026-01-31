@@ -1,0 +1,29 @@
+{
+	"life": {
+		"pixelColor": [
+			"0x3B6737",
+			"0x688D66",
+			"0x8E964A",
+			"0x9E5B4E",
+			"0x9A3A29",
+			"0x971414"
+		],
+		"pixelVariation": 40,
+		"offsetFromBaseImagePositionX": 27,
+		"offsetFromBaseImagePositionY": -44
+	},
+	"mana": {
+		"pixelVariation": 40,
+		"pixelColor": "0x0A5E9F",
+		"offsetFromLifeBarY": 18
+	},
+	"options": {
+		"disableMana": true,
+		"blockDistance": 11,
+		"baseImage": "life_bar_pxg.png",
+		"baseImageVariation": 60,
+		"barWidth": 153,
+		"barHeight": 19,
+		"debug": false
+	}
+}

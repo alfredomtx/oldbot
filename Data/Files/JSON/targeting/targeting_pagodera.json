@@ -1,0 +1,27 @@
+{
+	"attackSpells": {},
+	"battleListImages": {
+		"baseImage": "battle_list_pagodera.png",
+		"baseImageVariation": 50,
+		"emptyImage": "battle_list_empty_pagodera.png",
+		"emptyImageVariation": 50
+	},
+	"battleListSetup": {
+		"offsetFromBaseImagePositionX": -10,
+		"offsetFromBaseImagePositionY": 0,
+		"width": 165,
+		"getHeight": true,
+		"height": ""
+	},
+	"redPixelArea": {
+		"pixelImage": "red_pixel.png",
+		"pixelImageVariation": 20,
+		"getCreatureImage": {
+			"offsetX": 2,
+			"offsetY": 2
+		}
+	},
+	"options": {
+		"debug": false
+	}
+}

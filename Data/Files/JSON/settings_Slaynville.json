@@ -1,0 +1,39 @@
+{
+	"__extends": "otclient.json",
+	"clientFeatures": {
+		"useItemWithHotkey": 1,
+		"autoStack": 0,
+		"chatOnOff": 0,
+		"fullLight": 1
+	},
+	"disconnectedCheck": {
+		"connectedWindowTitle": "slaynville - ",
+		"enabled": 1
+	},
+	"files": {
+		"cavebot": "slaynville.json",
+		"containers": "crs_slaynville.json",
+		"clientMenus": "cm_slaynville.json",
+		"healing": "slaynville.json",
+		"itemRefill": "lunos.json",
+		"looting": "slaynville.json",
+		"sioFriend": "sioFriend.json",
+		"support": "slaynville.json",
+		"targeting": "slaynville.json"
+	},
+	"images": {
+		"client": {
+			"menu": {
+				"follow": "slaynville.png",
+				"menuImagesVariation": 40
+			}
+		}
+	},
+	"tibiaClient": {
+		"memoryIdentifier": "slaynville",
+		"clientImagesCategoryIdentifier": "slaynville",
+		"windowClassFilter": "slaynville",
+		"windowTitle": "slaynville",
+		"clientExeName": "slaynville"
+	}
+}

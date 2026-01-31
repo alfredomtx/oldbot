@@ -1,0 +1,38 @@
+{
+	"__extends": "otclient.json",
+	"clientFeatures": {
+		"fullLight": 1
+	},
+	"disconnectedCheck": {
+		"connectedWindowTitle": "Darkrest Online - ",
+		"enabled": 1
+	},
+	"options": {
+		"sqmSizeModifier": 0.078,
+		"verticalSqms": 8,
+		"horizontalSqms": 6
+	},
+	"files": {
+		"clientMenus": "cm_otclient.json",
+		"containers": "crs_darkrest.json",
+		"clientAreas": "darkrest.json",
+		"cavebot": "otclient.json",
+		"fishing": "otclient.json",
+		"healing": "darkrest.json",
+		"itemRefill": "itemRefill_darkrest.json",
+		"looting": "otclient_classic.json",
+		"sioFriend": "sioFriend_kingdomswap.json",
+		"support": "darkrest.json",
+		"targeting": "darkrest.json"
+	},
+	"tibiaClient": {
+		"memoryIdentifier": "darkrest",
+		"clientImagesCategoryIdentifier": "darkrest",
+		"windowClassFilter": "darkrest",
+		"windowTitle": "Darkrest Online",
+		"clientExeName": "darkrest_gl.exe"
+	},
+	"uncompatibleModules": [
+		"fullLight"
+	]
+}

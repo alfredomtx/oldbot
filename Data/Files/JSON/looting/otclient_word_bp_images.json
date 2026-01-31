@@ -1,0 +1,13 @@
+{
+	"__extends": "otclient.json",
+	"mainBackpacks": {
+		"backpacksList": [
+			"backpack_otclient_word.png",
+			"bag_otclient_word.png"
+		],
+		"options": {
+			"offsetFromImageX": -30,
+			"offsetFromImageY": -1
+		}
+	}
+}

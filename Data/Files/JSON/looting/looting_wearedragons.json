@@ -1,0 +1,25 @@
+{
+	"delays": {
+		"delayBeforeLooting": 100,
+		"delayAfterClickOnOpenOption": 125,
+		"delayAfterDraggingLoot": 250,
+		"delayBeforeSearchingOpenCorpseOption": 60,
+		"delayBeforeSearchingItemsAfterOpenCorpse": 350,
+		"quickLootClickAroundDelay": 50
+	},
+	"images": {
+		"openCorpseImage": "open_corpse_wearedragons.png"
+	},
+	"mainBackpacks": {
+		"bag": "backpack_wearedragons.png",
+		"options": {
+			"offsetFromImageX": 0,
+			"offsetFromImageY": 4
+		}
+	},
+	"options": {
+		"closeMenuMethod": "Click",
+		"openCorpsesAround": true,
+		"debug": false
+	}
+}

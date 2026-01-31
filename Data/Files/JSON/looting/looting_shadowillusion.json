@@ -1,0 +1,14 @@
+{
+	"__extends": "otclient.json",
+	"mainBackpacks": {
+		"bag": "backpack_kingdomswap.png",
+		"alias": "brown backpack",
+		"options": {
+			"offsetFromImageX": -6,
+			"offsetFromImageY": -1
+		}
+	},
+	"options": {
+		"debug": false
+	}
+}

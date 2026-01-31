@@ -1,0 +1,17 @@
+{
+	"__extends": "mp_otclient.json",
+	"images": {
+		"center": "elderan.png",
+		"zoomPlus": "elderan.png",
+		"zoomMinus": "elderan.png"
+	},
+	"areaSetup": {
+		"offsetFromBaseImagePositionX": -9,
+		"offsetFromBaseImagePositionY": -9,
+		"baseImage": "center\\elderan.png",
+		"width": 187,
+		"getWidth": false,
+		"heightImage": "minus\\elderan.png",
+		"offsetHeightAdjustY": 0
+	}
+}

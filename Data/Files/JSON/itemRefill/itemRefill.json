@@ -1,0 +1,34 @@
+{
+	"amulet": {
+		"amuletSlotImage": "amulet.png",
+		"secondaryImage": "",
+		"variation": 35,
+		"timerIntervalMs": 600
+	},
+	"boots": {
+		"bootsSlotImage": "boots.png",
+		"secondaryImage": "",
+		"variation": 35,
+		"timerIntervalMs": 2000
+	},
+	"distanceWeapon": {
+		"leftHandImage": "left_hand.png",
+		"rightHandImage": "right_hand.png",
+		"torchImage": "torch.png",
+		"variation": 35,
+		"timerIntervalMs": 1000
+	},
+	"ring": {
+		"ringSlotImage": "ring.png",
+		"secondaryImage": "",
+		"variation": 35,
+		"timerIntervalMs": 600
+	},
+	"quiver": {
+		"timerIntervalMs": 600
+	},
+	"options": {
+		"equipItemMode": "hotkey",
+		"debug": false
+	}
+}

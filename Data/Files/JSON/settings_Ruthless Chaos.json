@@ -1,0 +1,114 @@
+{
+	"clientFeatures": {
+		"autoStack": 0,
+		"chatOnOff": 0,
+		"cooldownBar": 0,
+		"fullLight": 1,
+		"protectionZoneIndicator": 1,
+		"useItemWithHotkey": 1,
+		"walkThroughPlayers": 1
+	},
+	"disconnectedCheck": {
+		"enabled": false,
+		"connectedWindowTitle": ""
+	},
+	"files": {
+		"cavebot": "ruthless chaos.json",
+		"healing": "healing_darghos.json",
+		"itemRefill": "otclient_classic.json",
+		"looting": "ruthless chaos.json",
+		"sioFriend": "sioFriend_darghos.json",
+		"support": "support_darghos.json",
+		"targeting": "ruthless chaos.json"
+	},
+	"input": {
+		"backgroundImageSearch": 1,
+		"backgroundKeyboardInput": 1,
+		"backgroundImageSearch": 1,
+		"backgroundMouseInput": 1,
+		"classicControlDisabled": 0,
+		"classicControlDisabledByDefault": 0,
+		"defaultImageSearch": 0,
+		"keyPressDelay": 0,
+		"mouseClickDefaultMethod": 1,
+		"mouseDragDefaultMethod": 1,
+		"physicalPressModifierKeys": 1,
+		"postMsgArrowKeys": 1,
+		"postMsgEscKey": 1,
+		"pressEscDefaultMethod": 1,
+		"pressF1toF12KeysDefaultMethod": 1,
+		"pressKeyDefaultMethod": 1,
+		"pressLetterKeysDefaultMethod": 0,
+		"useCSend": 0
+	},
+	"images": {
+		"client": {
+			"buttons": {
+				"exit": "exit_otclientv8.png",
+				"exitVariation": 20
+			},
+			"chat": {
+				"chatImagesVariation": 30,
+				"chatOff": "chatoff_shadowillusion.png",
+				"chatOn": "chaton_shadowillusion.png"
+			},
+			"menu": {
+				"follow": "follow_otclientv8.png"
+			}
+		},
+		"convertGold": {
+			"100goldCoin": "100_gold_coin.png",
+			"100platinumCoin": "100_platinum_coin.png"
+		}
+	},
+	"options": {
+		"itemSearchVariation": 80,
+		"manualCharacterPosition": true
+	},
+	"settings": {
+		"cavebot": {
+			"getCharCoordinatesFromMemory": true,
+			"automaticFloorDetection": 1,
+			"coordinatesFunctioningMode": 1,
+			"dragItemsFromSqmBeforeUsingRopeShovel": 0
+		},
+		"looting": {
+			"fastManualLootingByDefault": 1
+		}
+	},
+	"tibiaClient": {
+		"tibia7x": 1,
+		"memoryIdentifier": "Ruthless Chaos",
+		"clientImagesCategoryIdentifier": "ruthless_chaos",
+		"windowTitle": "Ruthless Chaos",
+		"windowClassFilter": "rchaos",
+		"removeStringFromTitle": "",
+		"selectClientButtonOpenFolderInsteadOfClient": false
+	},
+	"uncompatibleModuleFunctions": {
+		"alerts": [
+			"pkOnScreen",
+			"pkOnScreen",
+			"playerOnScreen",
+			"privateMessage"
+		],
+		"itemRefill": [
+			"quiverRefill"
+		],
+		"support": [
+			"autoEatFood",
+			"autoShoot",
+			"cureCurse",
+			"cureFire",
+			"floorSpy"
+		],
+		"reconnect": [
+			"autoReconnect"
+		]
+	},
+	"uncompatibleModules": [
+		"reconnect",
+		"floorSpy",
+		"fullLight"
+	]
+}

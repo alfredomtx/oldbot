@@ -1,0 +1,71 @@
+{
+	"clientFeatures": {
+		"autoStack": 1,
+		"chatOnOff": 0,
+		"cooldownBar": 0,
+		"fullLight": 1,
+		"protectionZoneIndicator": 0,
+		"useItemWithHotkey": 0,
+		"walkThroughPlayers": 0
+	},
+	"disconnectedCheck": {
+		"enabled": false,
+		"connectedWindowTitle": ""
+	},
+	"files": {
+		"cavebot": "cavebot_aibit.json",
+		"healing": "healing_otclient.json",
+		"itemRefill": "otclient_classic.json",
+		"sioFriend": "sioFriend_aibit.json",
+		"looting": "looting_aibit.json",
+		"support": "support_aibit.json",
+		"targeting": "targeting_aibit.json"
+	},
+	"input": {
+		"classicControlDisabledByDefault": false,
+		"classicControlDisabled": false,
+		"backgroundKeyboardInput": true,
+		"backgroundMouseInput": true,
+		"defaultImageSearch": false,
+		"pressKeyDefaultMethod": true,
+		"pressLetterKeysDefaultMethod": false,
+		"pressF1toF12KeysDefaultMethod": true
+	},
+	"options": {
+		"manualCharacterPosition": true
+	},
+	"tibiaClient": {
+		"clientImagesCategoryIdentifier": "aibit",
+		"windowTitle": "Aibit MMORPG",
+		"windowClassFilter": "Aibit MMORPG",
+		"removeStringFromTitle": " - Vastera World"
+	},
+	"uncompatibleModules": [
+		"reconnect"
+	],
+	"uncompatibleModuleFunctions": {
+		"alerts": [
+			"pkOnScreen",
+			"pkOnScreen",
+			"playerOnScreen",
+			"privateMessage"
+		],
+		"itemRefill": [
+			"quiverRefill"
+		],
+		"support": [
+			"autoEatFood",
+			"autoShoot",
+			"cureCurse",
+			"cureFire",
+			"floorSpy"
+		],
+		"reconnect": [
+			"autoReconnect"
+		]
+	},
+	"uncompatibleModules": [
+		"reconnect",
+		"fullLight"
+	]
+}

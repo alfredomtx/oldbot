@@ -1,0 +1,37 @@
+{
+	"battleListImages": {
+		"baseImage": "battle_list_psoul.png",
+		"baseImageVariation": 40,
+		"emptyImage": "battle_list_empty_psoul.png",
+		"emptyImageVariation": 80
+	},
+	"battleListSetup": {
+		"offsetFromBaseImagePositionX": -5,
+		"offsetFromBaseImagePositionY": -2,
+		"width": 185,
+		"getHeight": false,
+		"height": 250
+	},
+	"redPixelArea": {
+		"pixelImage": "red_pixel_pxg.png",
+		"pixelImageVariation": 10,
+		"offsetFromBattleListX": 0,
+		"offsetFromBattleListY": 0,
+		"width": 10
+	},
+	"useItemOnCorpse": {
+		"customCorpseImages": true,
+		"corpseImageVariation": 15,
+		"delayBeforeSearchingForCorpses": 1000
+	},
+	"options": {
+		"disableAttackModeChange": true,
+		"disableCreaturePositionCheck": true,
+		"disableCreatureLifeCheck": true,
+		"disableCreatureUnreachableCheck": true,
+		"getCreatureImageManually": true,
+		"delayBeforeAttackClick": 200,
+		"searchCreatureVariation": 60,
+		"debug": false
+	}
+}

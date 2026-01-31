@@ -1,0 +1,36 @@
+{
+	"coordinates": {
+		"offsetClickX": -1,
+		"offsetClickY": -1
+	},
+	"images": {
+		"use": "use_realesta.png",
+		"useVariation": 40,
+		"protectionZone": "pz_zone_nostalgic.png"
+	},
+	"minimap": {
+		"images": {
+			"variation": 40,
+			"center": "nostalgic.png",
+			"zoomPlus": "zoom_plus_realesta.png",
+			"zoomMinus": "zoom_minus_realesta.png"
+		},
+		"areaSetup": {
+			"baseImage": "center\\nostalgic.png",
+			"baseImageVariation": 40,
+			"offsetFromBaseImagePositionX": -5,
+			"offsetFromBaseImagePositionY": -5,
+			"width": 172,
+			"height": "",
+			"getHeight": true,
+			"heightImage": "minus\\zoom_minus_realesta.png",
+			"heightImageVariation": 40,
+			"offsetFromHeightImagePositionY": 24,
+			"offsetHeightAdjustY": -1
+		}
+	},
+	"options": {
+		"checkStoppedInterval": 800,
+		"debug": false
+	}
+}

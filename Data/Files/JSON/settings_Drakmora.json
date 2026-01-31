@@ -1,0 +1,31 @@
+{
+	"__extends": "otclient.json",
+	"clientFeatures": {
+		"fullLight": 1
+	},
+	"disconnectedCheck": {
+		"connectedWindowTitle": "Drakmora - Classic Chronicles -",
+		"enabled": 1
+	},
+	"files": {
+		"cavebot": "otclient_classic_2.json",
+		"clientAreas": "otclient_2.json",
+		"clientMenus": "cm_otclient_classic.json",
+		"containers": "crs_otclient.json",
+		"fishing": "otclient.json",
+		"healing": "otclient_classic.json",
+		"itemRefill": "otclient_classic.json",
+		"looting": "otclient_word_bp_images.json",
+		"minimap": "mp_otclient_classic.json",
+		"sioFriend": "otclient.json",
+		"support": "drakmora.json",
+		"targeting": "otclient_classic_3.json"
+	},
+	"tibiaClient": {
+		"clientImagesCategoryIdentifier": "drakmora",
+		"clientExeName": "drakmora",
+		"memoryIdentifier": "drakmora",
+		"windowClassFilter": "Drakmora",
+		"windowTitle": "Drakmora - Classic Chronicles"
+	}
+}

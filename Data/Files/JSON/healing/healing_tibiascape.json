@@ -1,0 +1,25 @@
+{
+	"life": {
+		"pixelImageName": "life_pixel_tibiascape.png",
+		"pixelColor": "0xF16161",
+		"pixelVariation": 30,
+		"offsetFromBaseImagePositionX": 0,
+		"offsetFromBaseImagePositionY": 0
+	},
+	"mana": {
+		"pixelImageName": "mana_pixel_tibiascape.png",
+		"pixelVariation": 30,
+		"pixelColor": "0x5350DA",
+		"offsetFromLifeBarY": 13
+	},
+	"options": {
+		"checkHealingIntervalDelay": 125,
+		"delayAfterUsingItem": 200,
+		"useItemWithoutHotkey": true,
+		"baseImage": "tibiascape.png",
+		"baseImageVariation": 60,
+		"barWidth": 90,
+		"barHeight": 10,
+		"debug": false
+	}
+}

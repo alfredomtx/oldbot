@@ -1,0 +1,23 @@
+{
+	"life": {
+		"pixelImageName": "life_pixel_ardera.png",
+		"pixelColor": "0xFF4444",
+		"pixelVariation": 40,
+		"offsetFromBaseImagePositionX": 0,
+		"offsetFromBaseImagePositionY": 0
+	},
+	"mana": {
+		"pixelImageName": "mana_pixel_ardera.png",
+		"pixelVariation": 40,
+		"pixelColor": "0x4444FF",
+		"offsetFromLifeBarY": 15
+	},
+	"options": {
+		"blockDistance": 12,
+		"baseImage": "life_bar_ardera.png",
+		"baseImageVariation": 30,
+		"barWidth": 181,
+		"barHeight": 16,
+		"debug": false
+	}
+}

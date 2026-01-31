@@ -1,0 +1,31 @@
+{
+	"attackSpells": {},
+	"battleListImages": {
+		"baseImage": "battle_list.png",
+		"baseImageVariation": 60,
+		"emptyImage": "battle_list_empty.png",
+		"emptyImageVariation": 50
+	},
+	"battleListSetup": {
+		"attackOffsetY": "0",
+		"offsetFromBaseImagePositionX": 0,
+		"offsetFromBaseImagePositionY": 0,
+		"width": 165,
+		"getHeight": true,
+		"height": ""
+	},
+	"redPixelArea": {
+		"pixelImage": "red_pixel.png",
+		"pixelImageVariation": 20,
+		"getCreatureImage": {
+			"offsetX": 2,
+			"offsetY": 3
+		}
+	},
+	"useItemOnCorpse": {
+		"corpseImageVariation": 40
+	},
+	"options": {
+		"debug": false
+	}
+}

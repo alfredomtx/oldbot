@@ -1,0 +1,22 @@
+{
+	"images": {
+		"center": "otclient_classic.png",
+		"zoomPlus": "otclient_classic.png",
+		"zoomMinus": "otclient_classic.png",
+		"variation": 60
+	},
+	"areaSetup": {
+		"baseImage": "center\\otclient_classic.png",
+		"baseImageVariation": 60,
+		"offsetFromBaseImagePositionX": -116,
+		"offsetFromBaseImagePositionY": -86,
+		"width": 108,
+		"height": 108,
+		"getWidth": false,
+		"getHeight": false
+	},
+	"options": {
+		"dontAdjustMinimapHeightWaypoint": true,
+		"debug": false
+	}
+}

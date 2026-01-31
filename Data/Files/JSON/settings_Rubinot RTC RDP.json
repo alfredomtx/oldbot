@@ -1,0 +1,138 @@
+{
+	"__extends": [
+		"RDP.json"
+	],
+	"clientFeatures": {
+		"autoStack": 1,
+		"chatOnOff": 1,
+		"cooldownBar": 1,
+		"fullLight": 1,
+		"protectionZoneIndicator": 1,
+		"useItemWithHotkey": 1,
+		"walkThroughPlayers": 1
+	},
+	"disconnectedCheck": {
+		"connectedWindowTitle": "*",
+		"enabled": 1
+	},
+	"files": {
+		"cavebot": "rubinot.json",
+		"fishing": "fishing.json",
+		"healing": "Rubinot RTC.json",
+		"itemRefill": "itemRefill.json",
+		"looting": "rubinot.json",
+		"map": "map.json",
+		"sioFriend": "rubinot.json",
+		"support": "rubinot.json",
+		"targeting": "rubinot.json"
+	},
+	"input": {
+		"backgroundKeyboardInput": 0,
+		"backgroundImageSearch": 1,
+		"backgroundMouseInput": 0,
+		"classicControlDisabled": 0,
+		"classicControlDisabledByDefault": 0,
+		"defaultImageSearch": 0,
+		"keyPressDelay": 0,
+		"mouseClickDefaultMethod": 1,
+		"mouseDragDefaultMethod": 1,
+		"physicalPressModifierKeys": 1,
+		"postMsgArrowKeys": 1,
+		"postMsgEscKey": 0,
+		"pressEscDefaultMethod": 1,
+		"pressF1toF12KeysDefaultMethod": 1,
+		"pressKeyDefaultMethod": 1,
+		"pressLetterKeysDefaultMethod": 0
+	},
+	"images": {
+		"client": {
+			"buttons": {
+				"exit": "exit.png",
+				"exitVariation": 50
+			},
+			"chat": {
+				"chatImagesVariation": 50,
+				"chatOff": "chatoff.png",
+				"chatOn": "chaton.png",
+				"clearMessages": "clear_chat.png",
+				"defaultChatTab": "default_chat.png",
+				"defaultChatTabUnselected": "default_chat_unselected.png",
+				"defaultChatTabUnselectedRed": "default_chat_red.png",
+				"paste": "paste.png",
+				"selectAll": "select_all.png",
+				"serverLogChatTab": "server_log_chat.png",
+				"serverLogChatTabUnselected": "server_log_chat_unselected.png",
+				"serverLogChatTabUnselectedRed": "server_log_chat_red.png"
+			},
+			"menu": {
+				"follow": "follow.png",
+				"menuImagesVariation": 40,
+				"openBackpackNewWindow": "open_backpack_new_window.png"
+			}
+		},
+		"convertGold": {
+			"100goldCoin": "100_gold_coin.png",
+			"100platinumCoin": "100_platinum_coin.png"
+		}
+	},
+	"map": {
+		"folders": {},
+		"minimap": {
+			"centerButtonOffset": 0,
+			"crossSize": 6,
+			"height": 111,
+			"width": 108,
+			"zoomButtonsOffset": 0
+		},
+		"settings": {
+			"mapHeight": 2048,
+			"mapWidth": 2560,
+			"pathFiles": 1
+		},
+		"viewer": {
+			"defaultCoordX": 32346,
+			"defaultCoordY": 32224
+		}
+	},
+	"minimap": {
+		"centerButtonOffset": 0,
+		"crossSize": 6,
+		"height": 111,
+		"width": 108,
+		"zoomButtonsOffset": 0
+	},
+	"options": {
+		"itemSearchVariation": 50
+	},
+	"others": {
+		"ignoreCheckClientSettings": 1
+	},
+	"settings": {
+		"looting": {
+			"enableLootingMethodChange": true,
+			"fastManualLootingByefault": 1
+		},
+		"cavebot": {
+			"automaticFloorDetection": 0,
+			"coordinatesFunctioningMode": 0,
+			"getCharCoordinatesFromMemory": 0,
+			"tradeWindowSummerUpdate1290": 1
+		},
+		"pathFiles": 0
+	},
+	"tibiaClient": {
+		"clientImagesCategoryIdentifier": "rltibia",
+		"clientExeName": "*",
+		"removeStringFromTitle": "- Remote Desktop Connection|Remote Desktop Connection",
+		"windowClassFilter": "TscShellContainerClass",
+		"windowTitle": "*",
+		"memoryIdentifier": "Rubinot RTC",
+		"selectClientButtonOpenFolderInsteadOfClient": 1,
+		"tibia12": 1
+	},
+	"uncompatibleFunctions": [],
+	"uncompatibleModuleFunctions": {},
+	"uncompatibleModules": [
+		"fullLight"
+	]
+}

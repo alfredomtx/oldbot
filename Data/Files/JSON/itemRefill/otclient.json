@@ -1,0 +1,16 @@
+{
+	"__extends": "otclient_classic.json",
+	"distanceWeapon": {
+		"leftHandImage": "otclient.png",
+		"torchImage": "otclient.png"
+	},
+	"ring": {
+		"ringSlotImage": "otclient.png"
+	},
+	"amulet": {
+		"amuletSlotImage": "otclient.png"
+	},
+	"boots": {
+		"bootsSlotImage": "otclient.png"
+	}
+}

@@ -1,0 +1,6 @@
+{
+	"__extends": "otclient_2.json",
+	"options": {
+		"noDialogBoxToConfirmAfterMoveItem": true
+	}
+}

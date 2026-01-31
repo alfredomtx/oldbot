@@ -1,0 +1,9 @@
+{
+    "__extends": "crs_otclient_five.json",
+    "backpack": {
+        "list": [
+            "backpack_otclient_word_3.png",
+            "bag_otclient_word_3.png"
+        ]
+    }
+}

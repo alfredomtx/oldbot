@@ -1,0 +1,32 @@
+{
+	"__extends": "otclient.json",
+	"clientFeatures": {
+		"autoStack": 1,
+		"fullLight": 1
+	},
+	"disconnectedCheck": {
+		"connectedWindowTitle": "Imperianic2025 - ",
+		"enabled": true
+	},
+	"files": {
+		"cavebot": "imperianic.json",
+		"containers": "crs_imperianic.json",
+		"clientAreas": "imperianic.json",
+		"clientMenus": "cm_imperianic.json",
+		"fishing": "otclient.json",
+		"healing": "imperianic.json",
+		"itemRefill": "itemRefill_imperianic.json",
+		"looting": "imperianic.json",
+		"minimap": "mp_imperianic.json",
+		"sioFriend": "sioFriend_imperianic.json",
+		"support": "imperianic.json",
+		"targeting": "imperianic.json"
+	},
+	"tibiaClient": {
+		"memoryIdentifier": "imperianic",
+		"clientImagesCategoryIdentifier": "imperianic",
+		"windowClassFilter": "imperianic",
+		"windowTitle": "Imperianic2025",
+		"clientExeName": "Imperianic DirectX9"
+	}
+}

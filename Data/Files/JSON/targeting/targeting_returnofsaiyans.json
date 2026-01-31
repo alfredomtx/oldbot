@@ -1,0 +1,40 @@
+{
+	"battleListImages": {
+		"baseImage": "battle_list_returnofsaiyans.png",
+		"baseImageVariation": 40,
+		"emptyImage": "battle_list_empty_returnofsaiyans.png",
+		"emptyImageVariation": 40
+	},
+	"battleListSetup": {
+		"offsetFromBaseImagePositionX": -10,
+		"offsetFromBaseImagePositionY": 0,
+		"width": 185,
+		"getHeight": false,
+		"height": 300
+	},
+	"redPixelArea": {
+		"pixelImage": "red_pixel.png",
+		"pixelImageVariation": 20,
+		"offsetFromBattleListX": 15,
+		"offsetFromBattleListY": 0,
+		"width": 6,
+		"getCreatureImage": {
+			"offsetX": 30,
+			"offsetY": 1
+		}
+	},
+	"useItemOnCorpse": {
+		"customCorpseImages": true,
+		"corpseImageVariation": 15,
+		"delayBeforeSearchingForCorpses": 500
+	},
+	"options": {
+		"getCreatureImageManually": true,
+		"disableAttackModeChange": true,
+		"disableCreatureLifeCheck": true,
+		"disableCreaturePositionCheck": true,
+		"disableCreatureUnreachableCheck": true,
+		"randomizeSameCreatureAttackByDefault": true,
+		"debug": false
+	}
+}

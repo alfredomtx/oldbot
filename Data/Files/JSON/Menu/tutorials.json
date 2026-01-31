@@ -1,0 +1,157 @@
+{
+	"Alerts": [
+		{
+			"text": "Tutorial Alerts",
+			"url": "https://youtu.be/tav5F5xcdY8",
+			"enabled": true
+		}
+	],
+	"Antivirus": [
+		{
+			"text": "Instalar e configurar Avira Antivirus Free",
+			"url": "https://www.youtube.com/watch?v=UnVfWJD4gs0",
+			"enabled": true
+		},
+		{
+			"text": "Adicionar exceções no Windows Defender",
+			"url": "https://www.youtube.com/watch?v=MqeK4_i3rB4",
+			"enabled": true
+		}
+	],
+	"Cavebot": [
+		{
+			"text": "Como criar script 100% AFK (Depositer, Refiller, Lure Mode)",
+			"url": "https://youtu.be/XboGV6gUFJo",
+			"enabled": true
+		},
+		{
+			"text": "Gravar waypoints automaticamente - Auto Record",
+			"url": "https://youtu.be/JH0nea2PLLs",
+			"enabled": true
+		},
+		{
+			"text": "Atacar enquanto anda com LURE MODE",
+			"url": "https://youtu.be/2ZqRZCgV-EI",
+			"enabled": true
+		},
+		{
+			"text": "Andar pelas SETAS no Cavebot - Modo Alternativo",
+			"url": "https://youtu.be/GHjLw1QMgEc",
+			"enabled": true
+		},
+		{
+			"text": "PRIMEIROS PASSOS: Cavebot, Targeting, Healing e mais",
+			"url": "https://youtu.be/9IYJeWFSsUQ",
+			"enabled": true
+		},
+		{
+			"text": "buyitemnpc() - Comprar itens no NPC",
+			"url": "https://youtu.be/2p9qNpPuevI",
+			"enabled": true
+		},
+		{
+			"text": "PokeXGames - Script de Pescaria(fishing)",
+			"url": "https://youtu.be/j7s47y2DatA",
+			"enabled": true
+		},
+		{
+			"text": "Visão geral do Cavebot (Tibia 11/12+)",
+			"url": "https://www.youtube.com/watch?v=MbaAiikDYXM",
+			"enabled": true
+		}
+	],
+	"Fishing": [
+		{
+			"text": "Tutorial Auto Fishing",
+			"url": "https://youtu.be/x45XduZ2MTw",
+			"enabled": true
+		}
+	],
+	"Healing": [
+		{
+			"text": "Tutorial Healing",
+			"url": "https://youtu.be/uoNq8nodjYg",
+			"enabled": true
+		}
+	],
+	"Hotkeys": [
+		{
+			"text": "Tutorial Hotkeys",
+			"url": "https://youtu.be/amtQ3RWXXYM",
+			"enabled": true
+		}
+	],
+	"Looting": [
+		{
+			"text": "Tutorial Looting",
+			"url": "https://youtu.be/1ytZY2aDZ4g",
+			"enabled": true
+		},
+		{
+			"text": "Tudo sobre o Quick Looting (by TibiaBR)",
+			"url": "https://www.youtube.com/watch?v=UKX2C9kwrPo",
+			"enabled": true
+		}
+	],
+	"Item Refill": [
+		{
+			"text": "Tutorial Item Refill",
+			"url": "https://youtu.be/hLfznAWoUcw",
+			"enabled": true
+		}
+	],
+	"Multi Client (MC)": [
+		{
+			"text": "Usar bot em Multi Client(MC)",
+			"url": "https://youtu.be/ihNQ5AbA700",
+			"enabled": true
+		}
+	],
+	"Navigation": [
+		{
+			"text": "Tutorial Navigation",
+			"url": "https://youtu.be/snt5KQUstbU",
+			"enabled": true
+		}
+	],
+	"Persistent": [
+		{
+			"text": "Tutorial Persistents",
+			"url": "https://youtu.be/qQsUQTyJxD0",
+			"enabled": true
+		}
+	],
+	"Support": [
+		{
+			"text": "Tutorial Magnifier",
+			"url": "https://youtu.be/Lk0YQar9aWM",
+			"enabled": true
+		}
+	],
+	"Sio Friend": [
+		{
+			"text": "Tutorial Sio Friend",
+			"url": "https://youtu.be/Bzd3OVYrwaU",
+			"enabled": true
+		}
+	],
+	"Targeting": [
+		{
+			"text": "Tutorial Targeting",
+			"url": "https://www.youtube.com/watch?v=WmVNpqwW7iE",
+			"enabled": true
+		},
+		{
+			"text": "Usar item no corpo de monstros (Skinning)",
+			"url": "https://www.youtube.com/watch?v=d2uGbzEuNmg",
+			"enabled": true
+		}
+	],
+	"...Outros": [
+		{
+			"text": "Habilitar Dark Mode (modo escuro)",
+			"url": "https://youtu.be/QhcR4RaOSxg",
+			"enabled": true
+		}
+	]
+}

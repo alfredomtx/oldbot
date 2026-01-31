@@ -1,0 +1,32 @@
+{
+	"__extends": "otclient.json",
+	"clientFeatures": {
+		"fullLight": 1
+	},
+	"disconnectedCheck": {
+		"connectedWindowTitle": "Tibiabase -",
+		"enabled": 1
+	},
+	"files": {
+		"cavebot": "otclient_classic.json",
+		"clientAreas": "tibiabase.json",
+		"clientMenus": "cm_otclient_classic.json",
+		"containers": "crs_otclient.json",
+		"fishing": "otclient.json",
+		"healing": "otclient_classic.json",
+		"itemRefill": "otclient_classic.json",
+		"looting": "tibiabase.json",
+		"minimap": "mp_tibiabase.json",
+		"support": "tibiabase.json",
+		"targeting": "tibiabase.json"
+	},
+	"tibiaClient": {
+		"clientExeName": "tibiabase_dx",
+		"memoryIdentifier": "tibiabase",
+		"windowClassFilter": [
+			"otclientv8",
+			"Tibiabase"
+		],
+		"windowTitle": "Tibiabase"
+	}
+}

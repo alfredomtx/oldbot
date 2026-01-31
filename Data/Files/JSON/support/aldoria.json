@@ -1,0 +1,10 @@
+{
+	"__extends": "otclient_classic.json",
+	"statusBarAreaSetup": {
+		"baseImage": "base_image_aldoria.png",
+		"offsetFromBaseImagePositionX": -116,
+		"offsetFromBaseImagePositionY": 24,
+		"width": 108,
+		"height": 13
+	}
+}

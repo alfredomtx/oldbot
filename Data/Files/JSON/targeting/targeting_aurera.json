@@ -1,0 +1,29 @@
+{
+	"attackSpells": {},
+	"battleListImages": {
+		"baseImage": "battle_list_aurera.png",
+		"baseImageVariation": 50,
+		"emptyImage": "battle_list_empty_aurera.png",
+		"emptyImageVariation": 50
+	},
+	"battleListSetup": {
+		"attackOffsetY": 20,
+		"offsetFromBaseImagePositionX": -7,
+		"offsetFromBaseImagePositionY": 0,
+		"width": 165,
+		"getHeight": true,
+		"height": ""
+	},
+	"redPixelArea": {
+		"pixelImage": "red_pixel_aurera.png",
+		"pixelImageVariation": 20,
+		"getCreatureImage": {
+			"offsetX": 2,
+			"offsetY": 2
+		}
+	},
+	"options": {
+		"getCreatureImageManually": true,
+		"debug": false
+	}
+}

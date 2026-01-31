@@ -1,0 +1,32 @@
+{
+	"__extends": "settings_retrocores.json",
+	"clientFeatures": {
+		"fullLight": 1
+	},
+	"disconnectedCheck": {
+		"connectedWindowTitle": "Thaloria -",
+		"enabled": 1
+	},
+	"files": {
+		"clientAreas": "otclient.json",
+		"looting": "thaloria.json",
+		"healing": "healing_otclient.json",
+		"cavebot": "thaloria.json",
+		"support": "thaloria.json",
+		"targeting": "thaloria.json"
+	},
+	"tibiaClient": {
+		"clientImagesCategoryIdentifier": "Thaloria",
+		"memoryIdentifier": "Thaloria",
+		"connectedWindowTitle": "Thaloria -",
+		"clientExeName": "otclient_dx",
+		"removeStringFromTitle": "",
+		"windowClassFilter": "Thaloria",
+		"windowTitle": "Thaloria"
+	},
+	"uncompatibleModules": [
+		"navigation",
+		"floorSpy",
+		"reconnect"
+	]
+}

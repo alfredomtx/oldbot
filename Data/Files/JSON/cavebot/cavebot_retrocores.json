@@ -1,0 +1,31 @@
+{
+	"coordinates": {
+		"offsetClickX": -1,
+		"offsetClickY": -1
+	},
+	"images": {
+		"use": "use_retrocores.png",
+		"useVariation": 50
+	},
+	"minimap": {
+		"images": {
+			"center": "center_retrocores.png",
+			"zoomPlus": "zoom_plus_otclient.png",
+			"zoomMinus": "zoom_minus_otclient.png",
+			"variation": 60
+		},
+		"areaSetup": {
+			"baseImage": "minus\\zoom_minus_otclient.png",
+			"baseImageVariation": 50,
+			"offsetFromBaseImagePositionX": -146,
+			"offsetFromBaseImagePositionY": -121,
+			"width": 171,
+			"height": 146
+		}
+	},
+	"options": {
+		"checkStoppedInterval": 800,
+		"dontAdjustMinimapHeightWaypoint": true,
+		"debug": false
+	}
+}

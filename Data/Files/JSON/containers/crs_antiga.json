@@ -1,0 +1,8 @@
+{
+    "__extends": "crs_otclient.json",
+    "backpack": {
+        "areaSetup": {
+            "width": 175
+        }
+    }
+}

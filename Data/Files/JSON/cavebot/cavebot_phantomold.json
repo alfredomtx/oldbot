@@ -1,0 +1,26 @@
+{
+	"coordinates": {
+		"offsetClickX": -1,
+		"offsetClickY": -1
+	},
+	"minimap": {
+		"images": {
+			"zoomPlus": "zoom_plus.png",
+			"zoomMinus": "zoom_minus.png",
+			"variation": 50
+		},
+		"areaSetup": {
+			"baseImage": "minus\\zoom_minus.png",
+			"baseImageVariation": 50,
+			"offsetFromBaseImagePositionX": -116,
+			"offsetFromBaseImagePositionY": -46,
+			"width": 108,
+			"height": 108
+		}
+	},
+	"options": {
+		"checkStoppedInterval": 800,
+		"debug": false,
+		"debugCharArea": false
+	}
+}

@@ -1,0 +1,25 @@
+{
+	"delays": {
+		"delayBeforeLooting": 75,
+		"delayAfterClickOnOpenOption": 0,
+		"delayAfterDraggingLoot": 150,
+		"delayBeforeSearchingOpenCorpseOption": 50,
+		"delayBeforeSearchingItemsAfterOpenCorpse": 200
+	},
+	"images": {
+		"openCorpseImage": "open_kingdomswap.png",
+		"openCorpseImageVariation": 60
+	},
+	"mainBackpacks": {
+		"bag": "backpack_kingdomswap.png",
+		"alias": "brown backpack",
+		"options": {
+			"offsetFromImageX": -6,
+			"offsetFromImageY": -1
+		}
+	},
+	"options": {
+		"openCorpsesAround": true,
+		"debug": false
+	}
+}

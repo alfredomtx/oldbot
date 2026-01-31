@@ -1,0 +1,18 @@
+{
+	"delays": {
+		"delayBeforeLooting": 125,
+		"delayAfterClickOnOpenOption": 0,
+		"delayAfterDraggingLoot": 200,
+		"delayBeforeSearchingOpenCorpseOption": 150,
+		"delayBeforeSearchingItemsAfterOpenCorpse": 200
+	},
+	"images": {
+		"openCorpseImage": "open_corpse_rubinot_RTC.png",
+		"openCorpseImageVariation": 60
+	},
+	"options": {
+		"noDialogBoxToConfirmAfterMoveItem": true,
+		"openCorpsesAround": true,
+		"debug": false
+	}
+}

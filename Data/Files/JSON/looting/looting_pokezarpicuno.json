@@ -1,0 +1,25 @@
+{
+	"delays": {
+		"delayBeforeLooting": 100,
+		"delayAfterClickOnOpenOption": 0,
+		"delayAfterDraggingLoot": 300,
+		"delayBeforeSearchingOpenCorpseOption": 50,
+		"delayBeforeSearchingItemsAfterOpenCorpse": 250
+	},
+	"images": {
+		"openCorpseImage": "pokemonzarpicuno.png"
+	},
+	"mainBackpacks": {
+		"bag": "backpack_pokezarpicuno.png",
+		"alias": "Pokemon trainer backpack",
+		"options": {
+			"offsetFromImageX": -8,
+			"offsetFromImageY": -2
+		}
+	},
+	"options": {
+		"pressEscAfterQuickLooting": true,
+		"openCorpsesAround": true,
+		"debug": false
+	}
+}

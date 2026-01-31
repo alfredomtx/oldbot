@@ -1,0 +1,19 @@
+{
+	"images": {
+		"center": "exordion.png",
+		"zoomPlus": "exordion.png",
+		"zoomMinus": "exordion.png",
+		"variation": 30
+	},
+	"areaSetup": {
+		"baseImage": "minus\\exordion.png",
+		"baseImageVariation": 30,
+		"offsetFromBaseImagePositionX": -150,
+		"offsetFromBaseImagePositionY": -44,
+		"width": 172,
+		"height": 108
+	},
+	"options": {
+		"dontAdjustMinimapHeightWaypoint": true
+	}
+}

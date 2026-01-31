@@ -1,0 +1,65 @@
+{
+	"attackSpells": {
+		"useScriptImageForRunes": true
+	},
+	"battleListImages": {
+		"baseImage": "kingdomswap.png",
+		"baseImageVariation": 60,
+		"emptyImage": "kingdomswap.png",
+		"emptyImageVariation": 60,
+		"battleListButtonsVisibleVariation": 60,
+		"battleListButtonsVisible": "kingdomswap.png",
+		"battleListButtonsVisible2": "tibiascape.png"
+	},
+	"battleListSetup": {
+		"attackOffsetY": 30,
+		"offsetFromBaseImagePositionX": 0,
+		"offsetFromBaseImagePositionY": -3,
+		"width": 165,
+		"getHeight": false,
+		"height": 300,
+		"lifeBar": {
+			"offsetFromBaseImagePositionX": 27,
+			"offsetFromBaseImagePositionY": 63,
+			"width": 138,
+			"spaceBetweenBars": 26
+		},
+		"lifeBarPixelColors": [
+			{
+				"greenFull": "0xBC00"
+			},
+			{
+				"green": "0x50A150"
+			},
+			{
+				"yellow": "0xA1A100"
+			},
+			{
+				"red": "0xBF0A0A"
+			},
+			{
+				"black": "0x910F0F"
+			}
+		]
+	},
+	"redPixelArea": {
+		"pixelImage": "red_pixel.png",
+		"pixelImageVariation": 20,
+		"offsetFromBattleListX": 20,
+		"offsetFromBattleListY": 0,
+		"width": 6
+	},
+	"useItemOnCorpse": {
+		"customCorpseImages": true,
+		"corpseImageVariation": 15,
+		"delayBeforeSearchingForCorpses": 500
+	},
+	"options": {
+		"disableAttackModeChange": true,
+		"disableCreaturePositionCheck": false,
+		"disableCreatureUnreachableCheck": true,
+		"randomizeSameCreatureAttackByDefault": true,
+		"getCreatureImageManually": true,
+		"debug": false
+	}
+}

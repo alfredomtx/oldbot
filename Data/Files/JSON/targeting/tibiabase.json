@@ -1,0 +1,12 @@
+{
+	"__extends": "otclient_classic.json",
+	"battleListImages": {
+		"battleListButtonsVisible": "battlelist_buttons_kingdomswap.png",
+		"battleListButtonsVisible2": "darghos.png",
+		"emptyImage": "otclient_2.png"
+	},
+	"redPixelArea": {
+		"pixelImage": "red_pixel.png",
+		"offsetFromBattleListX": 23
+	}
+}

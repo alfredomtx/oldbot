@@ -1,0 +1,28 @@
+{
+	"__extends": "otclient.json",
+	"clientFeatures": {
+		"fullLight": 1
+	},
+	"disconnectedCheck": {
+		"connectedWindowTitle": "Danthera client updater -",
+		"enabled": 1
+	},
+	"files": {
+		"containers": "crs_otclient_five.json",
+		"clientAreas": "danthera.json",
+		"cavebot": "otclient.json",
+		"fishing": "otclient.json",
+		"healing": "otclient_large.json",
+		"itemRefill": "otclient.json",
+		"looting": "danthera.json",
+		"sioFriend": "otclient.json",
+		"support": "danthera.json",
+		"targeting": "danthera.json"
+	},
+	"tibiaClient": {
+		"memoryIdentifier": "danthera",
+		"clientExeName": "Danthera_dx",
+		"windowClassFilter": "Danthera",
+		"windowTitle": "Danthera"
+	}
+}

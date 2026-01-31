@@ -1,0 +1,11 @@
+{
+	"__extends": "otclient_classic.json",
+	"statusBarAreaSetup": {
+		"baseImage": "base_image_tibiascape.png",
+		"baseImageVariation": 60,
+		"offsetFromBaseImagePositionX": -122,
+		"offsetFromBaseImagePositionY": 10,
+		"width": 50,
+		"height": 25
+	}
+}

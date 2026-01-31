@@ -1,0 +1,46 @@
+{
+	"__extends": "otclient.json",
+	"clientFeatures": {
+		"chatOnOff": 0,
+		"protectionZoneIndicator": 1
+	},
+	"disconnectedCheck": {
+		"enabled": false,
+		"connectedWindowTitle": ""
+	},
+	"files": {
+		"containers": "crs_otclient.json",
+		"clientAreas": "retrocores.json",
+		"cavebot": "otclient_classic.json",
+		"healing": "healing_retrocores.json",
+		"itemRefill": "otclient_classic.json",
+		"looting": "looting_retrocores.json",
+		"minimap": "mp_retrocores.json",
+		"sioFriend": "sioFriend_retrocores.json",
+		"support": "retrocores.json",
+		"targeting": "targeting_retrocores.json"
+	},
+	"tibiaClient": {
+		"memoryIdentifier": "RetroCores",
+		"clientImagesCategoryIdentifier": "otclientv8",
+		"windowTitle": "RetroCores",
+		"clientExeName": "client_dx",
+		"windowClassFilter": "retrocores_windows_client"
+	},
+	"uncompatibleModuleFunctions": {
+		"alerts": [
+			"pkOnScreen",
+			"playerOnScreen"
+		],
+		"itemRefill": [
+			"quiverRefill"
+		],
+		"support": [
+			"autoEatFood",
+			"autoShoot",
+			"cureCurse",
+			"cureFire",
+			"floorSpy"
+		]
+	}
+}

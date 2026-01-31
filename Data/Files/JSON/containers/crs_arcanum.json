@@ -1,0 +1,11 @@
+{
+    "__extends": "crs_otclient.json",
+    "backpack": {
+        "areaSetup": {
+            "offsets": {
+                "x": -18,
+                "y": -1
+            }
+        }
+    }
+}

@@ -1,0 +1,12 @@
+{
+	"__extends": "otclient.json",
+	"battleListImages": {
+		"emptyImage": "rivalia.png"
+	},
+	"battleListSetup": {
+		"attackOffsetY": 10
+	},
+	"redPixelArea": {
+		"pixelImage": "red_pixel.png"
+	}
+}

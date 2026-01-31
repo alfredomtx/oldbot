@@ -1,0 +1,31 @@
+{
+	"__extends": "otclient.json",
+	"clientFeatures": {
+		"fullLight": 1
+	},
+	"disconnectedCheck": {
+		"connectedWindowTitle": "OTCv8 -",
+		"enabled": 1
+	},
+	"files": {
+		"cavebot": "otclient_classic.json",
+		"clientAreas": "karma.json",
+		"clientMenus": "cm_otclient_classic.json",
+		"containers": "crs_otclient.json",
+		"fishing": "otclient.json",
+		"healing": "otclient_classic.json",
+		"itemRefill": "otclient_classic.json",
+		"looting": "Old Lucera.json",
+		"minimap": "mp_otclient_classic_2.json",
+		"sioFriend": "otclient.json",
+		"support": "Old Lucera.json",
+		"targeting": "Old Lucera.json"
+	},
+	"tibiaClient": {
+		"removeStringFromTitle": "",
+		"clientExeName": "Old_Lucera.exe",
+		"memoryIdentifier": "Old Lucera",
+		"windowClassFilter": "otclientv8",
+		"windowTitle": "OTCv8"
+	}
+}

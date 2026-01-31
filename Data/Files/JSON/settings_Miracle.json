@@ -1,0 +1,30 @@
+{
+	"__extends": "otclient.json",
+	"clientFeatures": {
+		"fullLight": 1
+	},
+	"disconnectedCheck": {
+		"connectedWindowTitle": "Miracle 7.4 - ",
+		"enabled": 1
+	},
+	"files": {
+		"clientMenus": "cm_otclient.json",
+		"clientAreas": "miracle.json",
+		"containers": "crs_miracle.json",
+		"cavebot": "otclient.json",
+		"fishing": "otclient.json",
+		"healing": "miracle.json",
+		"itemRefill": "otclient_classic.json",
+		"looting": "miracle.json",
+		"sioFriend": "sioFriend_kingdomswap.json",
+		"support": "otclient.json",
+		"targeting": "miracle.json"
+	},
+	"tibiaClient": {
+		"memoryIdentifier": "Miracle",
+		"clientImagesCategoryIdentifier": "miracle",
+		"windowClassFilter": "Miracle",
+		"windowTitle": "Miracle",
+		"clientExeName": "miracle_dx"
+	}
+}

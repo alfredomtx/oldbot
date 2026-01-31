@@ -1,0 +1,30 @@
+{
+	"__extends": "otclient.json",
+	"clientFeatures": {
+		"fullLight": 1
+	},
+	"disconnectedCheck": {
+		"connectedWindowTitle": "KarmaOT - ",
+		"enabled": 1
+	},
+	"files": {
+		"cavebot": "otclient_classic.json",
+		"clientAreas": "karma.json",
+		"clientMenus": "cm_otclient_classic.json",
+		"containers": "crs_otclient.json",
+		"fishing": "otclient.json",
+		"healing": "otclient_classic.json",
+		"itemRefill": "otclient_classic.json",
+		"looting": "otclient_word_bp_images.json",
+		"minimap": "mp_otclient_classic_2.json",
+		"sioFriend": "otclient.json",
+		"support": "karma.json",
+		"targeting": "karma.json"
+	},
+	"tibiaClient": {
+		"clientExeName": "",
+		"memoryIdentifier": "karma",
+		"windowClassFilter": "KarmaOT",
+		"windowTitle": "KarmaOT - "
+	}
+}

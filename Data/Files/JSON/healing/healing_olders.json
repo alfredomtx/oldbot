@@ -1,0 +1,24 @@
+{
+	"life": {
+		"pixelImageName": "life_pixel_olders.png",
+		"pixelColor": "0xF9A2A2",
+		"pixelVariation": 10,
+		"offsetFromBaseImagePositionX": 1,
+		"offsetFromBaseImagePositionY": -1
+	},
+	"mana": {
+		"pixelImageName": "mana_pixel_olders.png",
+		"pixelVariation": 10,
+		"pixelColor": "0x1F1F37",
+		"offsetFromLifeBarY": 15
+	},
+	"options": {
+		"blockDistance": 4,
+		"baseImage": "life_bar_olders.png",
+		"baseImageVariation": 40,
+		"barWidth": 179,
+		"barHeight": 18,
+		"limitSearchArea400pxFromRightSide": true,
+		"debug": false
+	}
+}

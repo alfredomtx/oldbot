@@ -1,0 +1,31 @@
+{
+	"__extends": "otclient.json",
+	"clientFeatures": {
+		"fullLight": 1
+	},
+	"disconnectedCheck": {
+		"connectedWindowTitle": "Tibia Retro -",
+		"enabled": 1
+	},
+	"files": {
+		"cavebot": "otclient.json",
+		"clientAreas": "otclient.json",
+		"fishing": "otclient.json",
+		"healing": "otclient_classic.json",
+		"itemRefill": "otclient_classic.json",
+		"looting": "carunia.json",
+		"minimap": "mp_otclient_2.json",
+		"sioFriend": "otclient.json",
+		"support": "tibia-retro.json",
+		"targeting": "tibia-retro.json"
+	},
+	"tibiaClient": {
+		"memoryIdentifier": "Tibia-Retro",
+		"clientExeName": "Tibia-Retro-dx",
+		"windowClassFilter": "Tibia Retro",
+		"windowTitle": "Tibia Retro"
+	},
+	"uncompatibleModules": [
+		"fullLight"
+	]
+}

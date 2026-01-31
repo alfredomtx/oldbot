@@ -1,0 +1,24 @@
+{
+	"life": {
+		"pixelImageName": "life_pixel_realesta.png",
+		"pixelColor": "0xFF4444",
+		"pixelVariation": 20,
+		"offsetFromBaseImagePositionX": 0,
+		"offsetFromBaseImagePositionY": 0
+	},
+	"mana": {
+		"pixelImageName": "mana_pixel_realesta.png",
+		"pixelVariation": 20,
+		"pixelColor": "0x4444FF",
+		"offsetFromLifeBarY": 16
+	},
+	"options": {
+		"blockDistance": 4,
+		"limitSearchArea400pxFromRightSide": false,
+		"baseImage": "life_bar_realesta.png",
+		"baseImageVariation": 50,
+		"barWidth": 154,
+		"barHeight": 16,
+		"debug": false
+	}
+}

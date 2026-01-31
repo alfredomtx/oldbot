@@ -1,0 +1,15 @@
+{
+	"__extends": "otclient.json",
+	"battleListImages": {
+		"baseImage": "danthera.png",
+		"emptyImage": "danthera.png"
+	},
+	"battleListSetup": {
+		"offsetFromBaseImagePositionX": 0,
+		"offsetFromBaseImagePositionY": 0,
+		"width": 192
+	},
+	"redPixelArea": {
+		"pixelImage": "red_pixel.png"
+	}
+}

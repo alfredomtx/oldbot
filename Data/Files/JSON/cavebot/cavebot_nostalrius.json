@@ -1,0 +1,49 @@
+{
+	"coordinates": {
+		"offsetClickX": -1,
+		"offsetClickY": -1
+	},
+	"folders": {
+		"npcsFolderName": "olders"
+	},
+	"images": {
+		"use": "use_olders.png",
+		"useVariation": 50
+	},
+	"minimap": {
+		"images": {
+			"center": "center_olders.png",
+			"zoomPlus": "zoom_plus_olders.png",
+			"zoomMinus": "zoom_minus_olders.png"
+		},
+		"areaSetup": {
+			"baseImage": "center\\center_olders.png",
+			"baseImageVariation": 30,
+			"offsetFromBaseImagePositionX": -7,
+			"offsetFromBaseImagePositionY": -7,
+			"width": 186,
+			"height": "",
+			"getHeight": true,
+			"heightImage": "minus\\zoom_minus_olders.png",
+			"heightImageVariation": 40,
+			"offsetFromHeightImagePositionY": 21,
+			"offsetHeightAdjustY": 1
+		}
+	},
+	"options": {
+		"checkStoppedInterval": 800,
+		"debug": false
+	},
+	"uncompatibleActions": [
+		"itemcount",
+		"buyitemnpc",
+		"npchi",
+		"npctrade",
+		"sellitemnpc",
+		"takeitemfromstash",
+		"battlelistchangeorder",
+		"battlelistchangesize",
+		"deposititems",
+		"deposittostash"
+	]
+}

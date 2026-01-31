@@ -1,0 +1,73 @@
+{
+	"clientFeatures": {
+		"fullLight": 1
+	},
+	"disconnectedCheck": {
+		"enabled": false,
+		"connectedWindowTitle": ""
+	},
+	"files": {
+		"cavebot": "cavebot_clashot.json",
+		"healing": "healing_clashot.json",
+		"itemRefill": "itemRefill_realesta.json",
+		"looting": "looting_clashot.json",
+		"sioFriend": "sioFriend_clashot.json",
+		"support": "support_clashot.json",
+		"targeting": "targeting_clashot.json"
+	},
+	"input": {
+		"classicControlDisabled": false,
+		"backgroundKeyboardInput": true,
+		"backgroundMouseInput": true,
+		"defaultImageSearch": false,
+		"postMsgEscKey": true,
+		"pressKeyDefaultMethod": false,
+		"mouseDragDefaultMethod": 0,
+		"pressF1toF12KeysDefaultMethod": true,
+		"pressLetterKeysDefaultMethod": false,
+		"physicalPressModifierKeys": 1
+	},
+	"options": {
+		"itemSearchVariation": 70,
+		"manualCharacterPosition": true
+	},
+	"settings": {
+		"looting": {
+			"fastManualLootingByDefault": true
+		}
+	},
+	"tibiaClient": {
+		"clientImagesCategoryIdentifier": "clashot",
+		"windowTitle": "Tibia",
+		"selectClientButtonOpenFolderInsteadOfClient": 1,
+		"windowClassFilter": "TibiaClient"
+	},
+	"uncompatibleModuleFunctions": {
+		"alerts": [
+			"pkOnScreen",
+			"pkOnScreen",
+			"playerOnScreen",
+			"privateMessage"
+		],
+		"itemRefill": [
+			"quiverRefill"
+		],
+		"support": [
+			"autoEatFood",
+			"autoShoot",
+			"cureCurse",
+			"cureFire",
+			"floorSpy"
+		],
+		"reconnect": [
+			"autoReconnect"
+		],
+		"others": [
+			"smartExit"
+		]
+	},
+	"uncompatibleModules": [
+		"reconnect",
+		"fullLight"
+	]
+}

@@ -1,0 +1,35 @@
+{
+	"coordinates": {
+		"offsetClickX": -1,
+		"offsetClickY": -6
+	},
+	"images": {
+		"use": "use_pxg.png",
+		"useVariation": 50
+	},
+	"minimap": {
+		"images": {
+			"center": "center_pokeunion.png",
+			"zoomPlus": "zoom_plus_pokeunion.png",
+			"zoomMinus": "zoom_minus_pokeunion.png",
+			"variation": 60
+		},
+		"areaSetup": {
+			"baseImage": "minus\\zoom_minus_pokeunion.png",
+			"baseImageVariation": 60,
+			"fixedMinimapY1": 35,
+			"offsetFromBaseImagePositionX": -149,
+			"width": 182,
+			"height": "",
+			"getHeight": true,
+			"heightImage": "minus\\zoom_minus_pokeunion.png",
+			"heightImageVariation": 60,
+			"offsetFromHeightImagePositionY": 16
+		}
+	},
+	"options": {
+		"checkStoppedInterval": 800,
+		"debug": false,
+		"debugCharArea": false
+	}
+}

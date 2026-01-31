@@ -1,0 +1,27 @@
+{
+	"__extends": "otclient.json",
+	"clientFeatures": {
+		"fullLight": 1
+	},
+	"disconnectedCheck": {
+		"connectedWindowTitle": "GLOHRIA 7.4 -",
+		"enabled": 1
+	},
+	"files": {
+		"clientAreas": "glohria.json",
+		"cavebot": "otclient.json",
+		"fishing": "otclient.json",
+		"healing": "glohria.json",
+		"itemRefill": "otclient_classic.json",
+		"looting": "otclient_word_bp_images.json",
+		"sioFriend": "otclient.json",
+		"support": "glohria.json",
+		"targeting": "glohria.json"
+	},
+	"tibiaClient": {
+		"memoryIdentifier": "Glohria",
+		"clientExeName": "Glohria_DX",
+		"windowClassFilter": "GLOHRIA",
+		"windowTitle": "GLOHRIA"
+	}
+}

@@ -1,0 +1,20 @@
+{
+	"images": {
+		"center": "center_olders.png",
+		"zoomPlus": "zoom_plus_olders.png",
+		"zoomMinus": "zoom_minus_olders.png"
+	},
+	"areaSetup": {
+		"baseImage": "center\\center_olders.png",
+		"baseImageVariation": 30,
+		"offsetFromBaseImagePositionX": -7,
+		"offsetFromBaseImagePositionY": -7,
+		"width": 186,
+		"height": "",
+		"getHeight": true,
+		"heightImage": "minus\\zoom_minus_olders.png",
+		"heightImageVariation": 40,
+		"offsetFromHeightImagePositionY": 21,
+		"offsetHeightAdjustY": 1
+	}
+}

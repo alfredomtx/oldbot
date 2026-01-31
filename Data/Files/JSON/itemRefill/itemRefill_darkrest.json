@@ -1,0 +1,31 @@
+{
+	"distanceWeapon": {
+		"leftHandImage": "darkrest.png",
+		"torchImage": "darkrest.png",
+		"variation": 25,
+		"timerIntervalMs": 1000
+	},
+	"ring": {
+		"ringSlotImage": "darkrest.png",
+		"secondaryImage": "",
+		"variation": 25,
+		"timerIntervalMs": 600
+	},
+	"amulet": {
+		"amuletSlotImage": "darkrest.png",
+		"secondaryImage": "",
+		"variation": 25,
+		"timerIntervalMs": 600
+	},
+	"boots": {
+		"bootsSlotImage": "darkrest.png",
+		"secondaryImage": "",
+		"variation": 25,
+		"timerIntervalMs": 2000
+	},
+	"options": {
+		"disableUnequipItem": true,
+		"equipItemMode": "mouse",
+		"debug": false
+	}
+}

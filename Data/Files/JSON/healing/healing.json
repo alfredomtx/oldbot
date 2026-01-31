@@ -1,0 +1,30 @@
+{
+	"life": {
+		"pixelColor": [
+			"0xF16161",
+			"0xFF4646"
+		],
+		"pixelVariation": 40,
+		"offsetFromBaseImagePositionX": 0,
+		"offsetFromBaseImagePositionY": 0
+	},
+	"mana": {
+		"pixelVariation": 40,
+		"pixelColor": [
+			"0x7471FF",
+			"0x6F6AFF"
+		],
+		"offsetFromLifeBarY": 13
+	},
+	"options": {
+		"checkHealingIntervalDelay": 150,
+		"baseImage": [
+			"life_bar.png",
+			"life_bar_new.png"
+		],
+		"baseImageVariation": 50,
+		"barWidth": 93,
+		"barHeight": 13,
+		"debug": false
+	}
+}

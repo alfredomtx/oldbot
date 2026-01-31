@@ -1,0 +1,36 @@
+{
+	"coordinates": {
+		"offsetClickX": -1,
+		"offsetClickY": -1
+	},
+	"minimap": {
+		"images": {
+			"center": "center_retrocores.png",
+			"zoomPlus": "zoom_plus.png",
+			"zoomMinus": "zoom_minus.png",
+			"variation": 50
+		},
+		"areaSetup": {
+			"baseImage": "minus\\zoom_minus.png",
+			"baseImageVariation": 50,
+			"offsetFromBaseImagePositionX": -116,
+			"offsetFromBaseImagePositionY": -45,
+			"width": 108,
+			"height": 108
+		},
+		"options": {
+			"markerImageWidth": 7,
+			"markerImageHeight": 5,
+			"markerAreaOffsetX1": -1,
+			"markerAreaOffsetY1": -1,
+			"markerAreaOffsetX2": 0,
+			"markerAreaOffsetY2": 0
+		}
+	},
+	"options": {
+		"dontAdjustMinimapHeightWaypoint": true,
+		"checkStoppedInterval": 800,
+		"debug": false,
+		"debugCharArea": false
+	}
+}

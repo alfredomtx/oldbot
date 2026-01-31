@@ -1,0 +1,24 @@
+{
+	"delays": {
+		"delayBeforeLooting": 75,
+		"delayAfterClickOnOpenOption": 0,
+		"delayAfterDraggingLoot": 150,
+		"delayBeforeSearchingOpenCorpseOption": 50,
+		"delayBeforeSearchingItemsAfterOpenCorpse": 200
+	},
+	"images": {
+		"openCorpseImage": "midhem.png"
+	},
+	"mainBackpacks": {
+		"bag": "bag_midhem.png",
+		"alias": "bag",
+		"options": {
+			"offsetFromImageX": -7,
+			"offsetFromImageY": 3
+		}
+	},
+	"options": {
+		"openCorpsesAround": true,
+		"debug": false
+	}
+}

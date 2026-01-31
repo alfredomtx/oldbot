@@ -1,0 +1,54 @@
+{
+	"autoEatFood": {
+		"statusBarImage": "hungry_medivia.png",
+		"variation": 50,
+		"timerIntervalMs": 2000
+	},
+	"autoBuffSpell": {
+		"statusBarImage": "buff.png",
+		"variation": 50,
+		"timerIntervalMs": 1200
+	},
+	"autoHaste": {
+		"statusBarImage": "haste_medivia.png",
+		"variation": 50,
+		"timerIntervalMs": 500
+	},
+	"autoUtamoVita": {
+		"statusBarImage": "manashield_medivia.png",
+		"variation": 50,
+		"timerIntervalMs": 500
+	},
+	"cureParalyze": {
+		"statusBarImage": "paralyze.png",
+		"variation": 50,
+		"timerIntervalMs": 500
+	},
+	"cureCurse": {
+		"statusBarImage": "curse.png",
+		"variation": 50,
+		"timerIntervalMs": 2000
+	},
+	"cureFire": {
+		"statusBarImage": "fire.png",
+		"variation": 50,
+		"timerIntervalMs": 2000
+	},
+	"curePoison": {
+		"statusBarImage": "poison_medivia.png",
+		"variation": 50,
+		"timerIntervalMs": 2000
+	},
+	"statusBarAreaSetup": {
+		"baseImage": "base_image_medivia.png",
+		"baseImageVariation": 40,
+		"offsetFromBaseImagePositionX": -30,
+		"offsetFromBaseImagePositionY": 60,
+		"width": 65,
+		"height": 90
+	},
+	"options": {
+		"pzZoneStatusBarImage": "pz_zone_medivia.png",
+		"debug": false
+	}
+}

@@ -1,0 +1,6 @@
+{
+	"__extends": "otclient_classic.json",
+	"options": {
+		"baseImage": "otclient.png"
+	}
+}

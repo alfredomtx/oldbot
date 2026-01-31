@@ -1,0 +1,9 @@
+{
+	"images": {
+		"freeSlot": "free_slot_otclientv8.png"
+	},
+	"options": {
+		"debugLog": false,
+		"debug": false
+	}
+}

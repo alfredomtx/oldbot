@@ -1,0 +1,6 @@
+{
+	"__extends": "otclient.json",
+	"redPixelArea": {
+		"pixelImage": "red_pixel.png"
+	}
+}

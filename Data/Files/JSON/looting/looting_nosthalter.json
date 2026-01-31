@@ -1,0 +1,24 @@
+{
+	"delays": {
+		"delayBeforeLooting": 0,
+		"delayAfterClickOnOpenOption": 50,
+		"delayAfterDraggingLoot": 600,
+		"delayBeforeSearchingOpenCorpseOption": 75,
+		"delayBeforeSearchingItemsAfterOpenCorpse": 250
+	},
+	"images": {
+		"openCorpseImage": "open_corpse_otclient.png"
+	},
+	"mainBackpacks": {
+		"bag": "bag_nostalther.png",
+		"options": {
+			"offsetFromImageX": 2,
+			"offsetFromImageY": 0
+		}
+	},
+	"options": {
+		"searchOpenOptionOnEntireScreen": true,
+		"openCorpsesAround": true,
+		"debug": false
+	}
+}

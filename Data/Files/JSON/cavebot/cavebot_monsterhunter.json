@@ -1,0 +1,37 @@
+{
+	"coordinates": {
+		"offsetClickX": -1,
+		"offsetClickY": -1
+	},
+	"images": {
+		"use": "use_monsterhunter.png",
+		"useVariation": 80
+	},
+	"minimap": {
+		"images": {
+			"zoomPlus": "zoom_plus_monsterhunter.png",
+			"zoomMinus": "zoom_minus_monsterhunter.png",
+			"variation": 80
+		},
+		"areaSetup": {
+			"baseImage": "center\\center_monsterhunter.png",
+			"baseImageVariation": 80,
+			"offsetFromBaseImagePositionX": -7,
+			"offsetFromBaseImagePositionY": -6,
+			"width": "",
+			"height": "",
+			"getWidth": true,
+			"getHeight": true,
+			"widthImage": "minus\\zoom_minus_monsterhunter.png",
+			"widthImageVariation": 80,
+			"heightImage": "minus\\zoom_minus_monsterhunter.png",
+			"heightImageVariation": 80,
+			"offsetFromWidthImagePositionX": 24,
+			"offsetFromHeightImagePositionY": 25
+		}
+	},
+	"options": {
+		"checkStoppedInterval": 800,
+		"debug": false
+	}
+}

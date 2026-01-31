@@ -1,0 +1,12 @@
+{
+	"__extends": "otclient_classic.json",
+	"minimap": {
+		"manualAdjust": {
+			"enabled": true,
+			"clicks": {
+				"plus": 3,
+				"minus": 2
+			}
+		}
+	}
+}

@@ -1,0 +1,10 @@
+{
+	"images": {
+		"freeSlot": "free_slot_otclientv8.png"
+	},
+	"options": {
+		"rightClickOnSea": true,
+		"debugLog": false,
+		"debug": false
+	}
+}

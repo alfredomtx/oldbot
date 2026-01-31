@@ -1,0 +1,88 @@
+{
+	"clientFeatures": {
+		"autoStack": 1,
+		"chatOnOff": 0,
+		"cooldownBar": 0,
+		"fullLight": 0,
+		"protectionZoneIndicator": 0,
+		"useItemWithHotkey": 1,
+		"walkThroughPlayers": 0
+	},
+	"disconnectedCheck": {
+		"enabled": false,
+		"connectedWindowTitle": ""
+	},
+	"files": {
+		"cavebot": "cavebot_otclient.json",
+		"healing": "healing_otclient.json",
+		"itemRefill": "otclient_classic.json",
+		"looting": "looting_tibiantis.json",
+		"sioFriend": "sioFriend_otclient.json",
+		"support": "support_tibiantis.json",
+		"targeting": "targeting_tibiantis.json"
+	},
+	"input": {
+		"classicControlDisabled": false,
+		"backgroundKeyboardInput": true,
+		"backgroundMouseInput": true,
+		"defaultImageSearch": false,
+		"postMsgEscKey": true,
+		"pressKeyDefaultMethod": false,
+		"pressF1toF12KeysDefaultMethod": true,
+		"pressLetterKeysDefaultMethod": false
+	},
+	"options": {
+		"manualCharacterPosition": true
+	},
+	"settings": {
+		"cavebot": {
+			"automaticFloorDetection": 1,
+			"coordinatesFunctioningMode": 0,
+			"dragItemsFromSqmBeforeUsingRopeShovel": 1,
+			"getCharCoordinatesFromMemory": 0,
+			"tradeWindowSummerUpdate1290": 0
+		},
+		"looting": {
+			"defaultLootingMethod": "Click around",
+			"disableQuickLootingHotkeyChange": 0,
+			"fastManualLootingByDefault": 1
+		},
+		"others": {
+			"defaultMenuClickMethodDefaultValue": 0
+		}
+	},
+	"tibiaClient": {
+		"memoryIdentifier": "tibiantis",
+		"clientImagesCategoryIdentifier": "tibiantis",
+		"windowTitle": "Tibiantis",
+		"windowClassFilter": "Tibiantis",
+		"removeStringFromTitle": "[|]|    ",
+		"selectClientButtonOpenFolderInsteadOfClient": true
+	},
+	"uncompatibleModuleFunctions": {
+		"alerts": [
+			"pkOnScreen",
+			"pkOnScreen",
+			"playerOnScreen",
+			"privateMessage"
+		],
+		"itemRefill": [
+			"quiverRefill"
+		],
+		"support": [
+			"autoEatFood",
+			"autoShoot",
+			"cureCurse",
+			"cureFire",
+			"floorSpy"
+		],
+		"reconnect": [
+			"autoReconnect"
+		]
+	},
+	"uncompatibleModules": [
+		"reconnect",
+		"fullLight",
+		"floorSpy"
+	]
+}

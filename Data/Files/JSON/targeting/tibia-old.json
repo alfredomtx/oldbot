@@ -1,0 +1,15 @@
+{
+	"__extends": "otclient.json",
+	"battleListImages": {
+		"baseImage": "tibia-old.png",
+		"emptyImage": "tibia-old.png"
+	},
+	"battleListSetup": {
+		"offsetFromBaseImagePositionX": 0,
+		"offsetFromBaseImagePositionY": 0,
+		"width": 177
+	},
+	"redPixelArea": {
+		"pixelImage": "red_pixel.png"
+	}
+}

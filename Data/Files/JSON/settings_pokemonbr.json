@@ -1,0 +1,76 @@
+{
+	"disconnectedCheck": {
+		"enabled": false,
+		"connectedWindowTitle": ""
+	},
+	"files": {
+		"cavebot": "cavebot_pokemonbr.json",
+		"healing": "healing.json",
+		"itemRefill": "itemRefill.json",
+		"looting": "looting.json",
+		"sioFriend": "sioFriend.json",
+		"support": "support.json",
+		"targeting": "targeting_pokemonbr.json"
+	},
+	"input": {
+		"classicControlDisabled": false,
+		"backgroundKeyboardInput": true,
+		"backgroundMouseInput": true,
+		"defaultImageSearch": false,
+		"pressKeyDefaultMethod": true,
+		"mouseClickDelay": 120
+	},
+	"settings": {
+		"cavebot": {
+			"getCharCoordinatesFromMemory": true,
+			"automaticFloorDetection": true,
+			"coordinatesFunctioningMode": 1
+		}
+	},
+	"options": {
+		"manualCharacterPosition": true
+	},
+	"tibiaClient": {
+		"memoryIdentifier": "pokemonbr",
+		"clientImagesCategoryIdentifier": "pokemonbr",
+		"removeStringFromTitle": "",
+		"windowTitle": "PokemonBR",
+		"selectClientButtonOpenFolderInsteadOfClient": true,
+		"windowClassFilter": "pokemonbr",
+		"clientExeName": "PokemonBR_Dx9.exe"
+	},
+	"uncompatibleFunctions": {},
+	"uncompatibleModules": [
+		"fullLight",
+		"healing",
+		"itemRefill",
+		"looting",
+		"sioFriend",
+		"reconnect"
+	],
+	"uncompatibleModuleFunctions": {
+		"alerts": [
+			"pkOnScreen",
+			"pkOnScreen",
+			"playerOnScreen",
+			"privateMessage"
+		],
+		"itemRefill": [
+			"quiverRefill"
+		],
+		"support": [
+			"autoHaste",
+			"autoUtamoVita",
+			"autoBuffSpell",
+			"autoEatFood",
+			"autoShoot",
+			"cureParalyze",
+			"curePoison",
+			"cureCurse",
+			"cureFire"
+		],
+		"reconnect": [
+			"autoReconnect"
+		]
+	}
+}

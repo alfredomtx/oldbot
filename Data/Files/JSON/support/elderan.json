@@ -1,0 +1,10 @@
+{
+	"__extends": "otclient_classic.json",
+	"statusBarAreaSetup": {
+		"baseImage": "options_elderan.png",
+		"offsetFromBaseImagePositionX": -123,
+		"offsetFromBaseImagePositionY": 86,
+		"width": 110,
+		"height": 13
+	}
+}

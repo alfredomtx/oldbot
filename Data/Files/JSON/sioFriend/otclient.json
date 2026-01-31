@@ -1,0 +1,13 @@
+{
+	"followOptions": {
+		"pixelImage": "following_otclient.png",
+		"pixelImageVariation": 50
+	},
+	"options": {
+		"playerImageWidth": 60,
+		"useRuneWithoutHotkey": true,
+		"enableAttackRune": false,
+		"dedicatedSioBattleList": false,
+		"debug": false
+	}
+}

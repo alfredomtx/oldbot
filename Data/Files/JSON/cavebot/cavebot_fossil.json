@@ -1,0 +1,38 @@
+{
+	"coordinates": {
+		"offsetClickX": -1,
+		"offsetClickY": -1
+	},
+	"images": {
+		"use": "use_blacktalon.png",
+		"useVariation": 50
+	},
+	"minimap": {
+		"images": {
+			"zoomPlus": "zoom_plus_blacktalon.png",
+			"zoomMinus": "zoom_minus_blacktalon.png"
+		},
+		"areaSetup": {
+			"baseImage": "center\\center_blacktalon.png",
+			"baseImageVariation": 40,
+			"offsetFromBaseImagePositionX": -6,
+			"offsetFromBaseImagePositionY": -5,
+			"width": 186,
+			"height": "",
+			"getWidth": false,
+			"getHeight": true,
+			"heightImage": "minus\\zoom_minus_blacktalon.png",
+			"heightImageVariation": 40,
+			"widthImage": "minus\\zoom_minus_blacktalon.png",
+			"widthImageVariation": 40,
+			"offsetFromHeightImagePositionY": 25,
+			"offsetFromWidthImagePositionX": 26,
+			"offsetHeightAdjustY": -2
+		}
+	},
+	"options": {
+		"checkStoppedInterval": 800,
+		"debugCharArea": false,
+		"debug": false
+	}
+}

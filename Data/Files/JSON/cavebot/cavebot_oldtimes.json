@@ -1,0 +1,27 @@
+{
+	"coordinates": {
+		"offsetClickX": -1,
+		"offsetClickY": -1
+	},
+	"minimap": {
+		"images": {
+			"center": "center_retrocores.png",
+			"zoomPlus": "zoom_plus_aurera.png",
+			"zoomMinus": "zoom_minus_aurera.png",
+			"variation": 50
+		},
+		"areaSetup": {
+			"baseImage": "minus\\zoom_minus_aurera.png",
+			"baseImageVariation": 30,
+			"offsetFromBaseImagePositionX": -118,
+			"offsetFromBaseImagePositionY": -47,
+			"width": 108,
+			"height": 108
+		}
+	},
+	"options": {
+		"checkStoppedInterval": 800,
+		"debug": false,
+		"debugCharArea": false
+	}
+}

@@ -1,0 +1,36 @@
+{
+  "__extends": "otclient.json",
+  "clientFeatures": {
+		"autoStack": 0,
+		"fullLight": 1
+	},
+	"disconnectedCheck": {
+		"enabled": true,
+		"connectedWindowTitle": "Realera 8.0 -"
+	},
+	"files": {
+		"containers": "crs_realera.json",
+		"clientAreas": "realera.json",
+		"cavebot": "cavebot_realesta.json",
+		"healing": "healing_realera.json",
+		"itemRefill": "itemRefill_realesta.json",
+		"looting": "looting_realesta.json",
+		"minimap": "mp_realesta.json",
+		"sioFriend": "sioFriend_realesta.json",
+		"support": "support_realesta.json",
+		"targeting": "targeting_realesta.json"
+	},
+	"images": {
+		"convertGold": {
+			"100goldCoin": "100_gold_coin_realera.png",
+			"100platinumCoin": "100_platinum_coin_realera.png"
+		}
+	},
+	"tibiaClient": {
+		"memoryIdentifier": "realera",
+		"clientImagesCategoryIdentifier": "realera",
+		"windowTitle": "Reale",
+		"windowClassFilter": "Reale",
+		"clientExeName": "RealeraDX"
+	}
+}

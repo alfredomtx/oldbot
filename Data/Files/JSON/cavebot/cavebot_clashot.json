@@ -1,0 +1,40 @@
+{
+	"images": {
+		"use": "use_clashot.png",
+		"useVariation": 50
+	},
+	"minimap": {
+		"images": {
+			"zoomPlus": "zoom_plus_clashot.png",
+			"zoomMinus": "zoom_minus_clashot.png"
+		},
+		"areaSetup": {
+			"baseImage": "center\\center_clashot.png",
+			"baseImageVariation": 30,
+			"offsetFromBaseImagePositionX": -117,
+			"offsetFromBaseImagePositionY": -89,
+			"width": 108,
+			"height": 108
+		}
+	},
+	"options": {
+		"checkStoppedInterval": 800,
+		"debug": false
+	},
+	"uncompatibleActions": [
+		"capacity",
+		"level",
+		"soul",
+		"itemcount",
+		"stamina",
+		"buyitemnpc",
+		"npchi",
+		"npctrade",
+		"sellitemnpc",
+		"takeitemfromstash",
+		"battlelistchangeorder",
+		"battlelistchangesize",
+		"deposititems",
+		"deposittostash"
+	]
+}

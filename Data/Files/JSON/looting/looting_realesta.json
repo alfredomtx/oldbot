@@ -1,0 +1,23 @@
+{
+	"delays": {
+		"delayBeforeLooting": 500,
+		"delayAfterClickOnOpenOption": 0,
+		"delayAfterDraggingLoot": 400,
+		"delayBeforeSearchingOpenCorpseOption": 60,
+		"delayBeforeSearchingItemsAfterOpenCorpse": 300
+	},
+	"images": {
+		"openCorpseImage": "open_corpse_realesta.png"
+	},
+	"mainBackpacks": {
+		"bag": "bag_realesta.png",
+		"options": {
+			"offsetFromImageX": -3,
+			"offsetFromImageY": -1
+		}
+	},
+	"options": {
+		"openCorpsesAround": true,
+		"debug": false
+	}
+}

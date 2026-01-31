@@ -1,0 +1,12 @@
+{
+	"__extends": "otclient_word_bp_images.json",
+	"delays": {
+		"delayBeforeLooting": 800
+	},
+	"images": {
+		"openCorpseImage": "open_likeretro.png"
+	},
+	"options": {
+		"debug": false
+	}
+}

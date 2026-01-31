@@ -1,0 +1,48 @@
+{
+	"__extends": "otclient.json",
+	"clientFeatures": {
+		"fullLight": 1
+	},
+	"disconnectedCheck": {
+		"connectedWindowTitle": "Exordion V4.5 - ",
+		"enabled": 1
+	},
+	"files": {
+		"cavebot": "exordion.json",
+		"clientAreas": "exordion.json",
+		"clientMenus": "cm_exordion.json",
+		"fishing": "otclient.json",
+		"healing": "healing_exordion.json",
+		"itemRefill": "otclient_classic.json",
+		"looting": "exordion.json",
+		"minimap": "mp_exordion.json",
+		"sioFriend": "sioFriend_likeretro.json",
+		"support": "exordion.json",
+		"targeting": "exordion.json"
+	},
+	"images": {
+		"client": {
+			"buttons": {
+				"exit": "exordion.png",
+				"exitVariation": 40
+			},
+			"menu": {
+				"follow": "exordion.png",
+				"menuImagesVariation": 40
+			}
+		},
+		"convertGold": {
+			"100goldCoin": "1k_gold_coins_exordion.png",
+			"100platinumCoin": "100_platinum_coin.png"
+		}
+	},
+	"tibiaClient": {
+		"clientExeName": "exordion_dx",
+		"clientImagesCategoryIdentifier": "exordion",
+		"selectClientButtonOpenFolderInsteadOfClient": 1,
+		"memoryIdentifier": "exordion",
+		"removeStringFromTitle": " (Legacy)",
+		"windowClassFilter": "Exordion",
+		"windowTitle": "Exordion"
+	}
+}

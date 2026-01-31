@@ -1,0 +1,23 @@
+{
+	"life": {
+		"pixelImageName": "life_pixel_medivia.png",
+		"pixelColor": "0xFC6646",
+		"pixelVariation": 50,
+		"offsetFromBaseImagePositionX": 0,
+		"offsetFromBaseImagePositionY": -1
+	},
+	"mana": {
+		"pixelImageName": "mana_pixel_medivia.png",
+		"pixelVariation": 30,
+		"pixelColor": "0x5B20F8",
+		"offsetFromLifeBarY": 19
+	},
+	"options": {
+		"delayAfterUsingItem": 200,
+		"baseImage": "life_bar_medivia.png",
+		"baseImageVariation": 50,
+		"barWidth": 182,
+		"barHeight": 18,
+		"debug": false
+	}
+}

@@ -1,0 +1,39 @@
+{
+	"attackSpells": {
+		"useScriptImageForRunes": true
+	},
+	"battleListImages": {
+		"baseImage": "battle_list_phantomold.png",
+		"baseImageVariation": 40,
+		"emptyImage": "battle_list_empty_phantomold.png",
+		"emptyImageVariation": 40,
+		"battleListButtonsVisible": "oldtimes1.png",
+		"battleListButtonsVisible2": "oldtimes2.png"
+	},
+	"battleListSetup": {
+		"offsetFromBaseImagePositionX": 0,
+		"offsetFromBaseImagePositionY": 0,
+		"width": 165,
+		"getHeight": false,
+		"height": 300
+	},
+	"redPixelArea": {
+		"pixelImage": "red_pixel_otclient.png",
+		"pixelImageVariation": 20,
+		"offsetFromBattleListX": 18,
+		"offsetFromBattleListY": 0,
+		"width": 6
+	},
+	"useItemOnCorpse": {
+		"customCorpseImages": true,
+		"corpseImageVariation": 15,
+		"delayBeforeSearchingForCorpses": 500
+	},
+	"options": {
+		"disableAttackModeChange": false,
+		"disableCreatureUnreachableCheck": true,
+		"randomizeSameCreatureAttackByDefault": false,
+		"getCreatureImageManually": true,
+		"debug": false
+	}
+}

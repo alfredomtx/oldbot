@@ -1,0 +1,36 @@
+{
+	"battleListImages": {
+		"baseImage": "narutostory.png",
+		"baseImageVariation": 80,
+		"emptyImage": "narutostory.png",
+		"emptyImageVariation": 80
+	},
+	"battleListSetup": {
+		"attackOffsetY": 75,
+		"offsetFromBaseImagePositionX": 0,
+		"offsetFromBaseImagePositionY": 0,
+		"width": 185,
+		"getHeight": false,
+		"height": 350
+	},
+	"redPixelArea": {
+		"pixelImage": "red_pixel_narutostory.png",
+		"pixelImageVariation": 20,
+		"offsetFromBattleListX": 27,
+		"offsetFromBattleListY": 0,
+		"width": 25
+	},
+	"useItemOnCorpse": {
+		"customCorpseImages": true,
+		"corpseImageVariation": 15,
+		"delayBeforeSearchingForCorpses": 1000
+	},
+	"options": {
+		"disableAttackModeChange": true,
+		"disableCreaturePositionCheck": true,
+		"disableCreatureLifeCheck": true,
+		"disableCreatureUnreachableCheck": true,
+		"getCreatureImageManually": true,
+		"debug": false
+	}
+}

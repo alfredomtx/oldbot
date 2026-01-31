@@ -1,0 +1,21 @@
+{
+	"__extends": "otclient.json",
+	"life": {
+		"pixelImageName": "life_pixel_otclient_large.png",
+		"pixelColor": "0xFF4444"
+	},
+	"mana": {
+		"pixelImageName": "mana_pixel_otclient_large.png",
+		"pixelColor": "0x4444FF",
+		"offsetFromLifeBarY": 17
+	},
+	"options": {
+		"blockDistance": 5,
+		"baseImage": "otclient_large.png",
+		"limitSearchArea400pxFromRightSide": true,
+		"baseImageVariation": 60,
+		"barWidth": 181,
+		"barHeight": 16,
+		"debug": false
+	}
+}

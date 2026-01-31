@@ -1,0 +1,44 @@
+{
+	"__extends": [
+		"RDP.json",
+		"settings_miracle.json"
+	],
+	"files": {
+		"cavebot": "miracle_vnc.json",
+		"healing": "miracle.json",
+		"itemRefill": "otclient_classic.json",
+		"looting": "miracle_vnc.json",
+		"targeting": "miracle_vnc.json"
+	},
+	"input": {
+		"backgroundKeyboardInput": 0,
+		"backgroundImageSearch": 1,
+		"backgroundMouseInput": 0,
+		"classicControlDisabled": 0,
+		"classicControlDisabledByDefault": 0,
+		"defaultImageSearch": 0,
+		"keyPressDelay": 0,
+		"mouseClickDefaultMethod": 1,
+		"mouseDragDefaultMethod": 1,
+		"physicalPressModifierKeys": 1,
+		"postMsgArrowKeys": 1,
+		"postMsgEscKey": 0,
+		"pressEscDefaultMethod": 1,
+		"pressF1toF12KeysDefaultMethod": 1,
+		"pressKeyDefaultMethod": 1,
+		"pressLetterKeysDefaultMethod": 0
+	},
+	"settings": {
+		"cavebot": {
+			"getCharCoordinatesFromMemory": false,
+			"automaticFloorDetection": 0,
+			"coordinatesFunctioningMode": 0
+		}
+	},
+	"uncompatibleModules": [
+		"fullLight",
+		"navigation",
+		"floorSpy",
+		"reconnect"
+	]
+}

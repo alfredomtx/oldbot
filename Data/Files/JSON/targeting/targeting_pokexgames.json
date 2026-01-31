@@ -1,0 +1,39 @@
+{
+	"battleListImages": {
+		"baseImage": "battle_list_pxg_pt.png",
+		"baseImageVariation": 80,
+		"emptyImage": "battle_list_empty_pxg.png",
+		"emptyImageVariation": 80
+	},
+	"battleListSetup": {
+		"offsetFromBaseImagePositionX": -5,
+		"offsetFromBaseImagePositionY": -2,
+		"width": 185,
+		"getHeight": false,
+		"height": 250,
+		"searchEmptyBattleListEntireScreen": false,
+		"emptyBattleListInvertResult": false
+	},
+	"redPixelArea": {
+		"pixelImage": "red_pixel_pxg.png",
+		"pixelImageVariation": 20,
+		"offsetFromBattleListX": 27,
+		"offsetFromBattleListY": 0,
+		"width": 25
+	},
+	"useItemOnCorpse": {
+		"customCorpseImages": true,
+		"corpseImageVariation": 15,
+		"delayBeforeSearchingForCorpses": 1000
+	},
+	"options": {
+		"dontPressEscBeforeAttackingFirstTime": true,
+		"disableAttackModeChange": true,
+		"disableCreaturePositionCheck": true,
+		"disableCreatureLifeCheck": true,
+		"disableCreatureUnreachableCheck": true,
+		"getCreatureImageManually": true,
+		"delayBeforeAttackClick": 200,
+		"debug": false
+	}
+}

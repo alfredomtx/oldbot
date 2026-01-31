@@ -1,0 +1,27 @@
+{
+	"__extends": "miracle.json",
+	"delays": {
+		"delayBeforeLooting": 125,
+		"delayAfterClickOnOpenOption": 0,
+		"delayAfterDraggingLoot": 250,
+		"delayBeforeSearchingOpenCorpseOption": 35,
+		"delayBeforeSearchingItemsAfterOpenCorpse": 200
+	},
+	"images": {
+		"openCorpseImage": "open_likeretro.png"
+	},
+	"mainBackpacks": {
+		"backpacksList": [
+			"backpack_thaloria.png",
+			"bag_thaloria.png"
+		],
+		"options": {
+			"offsetFromImageX": 2,
+			"offsetFromImageY": 1
+		}
+	},
+	"options": {
+		"openCorpsesAround": true,
+		"debug": false
+	}
+}

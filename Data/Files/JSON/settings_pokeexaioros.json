@@ -1,0 +1,79 @@
+{
+	"disconnectedCheck": {
+		"enabled": false,
+		"connectedWindowTitle": ""
+	},
+	"files": {
+		"cavebot": "cavebot_pokezarpicuno.json",
+		"healing": "healing_pokezarpicuno.json",
+		"itemRefill": "itemRefill.json",
+		"looting": "looting_pokezarpicuno.json",
+		"sioFriend": "sioFriend.json",
+		"support": "support.json",
+		"targeting": "targeting_pokeexaioros.json"
+	},
+	"input": {
+		"classicControlDisabled": false,
+		"backgroundKeyboardInput": true,
+		"backgroundMouseInput": true,
+		"defaultImageSearch": false,
+		"pressKeyDefaultMethod": false
+	},
+	"options": {
+		"forceGameWindowHeight": false,
+		"manualCharacterPosition": true
+	},
+	"tibiaClient": {
+		"clientImagesCategoryIdentifier": "exaioros",
+		"removeStringFromTitle": "",
+		"windowTitle": "ClientKpdo",
+		"windowClassFilter": "ClientKpdo",
+		"clientExeName": "KPDO-Directx.exe"
+	},
+	"uncompatibleFunctions": {
+		"itemRefill": [],
+		"support": [
+			"quiverRefillEnabled"
+		]
+	},
+	"uncompatibleModules": [
+		"alerts",
+		"cavebot",
+		"healing",
+		"hotkeys",
+		"looting",
+		"support",
+		"fishing",
+		"persistent",
+		"fullLight",
+		"itemRefill",
+		"sioFriend",
+		"reconnect"
+	],
+	"uncompatibleModuleFunctions": {
+		"alerts": [
+			"pkOnScreen",
+			"pkOnScreen",
+			"playerOnScreen",
+			"privateMessage"
+		],
+		"healing": [
+			"manaHealing",
+			"manaTrain"
+		],
+		"support": [
+			"autoHaste",
+			"autoUtamoVita",
+			"autoBuffSpell",
+			"autoEatFood",
+			"autoShoot",
+			"cureParalyze",
+			"curePoison",
+			"cureCurse",
+			"cureFire"
+		],
+		"others": [
+			"smartExit"
+		]
+	}
+}

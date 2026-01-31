@@ -1,0 +1,31 @@
+{
+	"__extends": "otclient.json",
+	"clientFeatures": {
+		"fullLight": 1
+	},
+	"disconnectedCheck": {
+		"connectedWindowTitle": " - ",
+		"enabled": 1
+	},
+	"files": {
+		"containers": "crs_retronia.json",
+		"clientMenus": "cm_otclient_classic.json",
+		"clientAreas": "retronia.json",
+		"minimap": "mp_otclient_classic.json",
+		"cavebot": "otclient.json",
+		"fishing": "otclient.json",
+		"healing": "otclient_classic.json",
+		"itemRefill": "otclient_classic.json",
+		"looting": "carunia.json",
+		"sioFriend": "otclient_alt.json",
+		"support": "retronia.json",
+		"targeting": "carunia.json"
+	},
+	"tibiaClient": {
+		"clientImagesCategoryIdentifier": "Ravenor",
+		"memoryIdentifier": "Ravenor",
+		"clientExeName": "otclient_dx",
+		"windowClassFilter": "Ravenor Online",
+		"windowTitle": ""
+	}
+}

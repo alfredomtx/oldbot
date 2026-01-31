@@ -1,0 +1,10 @@
+{
+	"__extends": "otclient.json",
+	"backpack": {
+		"firstSlotArea": {
+			"offsets": {
+				"y": 21
+			}
+		}
+	}
+}

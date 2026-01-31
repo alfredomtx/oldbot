@@ -1,0 +1,15 @@
+{
+	"input": {
+		"backgroundMouseDrag": true
+	},
+	"images": {
+		"openCorpseImage": "open_corpse_returnofsaiyans.png"
+	},
+	"options": {
+		"dontPressEscBeforeLooting": true,
+		"closeMenuMethod": "Click",
+		"delayBeforeLooting": 0,
+		"openCorpsesAround": true,
+		"debug": false
+	}
+}

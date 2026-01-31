@@ -1,0 +1,15 @@
+﻿_AbstractStatefulControl.SET_DEFAULT_STATE(_CavebotSettings)
+
+    new _Text().title("Character stuck time:")
+    .xs().yadd(10)
+    .tt("Tempo que o bot esperará para considerar que o char está parado no mesmo SQM, e então tentar se mover para outra direção.", "Time that the bot will wait to consider that the char is stuck in the same SQM, and then try to move to another direction.")
+    .tt("")
+    .add()
+
+    new _Edit().name("characterStuckTime")
+    .x().w(this.editW)
+    .rule(new _ControlRule().default(new _CavebotSettings().getAttribute("characterStuckTime")))
+    .numeric()
+    .center()
+    .parent()
+    .add()

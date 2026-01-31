@@ -1,0 +1,122 @@
+{
+	"clientFeatures": {
+		"autoStack": 1,
+		"chatOnOff": 0,
+		"cooldownBar": 0,
+		"fullLight": 1,
+		"protectionZoneIndicator": 0,
+		"useItemWithHotkey": 0,
+		"walkThroughPlayers": 0
+	},
+	"disconnectedCheck": {
+		"connectedWindowTitle": "OTCv8 - ",
+		"enabled": 1
+	},
+	"files": {
+		"clientMenus": "cm_otclient_classic.json",
+		"cavebot": "Tibia Sucks.json",
+		"fishing": "otclient.json",
+		"healing": "healing_otclient.json",
+		"itemRefill": "otclient_classic.json",
+		"looting": "looting_likeretro.json",
+		"sioFriend": "sioFriend_likeretro.json",
+		"support": "Tibia Sucks.json",
+		"targeting": "Tibia Sucks.json"
+	},
+	"images": {
+		"client": {
+			"buttons": {
+				"exit": "exit_likeretro.png",
+				"exitVariation": 40
+			},
+			"menu": {
+				"follow": "follow_likeretro.png",
+				"menuImagesVariation": 40
+			}
+		},
+		"convertGold": {
+			"100goldCoin": "100_gold_coin_tibia-old.png",
+			"100platinumCoin": "100_platinum_coin.png"
+		}
+	},
+	"input": {
+		"backgroundImageSearch": 1,
+		"backgroundKeyboardInput": 1,
+		"backgroundImageSearch": 1,
+		"backgroundMouseInput": 1,
+		"classicControlDisabled": 0,
+		"classicControlDisabledByDefault": 0,
+		"defaultImageSearch": 0,
+		"keyPressDelay": 0,
+		"mouseClickDefaultMethod": 1,
+		"mouseDragDefaultMethod": 1,
+		"physicalPressModifierKeys": 1,
+		"postMsgArrowKeys": 1,
+		"postMsgEscKey": 1,
+		"pressEscDefaultMethod": 1,
+		"pressF1toF12KeysDefaultMethod": 1,
+		"pressKeyDefaultMethod": 1,
+		"pressLetterKeysDefaultMethod": 0,
+		"useCSend": 0
+	},
+	"loadingOptions": {
+		"loadCreatures": 1,
+		"loadItems": 1
+	},
+	"options": {
+		"itemSearchVariation": 70,
+		"manualCharacterPosition": 1
+	},
+	"settings": {
+		"cavebot": {
+			"automaticFloorDetection": 1,
+			"coordinatesFunctioningMode": 1,
+			"dragItemsFromSqmBeforeUsingRopeShovel": 1,
+			"getCharCoordinatesFromMemory": 1,
+			"tradeWindowSummerUpdate1290": 0
+		},
+		"looting": {
+			"defaultLootingMethod": "Click around",
+			"disableQuickLootingHotkeyChange": 0,
+			"fastManualLootingByDefault": 1
+		},
+		"others": {
+			"defaultMenuClickMethodDefaultValue": 0
+		},
+		"pathFiles": 1
+	},
+	"tibiaClient": {
+		"tibia7x": 1,
+		"clientExeName": "HD_TibiaSucks",
+		"clientImagesCategoryIdentifier": "Tibia Sucks",
+		"memoryIdentifier": "Tibia Sucks",
+		"removeStringFromTitle": "",
+		"windowClassFilter": "TibiaSucks",
+		"windowTitle": "OTCv8"
+	},
+	"uncompatibleFunctions": {},
+	"uncompatibleModuleFunctions": {
+		"alerts": [
+			"pkOnScreen",
+			"pkOnScreen",
+			"playerOnScreen",
+			"privateMessage"
+		],
+		"itemRefill": [
+			"quiverRefill"
+		],
+		"others": [
+			"smartExit"
+		],
+		"reconnect": [
+			"autoReconnect"
+		],
+		"support": [
+			"autoEatFood",
+			"autoShoot"
+		]
+	},
+	"uncompatibleModules": [
+		"reconnect"
+	]
+}

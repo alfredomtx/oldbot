@@ -1,0 +1,23 @@
+{
+	"delays": {
+		"delayBeforeLooting": 0,
+		"delayAfterDraggingLoot": 250,
+		"delayBeforeSearchingItemsAfterOpenCorpse": 350
+	},
+	"images": {
+		"openCorpseImage": "open_olders.png"
+	},
+	"mainBackpacks": {
+		"bag": "backpack_nostalrius.png",
+		"alias": "brown backpack",
+		"options": {
+			"offsetFromImageX": -10,
+			"offsetFromImageY": 1
+		}
+	},
+	"options": {
+		"openCorpsesAround": false,
+		"pressEscAfterQuickLooting": true,
+		"debug": false
+	}
+}

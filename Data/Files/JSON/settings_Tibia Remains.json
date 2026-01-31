@@ -1,0 +1,111 @@
+{
+	"clientFeatures": {
+		"autoStack": 1,
+		"chatOnOff": 0,
+		"cooldownBar": 0,
+		"fullLight": 1,
+		"protectionZoneIndicator": 0,
+		"useItemWithHotkey": 1,
+		"walkThroughPlayers": 0
+	},
+	"disconnectedCheck": {
+		"connectedWindowTitle": "Tibia Remains - ",
+		"enabled": true
+	},
+	"files": {
+		"cavebot": "Tibia Remains.json",
+		"healing": "healing_otclient.json",
+		"itemRefill": "otclient_classic.json",
+		"sioFriend": "sioFriend_aibit.json",
+		"looting": "looting_tibia-old.json",
+		"support": "Tibia Remains.json",
+		"targeting": "Tibia Remains.json"
+	},
+	"images": {
+		"client": {
+			"menu": {
+				"follow": "follow_nostalrius.png",
+				"menuImagesVariation": 40
+			}
+		},
+		"convertGold": {
+			"100goldCoin": "100_gold_coin_tibia-old.png",
+			"100platinumCoin": "100_platinum_coin.png"
+		}
+	},
+	"input": {
+		"backgroundKeyboardInput": 1,
+		"backgroundImageSearch": 1,
+		"backgroundMouseInput": 1,
+		"classicControlDisabled": 0,
+		"classicControlDisabledByDefault": 0,
+		"defaultImageSearch": 0,
+		"keyPressDelay": 0,
+		"physicalPressModifierKeys": 1,
+		"postMsgArrowKeys": 1,
+		"postMsgEscKey": 1,
+		"pressEscDefaultMethod": 1,
+		"pressF1toF12KeysDefaultMethod": 1,
+		"pressKeyDefaultMethod": 1,
+		"pressLetterKeysDefaultMethod": 0
+	},
+	"loadingOptions": {
+		"loadCreatures": 1,
+		"loadItems": 1
+	},
+	"options": {
+		"itemSearchVariation": 70,
+		"manualCharacterPosition": 1
+	},
+	"settings": {
+		"cavebot": {
+			"getCharCoordinatesFromMemory": true,
+			"automaticFloorDetection": true,
+			"coordinatesFunctioningMode": 1,
+			"dragItemsFromSqmBeforeUsingRopeShovel": 1
+		},
+		"looting": {
+			"defaultLootingMethod": "Click around",
+			"fastManualLootingByDefault": false,
+			"disableQuickLootingHotkeyChange": true
+		},
+		"others": {
+			"defaultMenuClickMethodDefaultValue": 0
+		}
+	},
+	"tibiaClient": {
+		"tibia7x": 1,
+		"memoryIdentifier": "Tibia Remains",
+		"clientImagesCategoryIdentifier": "Tibia Remains",
+		"removeStringFromTitle": "",
+		"windowClassFilter": "TibiaRemains",
+		"windowTitle": "Tibia Remains",
+		"clientExeName": "remains_dx"
+	},
+	"uncompatibleFunctions": {},
+	"uncompatibleModuleFunctions": {
+		"alerts": [
+			"pkOnScreen",
+			"pkOnScreen",
+			"playerOnScreen",
+			"privateMessage"
+		],
+		"itemRefill": [
+			"quiverRefill"
+		],
+		"others": [
+			"smartExit"
+		],
+		"reconnect": [
+			"autoReconnect"
+		],
+		"support": [
+			"autoEatFood",
+			"autoShoot"
+		]
+	},
+	"uncompatibleModules": [
+		"reconnect",
+		"fullLight"
+	]
+}

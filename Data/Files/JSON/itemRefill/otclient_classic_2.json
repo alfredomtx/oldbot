@@ -1,0 +1,6 @@
+{
+	"__extends": "otclient_classic.json",
+	"distanceWeapon": {
+		"leftHandImage": "otclient_classic_2.png"
+	}
+}

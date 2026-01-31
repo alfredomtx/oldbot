@@ -1,0 +1,33 @@
+{
+	"__extends": "otclient.json",
+	"clientFeatures": {
+		"fullLight": 1
+	},
+	"disconnectedCheck": {
+		"connectedWindowTitle": "Vallari OLD -",
+		"enabled": 1
+	},
+	"files": {
+		"clientMenus": "cm_otclient.json",
+		"clientAreas": "vallari.json",
+		"cavebot": "otclient.json",
+		"fishing": "otclient.json",
+		"healing": "otclient.json",
+		"itemRefill": "otclient_classic.json",
+		"looting": "otclient_word_bp_images.json",
+		"sioFriend": "otclient.json",
+		"support": "vallari.json",
+		"targeting": "otclient_red_pixel.json"
+	},
+	"tibiaClient": {
+		"memoryIdentifier": "Vallari",
+		"clientExeName": "Vallari_DX",
+		"removeStringFromTitle": "",
+		"windowClassFilter": "Vallari",
+		"windowTitle": "Vallari"
+	},
+	"uncompatibleModules": [
+		"floorSpy",
+		"reconnect"
+	]
+}

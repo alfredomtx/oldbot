@@ -1,0 +1,32 @@
+{
+	"coordinates": {
+		"offsetClickX": -1,
+		"offsetClickY": -1
+	},
+	"images": {
+		"use": "use_aibit.png",
+		"useVariation": 50
+	},
+	"minimap": {
+		"images": {
+			"center": "center_aibit.png",
+			"zoomPlus": "zoom_plus_aibit.png",
+			"zoomMinus": "zoom_minus_aibit.png",
+			"variation": 40
+		},
+		"areaSetup": {
+			"baseImage": "center\\center_aibit.png",
+			"baseImageVariation": 40,
+			"offsetFromBaseImagePositionX": -1,
+			"offsetFromBaseImagePositionY": -1,
+			"width": 172,
+			"height": 126
+		}
+	},
+	"options": {
+		"checkStoppedInterval": 800,
+		"dontAdjustMinimapHeightWaypoint": true,
+		"debug": false,
+		"debugCharArea": false
+	}
+}

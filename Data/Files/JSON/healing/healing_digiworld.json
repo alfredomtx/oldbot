@@ -1,0 +1,22 @@
+{
+	"life": {
+		"pixelImageName": "life_pixel_imperianic.png",
+		"pixelColor": "0xFF4444",
+		"pixelVariation": 20,
+		"offsetFromBaseImagePositionX": 1,
+		"offsetFromBaseImagePositionY": -1
+	},
+	"mana": {
+		"pixelImageName": "mana_pixel_imperianic.png",
+		"pixelVariation": 20,
+		"pixelColor": "0x3F3FEC",
+		"offsetFromLifeBarY": 19
+	},
+	"options": {
+		"baseImage": "life_bar_darghos.png",
+		"baseImageVariation": 40,
+		"barWidth": 180,
+		"barHeight": 17,
+		"debug": false
+	}
+}

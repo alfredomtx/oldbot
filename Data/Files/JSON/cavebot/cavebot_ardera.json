@@ -1,0 +1,50 @@
+{
+	"coordinates": {
+		"offsetClickX": -1,
+		"offsetClickY": -1
+	},
+	"images": {
+		"use": "use_ardera.png",
+		"useVariation": 50
+	},
+	"minimap": {
+		"images": {
+			"variation": 40,
+			"center": "center_kingdomswap.png",
+			"zoomPlus": "zoom_plus_kingdomswap.png",
+			"zoomMinus": "zoom_minus_kingdomswap.png"
+		},
+		"areaSetup": {
+			"baseImage": "center\\center_kingdomswap.png",
+			"baseImageVariation": 40,
+			"offsetFromBaseImagePositionX": -5,
+			"offsetFromBaseImagePositionY": -5,
+			"width": 181,
+			"height": "",
+			"getHeight": true,
+			"heightImage": "minus\\zoom_minus_kingdomswap.png",
+			"heightImageVariation": 40,
+			"offsetFromHeightImagePositionY": 25
+		}
+	},
+	"options": {
+		"checkStoppedInterval": 800,
+		"debug": false
+	},
+	"uncompatibleActions": [
+		"capacity",
+		"level",
+		"soul",
+		"itemcount",
+		"stamina",
+		"buyitemnpc",
+		"npchi",
+		"npctrade",
+		"sellitemnpc",
+		"takeitemfromstash",
+		"battlelistchangeorder",
+		"battlelistchangesize",
+		"deposititems",
+		"deposittostash"
+	]
+}

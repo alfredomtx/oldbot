@@ -1,0 +1,24 @@
+{
+	"life": {
+		"pixelImageName": "life_pixel_shadowillusion.png",
+		"pixelColor": "0xFF4444",
+		"pixelVariation": 40,
+		"offsetFromBaseImagePositionX": 0,
+		"offsetFromBaseImagePositionY": 0
+	},
+	"mana": {
+		"pixelImageName": "mana_pixel_shadowillusion.png",
+		"pixelVariation": 40,
+		"pixelColor": "0x4444FF",
+		"offsetFromLifeBarY": 15
+	},
+	"options": {
+		"blockDistance": 6,
+		"baseImage": "life_bar_shadowillusion.png",
+		"baseImageVariation": 30,
+		"barWidth": 181,
+		"barHeight": 16,
+		"limitSearchArea400pxFromRightSide": true,
+		"debug": false
+	}
+}

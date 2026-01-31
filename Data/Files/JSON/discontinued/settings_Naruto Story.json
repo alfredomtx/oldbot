@@ -1,0 +1,88 @@
+{
+	"clientFeatures": {
+		"autoStack": 1,
+		"chatOnOff": 0,
+		"cooldownBar": 0,
+		"fullLight": 0,
+		"protectionZoneIndicator": 0,
+		"useItemWithHotkey": 1,
+		"walkThroughPlayers": 1
+	},
+	"configFile": "settings_kingdomswap.json",
+	"disconnectedCheck": {
+		"connectedWindowTitle": "Naruto Story - ",
+		"enabled": 1
+	},
+	"files": {
+		"cavebot": "cavebot_narutostory.json",
+		"healing": "healing_narutostory.json",
+		"looting": "looting_narutostory.json",
+		"targeting": "targeting_narutostory.json"
+	},
+	"input": {
+		"backgroundKeyboardInput": 1,
+		"backgroundImageSearch": 1,
+		"backgroundMouseInput": 1,
+		"classicControlDisabled": 0,
+		"classicControlDisabledByDefault": 0,
+		"defaultImageSearch": 0,
+		"keyPressDelay": 0,
+		"mouseDragDefaultMethod": 1,
+		"physicalPressModifierKeys": 1,
+		"postMsgArrowKeys": 1,
+		"postMsgEscKey": 0,
+		"pressEscDefaultMethod": 1,
+		"pressF1toF12KeysDefaultMethod": 1,
+		"pressKeyDefaultMethod": 1,
+		"pressLetterKeysDefaultMethod": 1
+	},
+	"loadingOptions": {
+		"loadCreatures": 1,
+		"loadItems": 1
+	},
+	"options": {
+		"entireGameWindowArea": true,
+		"sqmSizeModifier": 0.063,
+		"verticalSqms": 15,
+		"horizontalSqms": 7,
+		"manualCharacterPosition": true,
+		"itemSearchVariation": 70
+	},
+	"settings": {
+		"cavebot": {
+			"getCharCoordinatesFromMemory": true,
+			"automaticFloorDetection": true,
+			"coordinatesFunctioningMode": true,
+			"dragItemsFromSqmBeforeUsingRopeShovel": false
+		}
+	},
+	"tibiaClient": {
+		"tibia7x": false,
+		"memoryIdentifier": "Naruto Story",
+		"clientImagesCategoryIdentifier": "Naruto Story",
+		"removeStringFromTitle": "",
+		"windowClassFilter": "naruto",
+		"windowTitle": "Naruto Story",
+		"clientExeName": "Naruto Story"
+	},
+	"uncompatibleModules": [
+		"fishing",
+		"fullLight",
+		"itemRefill",
+		"sioFriend",
+		"support",
+		"reconnect"
+	],
+	"uncompatibleModuleFunctions": {
+		"alerts": [
+			"pkOnScreen",
+			"pkOnScreen",
+			"playerOnScreen",
+			"privateMessage"
+		],
+		"healing": [],
+		"others": [
+			"smartExit"
+		]
+	}
+}

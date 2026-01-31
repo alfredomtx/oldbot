@@ -1,0 +1,28 @@
+{
+	"life": {
+		"pixelColor": [
+			"0x3B6737",
+			"0x688D66",
+			"0x8E964A",
+			"0x9E5B4E",
+			"0x9A3A29",
+			"0x971414"
+		],
+		"pixelVariation": 60,
+		"offsetFromBaseImagePositionX": 19,
+		"offsetFromBaseImagePositionY": -20
+	},
+	"mana": {
+		"pixelVariation": 40,
+		"pixelColor": "0x0A5E9F",
+		"offsetFromLifeBarY": 18
+	},
+	"options": {
+		"disableMana": true,
+		"baseImage": "life_bar_pokeunion.png",
+		"baseImageVariation": 60,
+		"barWidth": 101,
+		"barHeight": 15,
+		"debug": false
+	}
+}

@@ -1,0 +1,48 @@
+{
+	"attackSpells": {
+		"useScriptImageForRunes": true
+	},
+	"battleListImages": {
+		"baseImage": "monsterhunter.png",
+		"baseImageVariation": 80,
+		"emptyImage": "monsterhunter.png",
+		"emptyImageVariation": 80,
+		"battleListButtonsVisible": "monsterhunter.png",
+		"battleListButtonsVisible2": "monsterhunter2.png",
+		"battleListButtonsVisibleVariation": 80
+	},
+	"battleListSetup": {
+		"attackOffsetY": 30,
+		"offsetFromBaseImagePositionX": -10,
+		"offsetFromBaseImagePositionY": 0,
+		"width": 165,
+		"getHeight": false,
+		"height": 300,
+		"attackOffsetY": 30
+	},
+	"redPixelArea": {
+		"pixelImage": "red_pixel.png",
+		"pixelImageVariation": 20,
+		"offsetFromBattleListX": 26,
+		"offsetFromBattleListY": 0,
+		"width": 6,
+		"getCreatureImage": {
+			"offsetX": 1,
+			"offsetY": 0
+		}
+	},
+	"useItemOnCorpse": {
+		"customCorpseImages": true,
+		"corpseImageVariation": 15,
+		"delayBeforeSearchingForCorpses": 500
+	},
+	"options": {
+		"searchCreatureVariation": 60,
+		"lifeBarsSearchVariation": 45,
+		"disableCreatureUnreachableCheck": true,
+		"disableCreaturePositionCheck": false,
+		"randomizeSameCreatureAttackByDefault": true,
+		"getCreatureImageManually": true,
+		"debug": false
+	}
+}

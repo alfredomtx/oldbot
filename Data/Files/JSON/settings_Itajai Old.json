@@ -1,0 +1,40 @@
+{
+	"__extends": "otclient.json",
+	"clientFeatures": {
+		"fullLight": 1
+	},
+	"disconnectedCheck": {
+		"connectedWindowTitle": "Itajai -",
+		"enabled": 1
+	},
+	"files": {
+		"containers": "crs_otclient_five.json",
+		"clientAreas": "otclient_five.json",
+		"clientMenus": "cm_otclient.json",
+		"cavebot": "otclient.json",
+		"fishing": "otclient.json",
+		"healing": "otclient_strong_color.json",
+		"itemRefill": "otclient_classic.json",
+		"looting": "otclient_2.json",
+		"minimap": "mp_otclient.json",
+		"sioFriend": "otclient.json",
+		"support": "itajai.json",
+		"targeting": "otclient_red_pixel.json"
+	},
+	"tibiaClient": {
+		"memoryIdentifier": "Itajai Old",
+		"clientExeName": "Itajai",
+		"removeStringFromTitle": "",
+		"windowClassFilter": "otclient",
+		"windowTitle": "Itajai"
+	},
+	"options": {
+		"containers": {
+			"widthInSlots": 5
+		}
+	},
+	"uncompatibleModules": [
+		"floorSpy",
+		"reconnect"
+	]
+}

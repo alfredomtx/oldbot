@@ -1,0 +1,33 @@
+{
+	"distanceWeapon": {
+		"leftHandImage": "otclient_classic.png",
+		"torchImage": "otclient_classic.png",
+		"variation": 50,
+		"timerIntervalMs": 1000
+	},
+	"ring": {
+		"ringSlotImage": "otclient_classic.png",
+		"secondaryImage": "",
+		"variation": 50,
+		"timerIntervalMs": 600
+	},
+	"amulet": {
+		"amuletSlotImage": "otclient_classic.png",
+		"secondaryImage": "",
+		"variation": 50,
+		"timerIntervalMs": 600
+	},
+	"boots": {
+		"bootsSlotImage": "otclient_classic.png",
+		"secondaryImage": "",
+		"variation": 50,
+		"timerIntervalMs": 2000
+	},
+	"options": {
+		"dontPressEnterAfterEquipingDistanceWeapon": true,
+		"useTorchDelay": 300,
+		"disableUnequipItem": true,
+		"equipItemMode": "mouse",
+		"debug": false
+	}
+}

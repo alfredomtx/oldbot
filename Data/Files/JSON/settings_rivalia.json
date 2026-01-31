@@ -1,0 +1,31 @@
+{
+	"__extends": "otclient.json",
+	"clientFeatures": {
+		"fullLight": 1
+	},
+	"disconnectedCheck": {
+		"connectedWindowTitle": "Rivalia Online",
+		"enabled": 1
+	},
+	"files": {
+		"cavebot": "otclient.json",
+		"clientAreas": "rivalia.json",
+		"clientMenus": "cm_rivalia.json",
+		"containers": "crs_rivalia.json",
+		"fishing": "otclient.json",
+		"healing": "otclient_classic.json",
+		"itemRefill": "otclient_classic.json",
+		"looting": "rivalia.json",
+		"minimap": "mp_rivalia.json",
+		"sioFriend": "otclient.json",
+		"support": "rivalia.json",
+		"targeting": "rivalia.json"
+	},
+	"tibiaClient": {
+		"clientExeName": "Rivalia_Online_DX",
+		"memoryIdentifier": "rivalia",
+		"windowClassFilter": "Rivalia Online",
+		"windowTitle": "Rivalia Online"
+	},
+	"uncompatibleModules": []
+}

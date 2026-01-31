@@ -1,0 +1,22 @@
+{
+	"life": {
+		"pixelImageName": "life_pixel_lunos.png",
+		"pixelColor": "0x6D1F17",
+		"pixelVariation": 20,
+		"offsetFromBaseImagePositionX": 1,
+		"offsetFromBaseImagePositionY": -1
+	},
+	"mana": {
+		"pixelImageName": "mana_pixel_lunos.png",
+		"pixelVariation": 10,
+		"pixelColor": "0x00003F",
+		"offsetFromLifeBarY": 57
+	},
+	"options": {
+		"baseImage": "lunos.png",
+		"baseImageVariation": 50,
+		"barWidth": 148,
+		"barHeight": 11,
+		"debug": false
+	}
+}

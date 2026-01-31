@@ -1,0 +1,21 @@
+{
+	"delays": {
+		"delayBeforeLooting": 100,
+		"delayAfterClickOnOpenOption": 0,
+		"delayAfterDraggingLoot": 300,
+		"delayBeforeSearchingOpenCorpseOption": 50,
+		"delayBeforeSearchingItemsAfterOpenCorpse": 250
+	},
+	"mainBackpacks": {
+		"bag": "backpack_psoul.png",
+		"options": {
+			"offsetFromImageX": -7,
+			"offsetFromImageY": 5
+		}
+	},
+	"options": {
+		"pressEscAfterQuickLooting": false,
+		"openCorpsesAround": false,
+		"debug": false
+	}
+}

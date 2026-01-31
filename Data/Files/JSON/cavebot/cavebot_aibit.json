@@ -1,0 +1,26 @@
+{
+	"images": {
+		"use": "use_aibit.png",
+		"useVariation": 50
+	},
+	"minimap": {
+		"images": {
+			"zoomPlus": "zoom_plus_aibit.png",
+			"zoomMinus": "zoom_minus_aibit.png",
+			"variation": 30
+		},
+		"areaSetup": {
+			"baseImage": "center\\center_aibit.png",
+			"baseImageVariation": 30,
+			"offsetFromBaseImagePositionX": -1,
+			"offsetFromBaseImagePositionY": -1,
+			"width": 172,
+			"height": 126
+		}
+	},
+	"options": {
+		"checkStoppedInterval": 800,
+		"debug": false,
+		"debugCharArea": false
+	}
+}

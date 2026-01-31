@@ -1,0 +1,66 @@
+{
+	"attackSpells": {
+		"useScriptImageForRunes": true
+	},
+	"battleListImages": {
+		"baseImage": "battle_list_olders.png",
+		"baseImageVariation": 40,
+		"emptyImage": "battle_list_empty_olders.png",
+		"emptyImageVariation": 40,
+		"battleListButtonsVisibleVariation": 40,
+		"battleListButtonsVisible": "nostalrius.png"
+	},
+	"battleListSetup": {
+		"attackOffsetY": 30,
+		"offsetFromBaseImagePositionX": -10,
+		"offsetFromBaseImagePositionY": 0,
+		"width": 165,
+		"getHeight": false,
+		"height": 300,
+		"lifeBar": {
+			"offsetFromBaseImagePositionY": 38,
+			"spaceBetweenBars": 24
+		},
+		"lifeBarPixelColors": [
+			{
+				"greenFull": "0x00BC00"
+			},
+			{
+				"green": "0x50A150"
+			},
+			{
+				"yellow": "0xA1A100"
+			},
+			{
+				"red": "0xBF0A0A"
+			},
+			{
+				"black": "0x910F0F"
+			}
+		]
+	},
+	"redPixelArea": {
+		"pixelImage": "red_pixel.png",
+		"pixelImageVariation": 20,
+		"offsetFromBattleListX": 7,
+		"offsetFromBattleListY": 0,
+		"width": 6,
+		"getCreatureImage": {
+			"offsetX": 21,
+			"offsetY": 1
+		}
+	},
+	"useItemOnCorpse": {
+		"customCorpseImages": true,
+		"corpseImageVariation": 15,
+		"delayBeforeSearchingForCorpses": 500
+	},
+	"options": {
+		"disableAttackModeChange": true,
+		"disableCreatureLifeCheck": false,
+		"disableCreatureUnreachableCheck": true,
+		"randomizeSameCreatureAttackByDefault": true,
+		"getCreatureImageManually": true,
+		"debug": false
+	}
+}

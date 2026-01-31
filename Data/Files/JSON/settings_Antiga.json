@@ -1,0 +1,50 @@
+{
+	"__extends": "otclient.json",
+	"clientFeatures": {
+		"fullLight": 1
+	},
+	"disconnectedCheck": {
+		"connectedWindowTitle": "Antiga - ",
+		"enabled": 1
+	},
+	"files": {
+		"containers": "crs_antiga.json",
+		"clientMenus": "cm_otclient_classic.json",
+		"cavebot": "otclient.json",
+		"clientAreas": "antiga.json",
+		"fishing": "otclient.json",
+		"healing": "otclient_classic.json",
+		"itemRefill": "otclient_classic.json",
+		"looting": "otclient_classic.json",
+		"minimap": "mp_otclient_2.json",
+		"sioFriend": "sioFriend_otclient.json",
+		"support": "antiga.json",
+		"targeting": "otclient_classic.json"
+	},
+	"images": {
+		"client": {
+			"buttons": {
+				"exit": "exit_likeretro.png",
+				"exitVariation": 40
+			},
+			"chat": {
+				"chatImagesVariation": 50
+			},
+			"menu": {
+				"follow": "follow_likeretro.png",
+				"menuImagesVariation": 40
+			}
+		},
+		"convertGold": {
+			"100goldCoin": "100_gold_coin_tibia-old.png",
+			"100platinumCoin": "100_platinum_coin.png"
+		}
+	},
+	"tibiaClient": {
+		"clientExeName": "antiga",
+		"clientImagesCategoryIdentifier": "otclientv8",
+		"memoryIdentifier": "antiga",
+		"windowClassFilter": "antiga",
+		"windowTitle": "Antiga"
+	}
+}

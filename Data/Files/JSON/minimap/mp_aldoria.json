@@ -1,0 +1,11 @@
+{
+	"__extends": "mp_otclient_classic.json",
+	"images": {
+		"center": "aldoria.png"
+	},
+	"areaSetup": {
+		"baseImage": "center\\aldoria.png",
+		"offsetFromBaseImagePositionX": -116,
+		"offsetFromBaseImagePositionY": -88
+	}
+}

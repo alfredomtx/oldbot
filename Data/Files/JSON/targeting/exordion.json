@@ -1,0 +1,18 @@
+{
+	"__extends": "otclient.json",
+	"battleListImages": {
+		"baseImage": "exordion.png",
+		"baseImageVariation": 65,
+		"emptyImage": "exordion.png",
+		"battleListButtonsVisible": "likeretro.png",
+		"battleListButtonsVisible2": "likeretro2.png"
+	},
+	"battleListSetup": {
+		"attackOffsetY": 15,
+		"width": 177,
+		"offsetFromBaseImagePositionX": 0
+	},
+	"redPixelArea": {
+		"pixelImage": "red_pixel.png"
+	}
+}

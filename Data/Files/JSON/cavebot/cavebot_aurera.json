@@ -1,0 +1,41 @@
+{
+	"coordinates": {
+		"offsetClickX": 0,
+		"offsetClickY": -1
+	},
+	"images": {
+		"use": "use_aurera.png",
+		"useVariation": 50
+	},
+	"minimap": {
+		"manualAdjust": {
+			"enabled": true,
+			"clicks": {
+				"plus": 3,
+				"minus": 2
+			}
+		},
+		"images": {
+			"zoomPlus": "aurera.png",
+			"zoomMinus": "aurera.png",
+			"variation": 50
+		},
+		"areaSetup": {
+			"baseImage": "minus\\aurera.png",
+			"baseImageVariation": 50,
+			"offsetFromBaseImagePositionX": -118,
+			"offsetFromBaseImagePositionY": -47,
+			"width": 108,
+			"height": 108
+		}
+	},
+	"options": {
+		"checkStoppedInterval": 800,
+		"dontAdjustMinimapHeightWaypoint": true,
+		"debug": false
+	},
+	"uncompatibleActions": [
+		"minimapcenter",
+		"minimapheight"
+	]
+}

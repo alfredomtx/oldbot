@@ -1,0 +1,22 @@
+{
+  "__extends": "settings_realera.json",
+	"clientFeatures": {
+		"autoStack": 0,
+		"fullLight": 1
+	},
+	"disconnectedCheck": {
+		"enabled": true,
+		"connectedWindowTitle": "Realesta 7.4 -"
+	},
+	"files": {
+		"cavebot": "cavebot_realesta.json",
+		"healing": "healing_realesta.json"
+	},
+	"tibiaClient": {
+		"memoryIdentifier": "realera",
+		"clientImagesCategoryIdentifier": "realesta",
+		"windowTitle": "Reale",
+		"windowClassFilter": "Reale",
+		"clientExeName": "RealeraDX"
+	}
+}

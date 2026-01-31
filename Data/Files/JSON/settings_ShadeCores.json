@@ -1,0 +1,83 @@
+{
+	"clientFeatures": {
+		"chatOnOff": 0,
+		"fullLight": 1,
+		"protectionZoneIndicator": 1,
+		"walkThroughPlayers": 0,
+		"useItemWithHotkey": 0,
+		"autoStack": 1,
+		"cooldownBar": 0
+	},
+	"disconnectedCheck": {
+		"enabled": false,
+		"connectedWindowTitle": ""
+	},
+	"files": {
+		"cavebot": "cavebot_retrocores.json",
+		"healing": "healing_retrocores.json",
+		"itemRefill": "itemRefill_retrocores.json",
+		"looting": "looting_retrocores.json",
+		"sioFriend": "sioFriend_retrocores.json",
+		"support": "support_retrocores.json",
+		"targeting": "targeting_retrocores.json"
+	},
+	"input": {
+		"backgroundKeyboardInput": 1,
+		"backgroundImageSearch": 1,
+		"backgroundMouseInput": 1,
+		"classicControlDisabled": 0,
+		"classicControlDisabledByDefault": 0,
+		"defaultImageSearch": 0,
+		"keyPressDelay": 0,
+		"mouseDragDefaultMethod": 1,
+		"physicalPressModifierKeys": 1,
+		"postMsgArrowKeys": 1,
+		"postMsgEscKey": 0,
+		"pressEscDefaultMethod": 1,
+		"pressF1toF12KeysDefaultMethod": 1,
+		"pressKeyDefaultMethod": 1,
+		"pressLetterKeysDefaultMethod": 0
+	},
+	"options": {
+		"manualCharacterPosition": true,
+		"itemSearchVariation": 70
+	},
+	"settings": {
+		"cavebot": {
+			"getCharCoordinatesFromMemory": true,
+			"automaticFloorDetection": 1,
+			"coordinatesFunctioningMode": 1,
+			"dragItemsFromSqmBeforeUsingRopeShovel": 1
+		},
+		"looting": {
+			"fastManualLootingByDefault": 1
+		}
+	},
+	"tibiaClient": {
+		"tibia7x": 1,
+		"memoryIdentifier": "ShadeCores",
+		"clientImagesCategoryIdentifier": "otclientv8",
+		"windowTitle": "ShadeCores",
+		"clientExeName": "",
+		"windowClassFilter": "shadecores_windows_client"
+	},
+	"uncompatibleModuleFunctions": {
+		"alerts": [
+			"pkOnScreen",
+			"playerOnScreen"
+		],
+		"itemRefill": [
+			"quiverRefill"
+		],
+		"support": [
+			"autoEatFood",
+			"autoShoot",
+			"cureCurse",
+			"cureFire",
+			"floorSpy"
+		]
+	},
+	"uncompatibleModules": [
+		"reconnect"
+	]
+}

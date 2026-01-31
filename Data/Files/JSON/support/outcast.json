@@ -1,0 +1,16 @@
+{
+	"__extends": "otclient_tall.json",
+	"statusBarAreaSetup": {
+		"baseImage": "base_image_kingdomswap.png",
+		"baseImage2": "base_image_treasura.png",
+		"baseImageVariation": 70,
+		"offsetFromBaseImagePositionX": -122,
+		"offsetFromBaseImagePositionY": 30,
+		"width": 105,
+		"height": 33
+	},
+	"options": {
+		"pzZoneStatusBarImage": "pz_zone.png",
+		"debug": false
+	}
+}

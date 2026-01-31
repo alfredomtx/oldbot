@@ -1,0 +1,22 @@
+{
+	"life": {
+		"pixelImageName": "life_pixel_narutostory.png",
+		"pixelColor": "0xE33A2D",
+		"pixelVariation": 40,
+		"offsetFromBaseImagePositionX": 0,
+		"offsetFromBaseImagePositionY": 1
+	},
+	"mana": {
+		"pixelImageName": "mana_pixel_narutostory.png",
+		"pixelVariation": 40,
+		"pixelColor": "0x2D90E3",
+		"offsetFromLifeBarY": 0
+	},
+	"options": {
+		"baseImage": "narutostory.png",
+		"baseImageVariation": 50,
+		"barWidth": 190,
+		"barHeight": 22,
+		"debug": false
+	}
+}

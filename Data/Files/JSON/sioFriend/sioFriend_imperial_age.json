@@ -1,0 +1,20 @@
+{
+	"battleListSetup": {
+		"baseImage": "imperial_age.png",
+		"baseImageVariation": 50,
+		"offsetFromBaseImagePositionX": 0,
+		"offsetFromBaseImagePositionY": 0,
+		"width": 165,
+		"height": 260
+	},
+	"followOptions":{
+		"pixelImage": "following_imperianic.png",
+		"pixelImageVariation": 40
+	},
+	"options": {
+		"useRuneWithoutHotkey": true,
+		"enableAttackRune": false,
+		"dedicatedSioBattleList": false,
+		"debug": false
+	}
+}

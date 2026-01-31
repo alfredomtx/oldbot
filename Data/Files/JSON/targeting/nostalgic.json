@@ -1,0 +1,48 @@
+{
+	"attackSpells": {
+		"useScriptImageForRunes": true
+	},
+	"battleListImages": {
+		"baseImage": "nostalgic.png",
+		"baseImageVariation": 60,
+		"emptyImage": "nostalgic.png",
+		"emptyImageVariation": 60,
+		"battleListButtonsVisible": "nostalgic.png",
+		"battleListButtonsVisibleVariation": 40,
+		"battleListButtonsVisible2": "nostalgic_2.png"
+	},
+	"battleListSetup": {
+		"attackOffsetY": 20,
+		"offsetFromBaseImagePositionX": -5,
+		"offsetFromBaseImagePositionY": 0,
+		"width": 165,
+		"getHeight": false,
+		"height": 300
+	},
+	"redPixelArea": {
+		"pixelImage": "red_pixel.png",
+		"pixelImageVariation": 30,
+		"offsetFromBattleListX": 29,
+		"offsetFromBattleListY": 0,
+		"width": 6,
+		"getCreatureImage": {
+			"offsetX": 22,
+			"offsetY": 1
+		}
+	},
+	"useItemOnCorpse": {
+		"customCorpseImages": true,
+		"corpseImageVariation": 15,
+		"delayBeforeSearchingForCorpses": 500
+	},
+	"options": {
+		"creaturePositionFolder": "otclientv8_alt",
+		"disableAttackModeChange": true,
+		"disableCreatureLifeCheck": true,
+		"disableCreaturePositionCheck": false,
+		"disableCreatureUnreachableCheck": true,
+		"getCreatureImageManually": true,
+		"randomizeSameCreatureAttackByDefault": true,
+		"debug": false
+	}
+}

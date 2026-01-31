@@ -1,0 +1,28 @@
+{
+	"__extends": "otclient.json",
+	"disconnectedCheck": {
+		"connectedWindowTitle": "Carunia",
+		"enabled": false
+	},
+	"files": {
+		"clientAreas": "otclient.json",
+		"cavebot": "otclient_classic.json",
+		"fishing": "otclient.json",
+		"healing": "otclient_classic.json",
+		"itemRefill": "otclient_classic.json",
+		"looting": "carunia.json",
+		"sioFriend": "otclient_alt.json",
+		"support": "otclient_classic.json",
+		"targeting": "otclient_classic_3.json"
+	},
+	"tibiaClient": {
+		"tibia7x": 1,
+		"memoryIdentifier": "Carunia",
+		"clientImagesCategoryIdentifier": "otclientv8",
+		"selectClientButtonOpenFolderInsteadOfClient": 1,
+		"removeStringFromTitle": "",
+		"windowClassFilter": "Carunia",
+		"windowTitle": "Carunia",
+		"clientExeName": "Direct_X"
+	}
+}

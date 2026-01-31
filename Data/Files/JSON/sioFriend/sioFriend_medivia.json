@@ -1,0 +1,21 @@
+{
+	"battleListSetup": {
+		"baseImage": "battle_list_medivia.png",
+		"baseImageVariation": 40,
+		"offsetFromBaseImagePositionX": -2,
+		"offsetFromBaseImagePositionY": 0,
+		"width": 165,
+		"height": 260
+	},
+	"followOptions":{
+		"pixelImage": "following_medivia.png",
+		"pixelImageVariation": 30,
+		"waitWindowActive": false
+	},
+	"options": {
+		"useRuneWithoutHotkey": true,
+		"enableAttackRune": false,
+		"dedicatedSioBattleList": false,
+		"debug": false
+	}
+}

@@ -1,0 +1,6 @@
+{
+	"__extends": "otclient_classic_small.json",
+	"statusBarAreaSetup": {
+		"offsetFromBaseImagePositionY": 1
+	}
+}

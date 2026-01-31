@@ -1,0 +1,6 @@
+{
+	"__extends": "mp_otclient_classic.json",
+	"areaSetup": {
+		"offsetFromBaseImagePositionY": -88
+	}
+}

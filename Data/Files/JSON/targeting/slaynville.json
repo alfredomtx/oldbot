@@ -1,0 +1,44 @@
+{
+	"attackSpells": {
+		"useScriptImageForRunes": true
+	},
+	"battleListImages": {
+		"baseImage": "slaynville.png",
+		"baseImageVariation": 60,
+		"emptyImage": "slaynville.png",
+		"emptyImageVariation": 60,
+		"battleListButtonsVisibleVariation": 60,
+		"battleListButtonsVisible": "lunos.png",
+		"battleListButtonsVisible2": "lunos_2.png"
+	},
+	"battleListSetup": {
+		"attackOffsetY": 35,
+		"offsetFromBaseImagePositionX": 2,
+		"offsetFromBaseImagePositionY": 0,
+		"width": 165,
+		"getHeight": false,
+		"height": 300
+	},
+	"redPixelArea": {
+		"pixelImage": "red_pixel_slaynville.png",
+		"pixelImageVariation": 20,
+		"width": 8,
+		"getCreatureImage": {
+			"offsetX": 21,
+			"offsetY": 1
+		}
+	},
+	"useItemOnCorpse": {
+		"customCorpseImages": true,
+		"corpseImageVariation": 15,
+		"delayBeforeSearchingForCorpses": 500
+	},
+	"options": {
+		"disableAttackModeChange": true,
+		"disableCreatureLifeCheck": true,
+		"disableCreatureUnreachableCheck": true,
+		"randomizeSameCreatureAttackByDefault": false,
+		"getCreatureImageManually": true,
+		"debug": false
+	}
+}

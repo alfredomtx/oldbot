@@ -1,0 +1,13 @@
+{
+	"__extends": "otclient_classic.json",
+	"battleListSetup": {
+		"attackOffsetY": 16
+	},
+	"battleListImages": {
+		"baseImage": "aldoria.png",
+		"emptyImage": "aldoria.png"
+	},
+	"options": {
+		"getCreatureImageManually": true
+	}
+}

@@ -1,0 +1,17 @@
+{
+	"__extends": "otclient.json",
+	"battleListImages": {
+		"baseImage": "otclient.png",
+		"emptyImage": "otclient.png",
+		"battleListButtonsVisible": "likeretro.png",
+		"battleListButtonsVisible2": "likeretro2.png"
+	},
+	"battleListSetup": {
+		"offsetFromBaseImagePositionX": 0,
+		"offsetFromBaseImagePositionY": 0,
+		"width": 165
+	},
+	"redPixelArea": {
+		"pixelImage": "red_pixel.png"
+	}
+}

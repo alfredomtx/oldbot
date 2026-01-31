@@ -1,0 +1,87 @@
+{
+	"clientFeatures": {
+		"autoStack": 1,
+		"chatOnOff": 0,
+		"cooldownBar": 0,
+		"fullLight": 1,
+		"protectionZoneIndicator": 0,
+		"useItemWithHotkey": 1,
+		"walkThroughPlayers": 0
+	},
+	"disconnectedCheck": {
+		"enabled": false,
+		"connectedWindowTitle": ""
+	},
+	"files": {
+		"cavebot": "cavebot_dragonsouls.json",
+		"healing": "healing_darghos.json",
+		"itemRefill": "otclient_classic.json",
+		"looting": "looting_darghos.json",
+		"sioFriend": "sioFriend_darghos.json",
+		"support": "support_darghos.json",
+		"targeting": "targeting_darghos.json"
+	},
+	"input": {
+		"classicControlDisabled": false,
+		"backgroundKeyboardInput": true,
+		"backgroundMouseInput": true,
+		"defaultImageSearch": false,
+		"postMsgEscKey": true,
+		"pressKeyDefaultMethod": false,
+		"mouseDragDefaultMethod": 1,
+		"pressF1toF12KeysDefaultMethod": true,
+		"pressLetterKeysDefaultMethod": false,
+		"physicalPressModifierKeys": 1
+	},
+	"options": {
+		"itemSearchVariation": 70,
+		"manualCharacterPosition": true
+	},
+	"settings": {
+		"cavebot": {
+			"getCharCoordinatesFromMemory": true,
+			"automaticFloorDetection": true,
+			"coordinatesFunctioningMode": 1,
+			"dragItemsFromSqmBeforeUsingRopeShovel": 1
+		},
+		"looting": {
+			"fastManualLootingByDefault": 1
+		},
+		"others": {
+			"defaultMenuClickMethodDefaultValue": 0
+		}
+	},
+	"tibiaClient": {
+		"tibia12": false,
+		"memoryIdentifier": "dragonsouls",
+		"clientImagesCategoryIdentifier": "dragonsouls",
+		"removeStringFromTitle": "",
+		"windowClassFilter": "otclient",
+		"windowTitle": "Dragon Souls",
+		"clientExeName": "DragonSouls"
+	},
+	"uncompatibleModuleFunctions": {
+		"alerts": [
+			"pkOnScreen",
+			"pkOnScreen",
+			"playerOnScreen",
+			"privateMessage"
+		],
+		"itemRefill": [
+			"quiverRefill"
+		],
+		"support": [
+			"autoEatFood",
+			"autoShoot",
+			"cureCurse",
+			"cureFire"
+		],
+		"reconnect": [
+			"autoReconnect"
+		]
+	},
+	"uncompatibleModules": [
+		"reconnect",
+		"fullLight"
+	]
+}

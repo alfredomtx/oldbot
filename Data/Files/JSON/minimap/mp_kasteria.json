@@ -1,0 +1,6 @@
+{
+	"__extends": "mp_otclient_2.json",
+	"areaSetup": {
+		"width": 167
+	}
+}

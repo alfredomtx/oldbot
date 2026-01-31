@@ -1,0 +1,6 @@
+{
+	"__extends": "tibia14.json",
+	"tibiaClient": {
+		"memoryIdentifier": "yonabra"
+	}
+}

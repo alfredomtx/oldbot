@@ -1,0 +1,53 @@
+{
+	"coordinates": {
+		"offsetClickX": -1,
+		"offsetClickY": -1
+	},
+	"folders": {
+		"npcsFolderName": "otclientv8"
+	},
+	"settings": {
+		"numbersFolderNameClient": "otclientv8",
+		"items": {
+			"offsetFromItemX": 0,
+			"offsetFromItemY": 0
+		},
+		"capacity": {
+			"offsetFromImageX": 129,
+			"offsetFromImageY": -2
+		},
+		"level": {
+			"offsetFromImageX": 129,
+			"offsetFromImageY": -2
+		},
+		"stamina": {
+			"offsetFromImageX": 129,
+			"offsetFromImageY": -2
+		},
+		"soulPoints": {
+			"offsetFromImageX": 129,
+			"offsetFromImageY": -2
+		}
+	},
+	"options": {
+		"checkStoppedInterval": 1000,
+		"dontAdjustMinimapHeightWaypoint": true,
+		"debug": false
+	},
+	"uncompatibleActions": [
+		"capacity",
+		"level",
+		"soul",
+		"itemcount",
+		"stamina",
+		"buyitemnpc",
+		"npchi",
+		"npctrade",
+		"sellitemnpc",
+		"takeitemfromstash",
+		"battlelistchangeorder",
+		"battlelistchangesize",
+		"deposititems",
+		"deposittostash"
+	]
+}

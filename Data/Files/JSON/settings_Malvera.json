@@ -1,0 +1,35 @@
+{
+	"__extends": "otclient.json",
+	"clientFeatures": {
+		"fullLight": 1,
+		"useItemWithHotkey": 1,
+		"walkThroughPlayers": 1
+	},
+	"disconnectedCheck": {
+		"connectedWindowTitle": "MalveraOnline - ",
+		"enabled": 1
+	},
+	"files": {
+		"cavebot": "otclient.json",
+		"clientAreas": "malvera.json",
+		"clientMenus": "cm_otclient_classic.json",
+		"containers": "crs_kasteria.json",
+		"fishing": "otclient.json",
+		"healing": "healing_wearetibia.json",
+		"itemRefill": "otclient_classic_2.json",
+		"minimap": "mp_kasteria.json",
+		"looting": "kasteria.json",
+		"sioFriend": "sioFriend_kingdomswap.json",
+		"support": "malvera.json",
+		"targeting": "kasteria.json"
+	},
+	"tibiaClient": {
+		"memoryIdentifier": "malvera",
+		"windowClassFilter": "Malvera",
+		"windowTitle": "MalveraOnline",
+		"clientExeName": "malvera_dx"
+	},
+	"uncompatibleModules": [
+		"fullLight"
+	]
+}

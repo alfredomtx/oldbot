@@ -1,0 +1,22 @@
+{
+	"battleListSetup": {
+		"baseImage": "battle_list_realesta.png",
+		"baseImageVariation": 40,
+		"offsetFromBaseImagePositionX": -10,
+		"offsetFromBaseImagePositionY": 0,
+		"width": 165,
+		"height": 260
+	},
+	"followOptions":{
+		"followImage": "follow_realesta.png",
+		"variation": 40,
+		"pixelImage": "following_otclient.png",
+		"pixelImageVariation": 40
+	},
+	"options": {
+		"useRuneWithoutHotkey": true,
+		"enableAttackRune": false,
+		"dedicatedSioBattleList": false,
+		"debug": false
+	}
+}

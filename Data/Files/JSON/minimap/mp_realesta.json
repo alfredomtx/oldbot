@@ -1,0 +1,23 @@
+{
+  "__extends": "mp_otclient.json",
+  "images": {
+    "variation": 50,
+    "center": "center_realesta.png",
+    "zoomPlus": "zoom_plus_realesta.png",
+    "zoomMinus": "zoom_minus_realesta.png"
+  },
+  "areaSetup": {
+    "baseImage": "center\\center_realesta.png",
+    "baseImageVariation": 40,
+    "offsetFromBaseImagePositionX": -6,
+    "offsetFromBaseImagePositionY": -6,
+    "width": 173,
+    "getWidth": false,
+    "height": "",
+    "getHeight": true,
+    "heightImage": "minus\\zoom_minus_realesta.png",
+    "heightImageVariation": 40,
+    "offsetFromHeightImagePositionY": 24,
+    "offsetHeightAdjustY": 3
+  }
+}

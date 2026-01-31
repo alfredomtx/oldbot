@@ -1,0 +1,14 @@
+{
+	"coordinates": {
+		"offsetClickX": -1,
+		"offsetClickY": -1
+	},
+	"images": {
+		"use": "use_realesta.png",
+		"useVariation": 40
+	},
+	"options": {
+		"checkStoppedInterval": 800,
+		"debug": false
+	}
+}

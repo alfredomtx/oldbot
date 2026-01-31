@@ -1,0 +1,46 @@
+{
+	"coordinates": {
+		"offsetClickX": -1,
+		"offsetClickY": -1
+	},
+	"images": {
+		"use": "use.png",
+		"useVariation": 40,
+		"protectionZone": "pz_zone.png",
+		"protectionZoneVariation": 30
+	},
+	"minimap": {
+		"manualAdjust": {
+			"enabled": false,
+			"clicks": {
+				"plus": 6,
+				"minus": 5
+			}
+		},
+		"autoAdjustToZoom2": false,
+		"images": {
+			"zoomPlus": "zoom_plus.png",
+			"zoomMinus": "zoom_minus.png",
+			"variation": 60
+		},
+		"areaSetup": {
+			"baseImage": "map_view_rubinot.png",
+			"baseImageVariation": 60,
+			"offsetFromBaseImagePositionX": -56,
+			"offsetFromBaseImagePositionY": 12,
+			"width": 172,
+			"getHeight": true,
+			"heightImage": "plus\\zoom_plus.png",
+			"heightImageVariation": 60,
+			"offsetFromHeightImagePositionY": 22,
+			"offsetHeightAdjustY": 0
+		}
+	},
+	"options": {
+		"checkStoppedInterval": 800,
+		"debug": false
+	},
+	"uncompatibleActions": [
+		"minimapcenter"
+	]
+}

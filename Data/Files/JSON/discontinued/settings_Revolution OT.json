@@ -1,0 +1,115 @@
+{
+	"clientFeatures": {
+		"autoStack": 1,
+		"chatOnOff": 0,
+		"cooldownBar": 0,
+		"fullLight": 1,
+		"protectionZoneIndicator": 1,
+		"useItemWithHotkey": 0,
+		"walkThroughPlayers": 0
+	},
+	"configFile": "settings_kingdomswap.json",
+	"disconnectedCheck": {
+		"connectedWindowTitle": "Revolution OT - ",
+		"enabled": 1
+	},
+	"files": {
+		"cavebot": "cavebot_revolution.json",
+		"fishing": "otclient.json",
+		"healing": "healing_revolution.json",
+		"itemRefill": "itemRefill_revolution.json",
+		"looting": "looting_revolution.json",
+		"sioFriend": "sioFriend_kingdomswap.json",
+		"support": "support_revolution.json",
+		"targeting": "targeting_revolution.json"
+	},
+	"images": {
+		"client": {
+			"buttons": {
+				"exit": "revolution.png",
+				"exitVariation": 30
+			},
+			"menu": {
+				"follow": "revolution.png",
+				"menuImagesVariation": 40
+			}
+		},
+		"convertGold": {
+			"100goldCoin": "100_gold_coin.png",
+			"100platinumCoin": "100_platinum_coin.png"
+		}
+	},
+	"input": {
+		"backgroundKeyboardInput": 1,
+		"backgroundImageSearch": 1,
+		"backgroundMouseInput": 1,
+		"classicControlDisabled": 0,
+		"classicControlDisabledByDefault": 0,
+		"defaultImageSearch": 0,
+		"keyPressDelay": 0,
+		"mouseDragDefaultMethod": 1,
+		"physicalPressModifierKeys": 1,
+		"postMsgArrowKeys": 1,
+		"postMsgEscKey": 0,
+		"pressEscDefaultMethod": 1,
+		"pressF1toF12KeysDefaultMethod": 1,
+		"pressKeyDefaultMethod": 1,
+		"pressLetterKeysDefaultMethod": 0
+	},
+	"loadingOptions": {
+		"loadCreatures": 1,
+		"loadItems": 1
+	},
+	"options": {
+		"itemSearchVariation": 50,
+		"manualCharacterPosition": 1
+	},
+	"settings": {
+		"cavebot": {
+			"getCharCoordinatesFromMemory": true,
+			"automaticFloorDetection": 1,
+			"coordinatesFunctioningMode": 1,
+			"dragItemsFromSqmBeforeUsingRopeShovel": 1
+		},
+		"looting": {
+			"fastManualLootingByDefault": 1
+		}
+	},
+	"tibiaClient": {
+		"tibia7x": 1,
+		"memoryIdentifier": "revolution",
+		"clientImagesCategoryIdentifier": "revolution",
+		"selectClientButtonOpenFolderInsteadOfClient": 1,
+		"removeStringFromTitle": "",
+		"windowClassFilter": "Revolution",
+		"windowTitle": "Revolution OT",
+		"clientExeName": "RevolutionOT"
+	},
+	"uncompatibleModuleFunctions": {
+		"alerts": [
+			"pkOnScreen",
+			"pkOnScreen",
+			"playerOnScreen",
+			"privateMessage"
+		],
+		"itemRefill": [
+			"quiverRefill"
+		],
+		"others": [
+			"smartExit"
+		],
+		"reconnect": [
+			"autoReconnect"
+		],
+		"support": [
+			"autoEatFood",
+			"autoShoot",
+			"cureCurse",
+			"cureFire"
+		]
+	},
+	"uncompatibleModules": [
+		"reconnect",
+		"fullLight"
+	]
+}

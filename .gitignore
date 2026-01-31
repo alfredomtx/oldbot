@@ -1,0 +1,36 @@
+*.mp4
+*.log
+*.zip
+Cavebot/Logs/*.txt
+oldbot_profile.ini
+Cavebot/Backups/*.json
+oldbot_profile.ini
+Data/Files/Third Part Programs/*.ini
+Data/Files/scriptsList.json
+settings.ini
+Data/Files/logs*.txt
+Data/Files/version.ini
+Data/Files/Third Part Programs/ShareX-portable/ShareX/Logs/*
+Data/Files/Third Part Programs/ShareX-portable/ShareX/Backup/*
+Data/Screenshots/*.png
+Data/Files/Third Part Programs/ShareX-portable/ShareX/ApplicationConfig.json
+Data/Files/Third Part Programs/ShareX-portable/ShareX/History.json
+Data/Files/Third Part Programs/ShareX-portable/ShareX/ApplicationConfig.json
+Data/Files/Third Part Programs/OpenHardwareMonitor/OpenHardwareMonitor.config
+_output.txt
+records
+records/*
+Market/*.csv
+Market/*.txt
+/Data/Executables/temp
+Data/Files/output.txt
+Data/Files/abrupt_close_log.txt
+/Data/Files/Third Part Programs/ShareX-portable/ShareX/Screenshots
+/L*.exe
+.zed
+
+# User settings (open-source release)
+*.ini
+settings_*.ini
+oldbot_settings.ini
+Market/profiles/*.ini

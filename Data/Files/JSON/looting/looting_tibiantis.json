@@ -1,0 +1,28 @@
+{
+	"delays": {
+		"delayBeforeLooting": 600,
+		"delayAfterClickOnOpenOption": 200,
+		"delayAfterDraggingLoot": 400,
+		"delayBeforeSearchingItemsAfterOpenCorpse": 250
+	},
+	"input": {
+		"backgroundMouseDrag": false
+	},
+	"mainBackpacks": {
+		"bag": "bag_otclient.png",
+		"options": {
+			"offsetFromImageX": -2,
+			"offsetFromImageY": 0
+		}
+	},
+	"images": {
+		"openCorpseImage": "open_corpse_otclient.png"
+	},
+	"options": {
+		"mininumLootSearchAreaWidth": 180,
+		"searchOpenOptionOnEntireScreen": true,
+		"closeMenuMethod": "Click",
+		"openCorpsesAround": true,
+		"debug": false
+	}
+}

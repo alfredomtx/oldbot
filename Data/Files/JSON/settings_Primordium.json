@@ -1,0 +1,31 @@
+{
+	"__extends": "otclient.json",
+	"clientFeatures": {
+		"fullLight": 1
+	},
+	"disconnectedCheck": {
+		"connectedWindowTitle": "Primordium - ",
+		"enabled": 1
+	},
+	"files": {
+		"cavebot": "otclient.json",
+		"clientAreas": "otclient_five.json",
+		"clientMenus": "cm_otclient.json",
+		"containers": "crs_otclient_five.json",
+		"fishing": "otclient.json",
+		"healing": "otclient_large.json",
+		"itemRefill": "otclient_classic.json",
+		"looting": "otclient_2.json",
+		"minimap": "mp_otclient.json",
+		"sioFriend": "otclient.json",
+		"support": "otclient_tall.json",
+		"targeting": "otclient_red_pixel.json"
+	},
+	"tibiaClient": {
+		"clientExeName": "otclient_gl",
+		"memoryIdentifier": "primordium",
+		"windowClassFilter": "otclientv8",
+		"windowTitle": "Primordium"
+	},
+	"uncompatibleModules": []
+}

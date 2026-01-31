@@ -1,0 +1,12 @@
+{
+	"__extends": "otclient.json",
+	"statusBarAreaSetup": {
+		"baseImage": "darkrest.png",
+		"baseImageVariation": 60,
+		"offsetFromBaseImagePositionX": -117,
+		"offsetFromBaseImagePositionY": -18
+	},
+	"options": {
+		"debug": false
+	}
+}

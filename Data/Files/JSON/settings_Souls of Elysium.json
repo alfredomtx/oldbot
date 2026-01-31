@@ -1,0 +1,30 @@
+{
+	"__extends": "otclient.json",
+	"clientFeatures": {
+		"chatOnOff": 1,
+		"fullLight": 1
+	},
+	"disconnectedCheck": {
+		"connectedWindowTitle": "Souls Of Elysium - ",
+		"enabled": 1
+	},
+	"files": {
+		"clientAreas": "souls_of_elysium.json",
+		"clientMenus": "cm_otclient.json",
+		"containers": "crs_otclient_five.json",
+		"fishing": "fishing_Souls of Elysium.json",
+		"healing": "otclient_large.json",
+		"itemRefill": "itemRefill_imperianic.json",
+		"looting": "otclient_word_bp_images.json",
+		"minimap": "mp_otclient.json",
+		"sioFriend": "sioFriend_kingdomswap.json",
+		"support": "otclient_tall.json",
+		"targeting": "souls_of_elysium.json"
+	},
+	"tibiaClient": {
+		"clientExeName": "otclient_dx",
+		"clientImagesCategoryIdentifier": "otclientv8",
+		"memoryIdentifier": "Souls of Elysium",
+		"windowTitle": "Souls Of Elysium"
+	}
+}

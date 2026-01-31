@@ -1,0 +1,42 @@
+{
+	"battleListImages": {
+		"baseImage": "pokeunion.png",
+		"baseImageVariation": 40,
+		"emptyImage": "pokeunion.png",
+		"emptyImageVariation": 70,
+		"battleListButtonsVisible": "pokeunion.png",
+		"battleListButtonsVisible2": "pokeunion2.png"
+	},
+	"battleListSetup": {
+		"attackOffsetY": 60,
+		"offsetFromBaseImagePositionX": -5,
+		"offsetFromBaseImagePositionY": -2,
+		"width": 185,
+		"getHeight": false,
+		"height": 250,
+		"searchEmptyBattleListEntireScreen": false,
+		"emptyBattleListInvertResult": false
+	},
+	"redPixelArea": {
+		"pixelImage": "red_pixel_pxg.png",
+		"pixelImageVariation": 5,
+		"offsetFromBattleListX": 27,
+		"offsetFromBattleListY": 0,
+		"width": 25
+	},
+	"useItemOnCorpse": {
+		"customCorpseImages": true,
+		"corpseImageVariation": 15,
+		"delayBeforeSearchingForCorpses": 1000
+	},
+	"options": {
+		"dontPressEscBeforeAttackingFirstTime": true,
+		"disableAttackModeChange": true,
+		"disableCreaturePositionCheck": true,
+		"disableCreatureLifeCheck": true,
+		"disableCreatureUnreachableCheck": true,
+		"getCreatureImageManually": true,
+		"delayBeforeAttackClick": 200,
+		"debug": false
+	}
+}

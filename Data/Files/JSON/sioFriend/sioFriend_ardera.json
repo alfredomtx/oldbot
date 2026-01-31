@@ -1,0 +1,20 @@
+{
+	"battleListSetup": {
+		"baseImage": "battle_list_ardera.png",
+		"baseImageVariation": 50,
+		"offsetFromBaseImagePositionX": 0,
+		"offsetFromBaseImagePositionY": 0,
+		"width": 165,
+		"height": 260
+	},
+	"followOptions":{
+		"pixelImage": "following_otclient.png",
+		"pixelImageVariation": 40
+	},
+	"options": {
+		"useRuneWithoutHotkey": true,
+		"enableAttackRune": false,
+		"dedicatedSioBattleList": false,
+		"debug": false
+	}
+}

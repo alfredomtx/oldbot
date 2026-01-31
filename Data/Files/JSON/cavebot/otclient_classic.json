@@ -1,0 +1,31 @@
+{
+	"coordinates": {
+		"offsetClickX": -1,
+		"offsetClickY": -1
+	},
+	"minimap": {
+		"images": {
+			"center": "otclient_classic.png",
+			"zoomPlus": "otclient_classic.png",
+			"zoomMinus": "otclient_classic.png",
+			"variation": 60
+		},
+		"areaSetup": {
+			"baseImage": "center\\otclient_classic.png",
+			"baseImageVariation": 60,
+			"offsetFromBaseImagePositionX": -118,
+			"offsetFromBaseImagePositionY": -88,
+			"width": 110,
+			"height": 108
+		}
+	},
+	"options": {
+		"checkStoppedInterval": 800,
+		"dontAdjustMinimapHeightWaypoint": true,
+		"debug": false
+	},
+	"uncompatibleActions": [
+		"minimapcenter",
+		"minimapheight"
+	]
+}

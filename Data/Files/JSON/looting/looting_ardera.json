@@ -1,0 +1,23 @@
+{
+	"delays": {
+		"delayBeforeLooting": 0,
+		"delayAfterClickOnOpenOption": 100,
+		"delayAfterDraggingLoot": 600,
+		"delayBeforeSearchingOpenCorpseOption": 50,
+		"delayBeforeSearchingItemsAfterOpenCorpse": 350
+	},
+	"images": {
+		"openCorpseImage": "open_ardera.png"
+	},
+	"mainBackpacks": {
+		"bag": "bag_ardera.png",
+		"options": {
+			"offsetFromImageX": -6,
+			"offsetFromImageY": -1
+		}
+	},
+	"options": {
+		"openCorpsesAround": true,
+		"debug": false
+	}
+}

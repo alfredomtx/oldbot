@@ -1,0 +1,24 @@
+{
+	"delays": {
+		"delayBeforeLooting": 350,
+		"delayAfterClickOnOpenOption": 0,
+		"delayAfterDraggingLoot": 300,
+		"delayBeforeSearchingOpenCorpseOption": 60,
+		"delayBeforeSearchingItemsAfterOpenCorpse": 300
+	},
+	"images": {
+		"openCorpseImage": "open_likeretro.png"
+	},
+	"mainBackpacks": {
+		"bag": "backpack_likeretro.png",
+		"alias": "brown backpack",
+		"options": {
+			"offsetFromImageX": -1,
+			"offsetFromImageY": -1
+		}
+	},
+	"options": {
+		"openCorpsesAround": true,
+		"debug": false
+	}
+}

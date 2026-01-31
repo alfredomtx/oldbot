@@ -1,0 +1,54 @@
+{
+	"autoEatFood": {
+		"statusBarImage": "hungry.png",
+		"variation": 50,
+		"timerIntervalMs": 2000
+	},
+	"autoBuffSpell": {
+		"statusBarImage": "buff.png",
+		"variation": 50,
+		"timerIntervalMs": 1200
+	},
+	"autoHaste": {
+		"statusBarImage": "haste_tibia-old.png",
+		"variation": 50,
+		"timerIntervalMs": 500
+	},
+	"autoUtamoVita": {
+		"statusBarImage": "",
+		"variation": 50,
+		"timerIntervalMs": 500
+	},
+	"cureParalyze": {
+		"statusBarImage": "paralyze.png",
+		"variation": 50,
+		"timerIntervalMs": 500
+	},
+	"cureCurse": {
+		"statusBarImage": "curse.png",
+		"variation": 50,
+		"timerIntervalMs": 2000
+	},
+	"cureFire": {
+		"statusBarImage": "fire.png",
+		"variation": 50,
+		"timerIntervalMs": 2000
+	},
+	"curePoison": {
+		"statusBarImage": "poison.png",
+		"variation": 50,
+		"timerIntervalMs": 2000
+	},
+	"statusBarAreaSetup": {
+		"baseImage": "base_image_aibit.png",
+		"baseImageVariation": 50,
+		"offsetFromBaseImagePositionX": -125,
+		"offsetFromBaseImagePositionY": 19,
+		"width": 93,
+		"height": 20
+	},
+	"options": {
+		"pzZoneStatusBarImage": "pz_zone.png",
+		"debug": false
+	}
+}

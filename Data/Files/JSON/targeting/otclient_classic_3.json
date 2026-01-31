@@ -1,0 +1,13 @@
+{
+	"__extends": "otclient.json",
+	"battleListImages": {
+		"baseImage": "otclient_classic_3.png",
+		"emptyImage": "otclient_classic_3.png",
+		"battleListButtonsVisible": "battlelist_buttons_kingdomswap.png",
+		"battleListButtonsVisible2": "darghos.png"
+	},
+	"battleListSetup": {
+		"attackOffsetY": 12,
+		"offsetFromBaseImagePositionX": 0
+	}
+}

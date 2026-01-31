@@ -1,0 +1,13 @@
+{
+	"__extends": "otclient_classic.json",
+	"mainBackpacks": {
+		"backpacksList": [
+			"backpack_miracle.png",
+			"bag_miracle.png"
+		],
+		"options": {
+			"offsetFromImageX": -1,
+			"offsetFromImageY": 3
+		}
+	}
+}

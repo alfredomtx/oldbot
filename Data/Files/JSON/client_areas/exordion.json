@@ -1,0 +1,13 @@
+{
+	"__extends": "otclient.json",
+	"equipment": {
+		"torchArea": {
+			"setupClass": "_StatusBarArea",
+			"offsets": {
+				"x": 84,
+				"y": -53
+			},
+			"debug": false
+		}
+	}
+}

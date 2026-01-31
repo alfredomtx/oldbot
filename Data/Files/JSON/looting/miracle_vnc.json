@@ -1,0 +1,10 @@
+{
+	"__extends": "miracle.json",
+	"delays": {
+		"delayBeforeLooting": 150,
+		"delayAfterClickOnOpenOption": 50,
+		"delayAfterDraggingLoot": 350,
+		"delayBeforeSearchingOpenCorpseOption": 125,
+		"delayBeforeSearchingItemsAfterOpenCorpse": 350
+	}
+}

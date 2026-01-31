@@ -1,0 +1,7 @@
+{
+	"__extends": "otclient.json",
+	"images": {
+		"use": "use_imperianic.png",
+		"useVariation": 50
+	}
+}

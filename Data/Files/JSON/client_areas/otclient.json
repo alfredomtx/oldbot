@@ -1,0 +1,21 @@
+{
+	"__extends": "client_areas.json",
+	"equipment": {
+		"torchArea": {
+			"setupClass": "_StatusBarArea",
+			"offsets": {
+				"x": 74,
+				"y": -59
+			},
+			"debug": false
+		},
+		"leftHandArea": {
+			"setupClass": "_TorchArea",
+			"offsets": {
+				"x": -74,
+				"y": -37
+			},
+			"debug": false
+		}
+	}
+}

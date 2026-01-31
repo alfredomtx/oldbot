@@ -1,0 +1,16 @@
+{
+	"coordinates": {
+		"offsetClickX": -1,
+		"offsetClickY": -1
+	},
+	"images": {
+		"use": "exordion.png",
+		"useVariation": 75
+	},
+	"options": {
+		"searchCenterButtonEntireScreen": true,
+		"checkStoppedInterval": 800,
+		"debug": false,
+		"debugCharArea": false
+	}
+}

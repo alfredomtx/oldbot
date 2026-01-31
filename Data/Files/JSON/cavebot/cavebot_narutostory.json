@@ -1,0 +1,39 @@
+{
+	"coordinates": {
+		"offsetClickX": -1,
+		"offsetClickY": -1
+	},
+	"images": {
+		"use": "narutostory.png",
+		"useVariation": 40
+	},
+	"minimap": {
+		"images": {
+			"center": "narutostory.png",
+			"zoomPlus": "narutostory.png",
+			"zoomMinus": "narutostory.png",
+			"variation": 80
+		},
+		"areaSetup": {
+			"baseImage": "minimap_narutostory.png",
+			"baseImageVariation": 50,
+			"offsetFromBaseImagePositionX": -1,
+			"offsetFromBaseImagePositionY": 31,
+			"width": "",
+			"getWidth": true,
+			"getHeight": true,
+			"widthImage": "minus\\narutostory.png",
+			"heightImage": "minus\\narutostory.png",
+			"heightImageVariation": 65,
+			"widthImageVariation": 65,
+			"offsetFromWidthImagePositionX": 23,
+			"offsetFromHeightImagePositionY": 24,
+			"offsetHeightAdjustY": -3
+		}
+	},
+	"options": {
+		"checkStoppedInterval": 800,
+		"debug": false,
+		"debugCharArea": false
+	}
+}

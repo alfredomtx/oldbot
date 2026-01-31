@@ -1,0 +1,9 @@
+{
+	"images": {
+		"freeSlot": "free_slot.png"
+	},
+	"options": {
+		"debugLog": false,
+		"debug": false
+	}
+}

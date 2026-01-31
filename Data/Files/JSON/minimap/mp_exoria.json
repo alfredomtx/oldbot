@@ -1,0 +1,14 @@
+{
+	"__extends": "mp_otclient_classic.json",
+	"images": {
+		"center": "otclient_small.png"
+	},
+	"areaSetup": {
+		"baseImage": "center\\otclient_small.png",
+		"baseImageVariation": 60,
+		"offsetFromBaseImagePositionX": -124,
+		"offsetFromBaseImagePositionY": -89,
+		"width": 122,
+		"height": 129
+	}
+}

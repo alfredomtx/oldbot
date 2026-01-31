@@ -1,0 +1,46 @@
+{
+	"attackSpells": {
+		"useScriptImageForRunes": true
+	},
+	"battleListImages": {
+		"baseImage": "realera.png",
+		"baseImageVariation": 60,
+		"emptyImage": "realera.png",
+		"emptyImageVariation": 60,
+		"battleListButtonsVisible": "realera.png",
+		"battleListButtonsVisibleVariation": 40,
+		"battleListButtonsVisible2": "realesta.png"
+	},
+	"battleListSetup": {
+		"attackOffsetY": 30,
+		"offsetFromBaseImagePositionX": -10,
+		"offsetFromBaseImagePositionY": 0,
+		"width": 165,
+		"getHeight": false,
+		"height": 300
+	},
+	"redPixelArea": {
+		"pixelImage": "red_pixel.png",
+		"pixelImageVariation": 30,
+		"offsetFromBattleListX": 10,
+		"offsetFromBattleListY": 0,
+		"width": 6,
+		"getCreatureImage": {
+			"offsetX": 22,
+			"offsetY": 1
+		}
+	},
+	"useItemOnCorpse": {
+		"customCorpseImages": true,
+		"corpseImageVariation": 15,
+		"delayBeforeSearchingForCorpses": 500
+	},
+	"options": {
+		"disableAttackModeChange": true,
+		"disableCreatureLifeCheck": true,
+		"disableCreatureUnreachableCheck": true,
+		"getCreatureImageManually": true,
+		"randomizeSameCreatureAttackByDefault": true,
+		"debug": false
+	}
+}

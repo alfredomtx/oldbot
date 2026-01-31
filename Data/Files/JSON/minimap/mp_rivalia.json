@@ -1,0 +1,21 @@
+{
+	"__extends": "mp_otclient.json",
+	"images": {
+		"center": "rivalia.png",
+		"zoomPlus": "rivalia.png",
+		"zoomMinus": "rivalia.png",
+		"variation": 30
+	},
+	"areaSetup": {
+		"baseImage": "center\\rivalia.png",
+		"heightImage": "minus\\rivalia.png",
+		"widthImage": "minus\\rivalia.png",
+		"offsetFromBaseImagePositionX": -4,
+		"offsetFromBaseImagePositionY": -5,
+		"baseImageVariation": 30,
+		"getWidth": false,
+		"width": 180,
+		"widthImageVariation": 30,
+		"heightImageVariation": 30
+	}
+}

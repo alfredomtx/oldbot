@@ -1,0 +1,9 @@
+{
+	"__extends": "otclient_classic_3.json",
+	"battleListImages": {
+		"emptyImage": "otclient_classic_4.png"
+	},
+	"battleListSetup": {
+		"attackOffsetY": 30
+	}
+}

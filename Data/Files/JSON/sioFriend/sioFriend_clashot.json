@@ -1,0 +1,22 @@
+{
+	"battleListSetup": {
+		"baseImage": "battle_list_clashot.png",
+		"baseImageVariation": 40,
+		"offsetFromBaseImagePositionX": -10,
+		"offsetFromBaseImagePositionY": 0,
+		"width": 165,
+		"height": 260
+	},
+	"followOptions":{
+		"followImage": "follow_clashot.png",
+		"variation": 40,
+		"pixelImage": "following_clashot.png",
+		"pixelImageVariation": 40
+	},
+	"options": {
+		"useRuneWithoutHotkey": true,
+		"enableAttackRune": false,
+		"dedicatedSioBattleList": false,
+		"debug": false
+	}
+}

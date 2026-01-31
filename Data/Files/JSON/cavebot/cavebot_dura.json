@@ -1,0 +1,37 @@
+{
+	"coordinates": {
+		"offsetClickX": -1,
+		"offsetClickY": -1
+	},
+	"minimap": {
+		"manualAdjust": {
+			"enabled": true,
+			"clicks": {
+				"plus": 10,
+				"minus": 5,
+				"delay": 75
+			}
+		},
+		"images": {
+			"center": "center_retrocores.png",
+			"zoomPlus": "zoom_plus.png",
+			"zoomMinus": "zoom_minus.png",
+			"variation": 50
+		},
+		"areaSetup": {
+			"baseImage": "minus\\zoom_minus.png",
+			"baseImageVariation": 30,
+			"offsetFromBaseImagePositionX": -116,
+			"offsetFromBaseImagePositionY": -45,
+			"width": 108,
+			"height": 108
+		}
+	},
+	"options": {
+		"searchCenterButtonEntireScreen": true,
+		"dontAdjustMinimapHeightWaypoint": true,
+		"checkStoppedInterval": 800,
+		"debug": false,
+		"debugCharArea": false
+	}
+}

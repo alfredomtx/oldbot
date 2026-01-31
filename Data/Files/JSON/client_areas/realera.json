@@ -1,0 +1,29 @@
+{
+	"__extends": "otclient.json",
+	"backpack": {
+		"firstSlotArea": {
+			"offsets": {
+				"add": {
+					"x": -1,
+					"y": -2
+				}
+			}
+		}
+	},
+	"equipment": {
+		"torchArea": {
+			"setupClass": "_StatusBarArea",
+			"offsets": {
+				"x": 73,
+				"y": -51
+			}
+		},
+		"leftHandArea": {
+			"setupClass": "_TorchArea",
+			"offsets": {
+				"x": -73,
+				"y": -36
+			}
+		}
+	}
+}

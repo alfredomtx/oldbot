@@ -1,0 +1,26 @@
+{
+	"delays": {
+		"delayBeforeLooting": 0,
+		"delayAfterDraggingLoot": 250,
+		"delayBeforePressLootingHotkey": 100,
+		"delayBeforeSearchingItemsAfterOpenCorpse": 350,
+		"quickLootClickAroundDelay": 0
+	},
+	"images": {
+		"openCorpseImage": "open_aurera.png"
+	},
+	"mainBackpacks": {
+		"bag": "bag_otclient.png",
+		"alias": "bag",
+		"options": {
+			"offsetFromImageX": -2,
+			"offsetFromImageY": 0
+		}
+	},
+	"options": {
+		"searchOpenOptionOnEntireScreen": true,
+		"delayBeforeLooting": 0,
+		"openCorpsesAround": true,
+		"debug": false
+	}
+}

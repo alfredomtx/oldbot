@@ -1,0 +1,31 @@
+{
+	"__extends": "otclient.json",
+	"clientFeatures": {
+		"fullLight": 1
+	},
+	"disconnectedCheck": {
+		"connectedWindowTitle": "Retronia - ",
+		"enabled": 1
+	},
+	"files": {
+		"containers": "crs_retronia.json",
+		"clientMenus": "cm_otclient_classic.json",
+		"clientAreas": "retronia.json",
+		"minimap": "mp_otclient_classic.json",
+		"cavebot": "otclient.json",
+		"fishing": "otclient.json",
+		"healing": "otclient_classic.json",
+		"itemRefill": "otclient_classic.json",
+		"looting": "retronia.json",
+		"sioFriend": "otclient_alt.json",
+		"support": "retronia.json",
+		"targeting": "otclient_classic_3.json"
+	},
+	"tibiaClient": {
+		"clientImagesCategoryIdentifier": "retronia",
+		"memoryIdentifier": "Retronia",
+		"clientExeName": "Retronia",
+		"windowClassFilter": "Retronia",
+		"windowTitle": "Retronia"
+	}
+}

@@ -1,0 +1,24 @@
+{
+	"life": {
+		"pixelImageName": "life_pixel_midhem.png",
+		"pixelColor": "0xFF4444",
+		"pixelVariation": 20,
+		"offsetFromBaseImagePositionX": 1,
+		"offsetFromBaseImagePositionY": -1
+	},
+	"mana": {
+		"pixelImageName": "mana_pixel_midhem.png",
+		"pixelVariation": 20,
+		"pixelColor": "0x4444FF",
+		"offsetFromLifeBarY": 15
+	},
+	"options": {
+		"blockDistance": 4,
+		"limitSearchArea400pxFromRightSide": true,
+		"baseImage": "midhem.png",
+		"baseImageVariation": 40,
+		"barWidth": 167,
+		"barHeight": 17,
+		"debug": false
+	}
+}

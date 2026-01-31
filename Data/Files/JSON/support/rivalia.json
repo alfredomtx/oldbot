@@ -1,0 +1,9 @@
+{
+	"__extends": "support_realesta.json",
+	"statusBarAreaSetup": {
+		"offsetFromBaseImagePositionX": -125,
+		"offsetFromBaseImagePositionY": 35,
+		"width": 110,
+		"height": 21
+	}
+}

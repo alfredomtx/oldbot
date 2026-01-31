@@ -1,0 +1,30 @@
+{
+	"delays": {
+		"delayBeforeLooting": 50,
+		"delayAfterClickOnOpenOption": 125,
+		"delayAfterDraggingLoot": 400,
+		"delayBeforeSearchingOpenCorpseOption": 60,
+		"delayBeforeSearchingItemsAfterOpenCorpse": 300,
+		"delayClickSqmsAroundWithClassicControlDisabled": 75
+	},
+	"images": {
+		"openCorpseImage": "open_medivia.png"
+	},
+	"mainBackpacks": {
+		"bag": "backpack_medivia.png",
+		"alias": "brown backpack",
+		"options": {
+			"offsetFromImageX": -8,
+			"offsetFromImageY": 4
+		}
+	},
+	"options": {
+		"noDialogBoxToConfirmAfterMoveItem": true,
+		"clickOnOkButtonInsteadOfEnter": false,
+		"okButtonImage": "ok_button_medivia.png",
+		"okButtonVariation": 30,
+		"closeMenuMethod": "Click",
+		"openCorpsesAround": true,
+		"debug": false
+	}
+}

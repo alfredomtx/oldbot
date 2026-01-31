@@ -1,0 +1,13 @@
+{
+	"__extends": "otclient_classic.json",
+	"battleListSetup": {
+		"attackOffsetY": 10
+	},
+	"redPixelArea": {
+		"pixelImage": "red_pixel.png",
+		"offsetFromBattleListX": 22
+	},
+	"options": {
+		"creaturePositionFolder": "otclientv8"
+	}
+}

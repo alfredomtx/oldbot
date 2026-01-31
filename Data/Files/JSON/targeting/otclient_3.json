@@ -1,0 +1,20 @@
+{
+	"__extends": "otclient.json",
+	"battleListImages": {
+		"baseImage": "otclient_classic_2.png",
+		"emptyImage": "otclient_classic_2.png",
+		"battleListButtonsVisible": "likeretro.png",
+		"battleListButtonsVisible2": "likeretro2.png"
+	},
+	"battleListSetup": {
+		"attackOffsetY": 12,
+		"offsetFromBaseImagePositionX": 0,
+		"offsetFromBaseImagePositionY": 0,
+		"width": 165
+	},
+	"redPixelArea": {
+		"getCreatureImage": {
+			"offsetY": -1
+		}
+	}
+}

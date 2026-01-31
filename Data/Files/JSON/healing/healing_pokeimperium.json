@@ -1,0 +1,22 @@
+{
+	"life": {
+		"pixelImageName": "life_pixel_pokeimperium.png",
+		"pixelColor": "0x9AD095",
+		"pixelVariation": 40,
+		"offsetFromBaseImagePositionX": 23,
+		"offsetFromBaseImagePositionY": 0
+	},
+	"mana": {
+		"pixelVariation": 40,
+		"pixelColor": "",
+		"offsetFromLifeBarY": 18
+	},
+	"options": {
+		"disableMana": true,
+		"baseImage": "life_bar_pokeimperium.png",
+		"baseImageVariation": 60,
+		"barWidth": 119,
+		"barHeight": 15,
+		"debug": false
+	}
+}

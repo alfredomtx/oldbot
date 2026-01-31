@@ -1,0 +1,61 @@
+{
+	"coordinates": {
+		"offsetClickX": -1,
+		"offsetClickY": -1
+	},
+	"images": {
+		"use": "use_kingdomswap.png",
+		"useVariation": 60
+	},
+	"minimap": {
+		"images": {
+			"variation": 60,
+			"center": "cyntara.png",
+			"zoomPlus": "zoom_plus_kingdomswap.png",
+			"zoomMinus": "zoom_minus_kingdomswap.png"
+		},
+		"areaSetup": {
+			"baseImage": "center\\cyntara.png",
+			"baseImageVariation": 60,
+			"offsetFromBaseImagePositionX": -120,
+			"offsetFromBaseImagePositionY": -91,
+			"width": 112,
+			"height": 112
+		}
+	},
+	"settings": {
+		"numbersFolderNameClient": "otclientv8",
+		"items": {
+			"offsetFromItemX": 0,
+			"offsetFromItemY": 0
+		},
+		"capacity": {
+			"offsetFromImageX": 129,
+			"offsetFromImageY": -2
+		},
+		"level": {
+			"offsetFromImageX": 129,
+			"offsetFromImageY": -2
+		},
+		"stamina": {
+			"offsetFromImageX": 129,
+			"offsetFromImageY": -2
+		},
+		"soulPoints": {
+			"offsetFromImageX": 129,
+			"offsetFromImageY": -2
+		}
+	},
+	"options": {
+		"checkStoppedInterval": 800,
+		"searchCenterButtonEntireScreen": true,
+		"dontAdjustMinimapHeightWaypoint": true,
+		"debug": false
+	},
+	"uncompatibleActions": [
+		"npchi",
+		"npctrade",
+		"sellitemnpc",
+		"takeitemfromstash"
+	]
+}

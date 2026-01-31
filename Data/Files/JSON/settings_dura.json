@@ -1,0 +1,83 @@
+{
+	"clientFeatures": {
+		"autoStack": 1,
+		"chatOnOff": 0,
+		"cooldownBar": 0,
+		"fullLight": 1,
+		"protectionZoneIndicator": 0,
+		"useItemWithHotkey": 0,
+		"walkThroughPlayers": 0
+	},
+	"disconnectedCheck": {
+		"enabled": true,
+		"connectedWindowTitle": "Dura -"
+	},
+	"files": {
+		"clientMenus": "cm_otclient_classic.json",
+		"cavebot": "cavebot_dura.json",
+		"healing": "healing_otclient.json",
+		"itemRefill": "otclient_classic.json",
+		"looting": "looting_dura.json",
+		"sioFriend": "sioFriend_dura.json",
+		"support": "support_dura.json",
+		"targeting": "targeting_phantomold.json"
+	},
+	"input": {
+		"backgroundKeyboardInput": 1,
+		"backgroundImageSearch": 1,
+		"backgroundMouseInput": 1,
+		"classicControlDisabled": 0,
+		"classicControlDisabledByDefault": 0,
+		"defaultImageSearch": 0,
+		"keyPressDelay": 0,
+		"mouseDragDefaultMethod": 1,
+		"physicalPressModifierKeys": 1,
+		"postMsgArrowKeys": 1,
+		"postMsgEscKey": 0,
+		"pressEscDefaultMethod": 1,
+		"pressF1toF12KeysDefaultMethod": 1,
+		"pressKeyDefaultMethod": 1,
+		"pressLetterKeysDefaultMethod": 0
+	},
+	"settings": {
+		"cavebot": {
+			"getCharCoordinatesFromMemory": true,
+			"automaticFloorDetection": true,
+			"coordinatesFunctioningMode": 1,
+			"dragItemsFromSqmBeforeUsingRopeShovel": 1
+		}
+	},
+	"options": {
+		"manualCharacterPosition": true
+	},
+	"tibiaClient": {
+		"memoryIdentifier": "dura",
+		"clientImagesCategoryIdentifier": "dura",
+		"windowTitle": "Dura",
+		"windowClassFilter": "production",
+		"clientExeName": "dura_dx"
+	},
+	"uncompatibleModuleFunctions": {
+		"alerts": [
+			"pkOnScreen",
+			"pkOnScreen",
+			"playerOnScreen",
+			"privateMessage"
+		],
+		"itemRefill": [
+			"quiverRefill"
+		],
+		"support": [
+			"autoEatFood",
+			"autoShoot",
+			"cureCurse",
+			"cureFire"
+		],
+		"reconnect": [
+			"autoReconnect"
+		]
+	},
+	"uncompatibleModules": [
+		"reconnect"
+	]
+}

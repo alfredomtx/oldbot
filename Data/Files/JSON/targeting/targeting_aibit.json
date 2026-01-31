@@ -1,0 +1,45 @@
+{
+	"attackSpells": {
+		"useScriptImageForRunes": true
+	},
+	"battleListImages": {
+		"baseImage": "battle_list_aibit.png",
+		"baseImageVariation": 50,
+		"emptyImage": "battle_list_empty_aibit.png",
+		"emptyImageVariation": 50
+	},
+	"battleListSetup": {
+		"offsetFromBaseImagePositionX": -10,
+		"offsetFromBaseImagePositionY": 0,
+		"width": 165,
+		"getHeight": false,
+		"height": 300
+	},
+	"redPixelArea": {
+		"pixelImage": "red_pixel.png",
+		"pixelImageVariation": 20,
+		"offsetFromBattleListX": 6,
+		"offsetFromBattleListY": 0,
+		"width": 5,
+		"getCreatureImage": {
+			"offsetX": 20,
+			"offsetY": 2
+		}
+	},
+	"useItemOnCorpse": {
+		"customCorpseImages": true,
+		"corpseImageVariation": 15,
+		"delayBeforeSearchingForCorpses": 500
+	},
+	"options": {
+		"creaturePositionFolder": "otclientv8_alt",
+		"disableAttackModeChange": true,
+		"disableCreatureLifeCheck": true,
+		"disableCreaturePositionCheck": false,
+		"disableCreatureUnreachableCheck": true,
+		"searchOpenOptionOnEntireScreen": false,
+		"getCreatureImageManually": true,
+		"randomizeSameCreatureAttackByDefault": false,
+		"debug": false
+	}
+}

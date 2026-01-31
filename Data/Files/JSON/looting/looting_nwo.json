@@ -1,0 +1,25 @@
+{
+	"delays": {
+		"delayBeforeLooting": 250,
+		"delayAfterClickOnOpenOption": 0,
+		"delayAfterDraggingLoot": 400,
+		"delayBeforeSearchingOpenCorpseOption": 60,
+		"delayBeforeSearchingItemsAfterOpenCorpse": 100
+	},
+	"images": {
+		"openCorpseImage": "open_corpse_imperianic.png"
+	},
+	"mainBackpacks": {
+		"bag": "backpack_nwo.png",
+		"alias": "konoha backpack",
+		"options": {
+			"offsetFromImageX": -8,
+			"offsetFromImageY": 2
+		}
+	},
+	"options": {
+		"closeMenuMethod": "Click",
+		"openCorpsesAround": true,
+		"debug": false
+	}
+}

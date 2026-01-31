@@ -1,0 +1,44 @@
+{
+	"coordinates": {
+		"offsetClickX": -1,
+		"offsetClickY": -1
+	},
+	"folders": {
+		"npcsFolderName": "darghos"
+	},
+	"images": {
+		"use": "use_darghos.png",
+		"useVariation": 50
+	},
+	"minimap": {
+		"images": {
+			"center": "center_darghos.png",
+			"zoomPlus": "zoom_plus_darghos.png",
+			"zoomMinus": "zoom_minus_darghos.png"
+		},
+		"areaSetup": {
+			"baseImage": "center\\center_darghos.png",
+			"baseImageVariation": 30,
+			"offsetFromBaseImagePositionX": -7,
+			"offsetFromBaseImagePositionY": -6,
+			"width": 186,
+			"height": "",
+			"getHeight": true,
+			"heightImage": "minus\\zoom_minus_darghos.png",
+			"heightImageVariation": 40,
+			"offsetFromHeightImagePositionY": 24,
+			"offsetHeightAdjustY": -1,
+			"offsetHeightAfterAdjust": -1
+		}
+	},
+	"options": {
+		"checkStoppedInterval": 800,
+		"debug": false
+	},
+	"uncompatibleActions": [
+		"npchi",
+		"npctrade",
+		"sellitemnpc",
+		"takeitemfromstash"
+	]
+}

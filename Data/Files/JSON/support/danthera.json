@@ -1,0 +1,9 @@
+{
+	"__extends": "otclient_tall.json",
+	"statusBarAreaSetup": {
+		"baseImage": "options_danthera.png",
+		"baseImageVariation": 60,
+		"offsetFromBaseImagePositionX": -115,
+		"offsetFromBaseImagePositionY": 36
+	}
+}

@@ -1,0 +1,92 @@
+{
+	"clientFeatures": {
+		"autoStack": 1,
+		"chatOnOff": 0,
+		"cooldownBar": 0,
+		"fullLight": 1,
+		"protectionZoneIndicator": 0,
+		"useItemWithHotkey": 0,
+		"walkThroughPlayers": 0
+	},
+	"disconnectedCheck": {
+		"enabled": true,
+		"connectedWindowTitle": "PhantomOldGlobal - "
+	},
+	"files": {
+		"clientMenus": "cm_otclient_classic.json",
+		"cavebot": "cavebot_phantomold.json",
+		"healing": "healing_otclient.json",
+		"itemRefill": "otclient_classic.json",
+		"looting": "looting_phantomold.json",
+		"sioFriend": "sioFriend_otclient.json",
+		"support": "support_phantomold.json",
+		"targeting": "targeting_phantomold.json"
+	},
+	"input": {
+		"backgroundKeyboardInput": 1,
+		"backgroundImageSearch": 1,
+		"backgroundMouseInput": 1,
+		"classicControlDisabled": 0,
+		"classicControlDisabledByDefault": 0,
+		"defaultImageSearch": 0,
+		"keyPressDelay": 0,
+		"mouseDragDefaultMethod": 1,
+		"physicalPressModifierKeys": 1,
+		"postMsgArrowKeys": 1,
+		"postMsgEscKey": 0,
+		"pressEscDefaultMethod": 1,
+		"pressF1toF12KeysDefaultMethod": 1,
+		"pressKeyDefaultMethod": 1,
+		"pressLetterKeysDefaultMethod": 0
+	},
+	"options": {
+		"manualCharacterPosition": true
+	},
+	"settings": {
+		"cavebot": {
+			"getCharCoordinatesFromMemory": true,
+			"automaticFloorDetection": true,
+			"coordinatesFunctioningMode": 1,
+			"dragItemsFromSqmBeforeUsingRopeShovel": 1
+		},
+		"looting": {
+			"defaultLootingMethod": "Click on the item",
+			"fastManualLootingByDefault": 1
+		},
+		"others": {
+			"defaultMenuClickMethodDefaultValue": 0
+		}
+	},
+	"tibiaClient": {
+		"tibia7x": 1,
+		"memoryIdentifier": "phantomold",
+		"clientImagesCategoryIdentifier": "phantomold",
+		"windowTitle": "PhantomOldGlobal",
+		"windowClassFilter": "Phantom",
+		"selectClientButtonOpenFolderInsteadOfClient": false
+	},
+	"uncompatibleModuleFunctions": {
+		"alerts": [
+			"pkOnScreen",
+			"pkOnScreen",
+			"playerOnScreen",
+			"privateMessage"
+		],
+		"itemRefill": [
+			"quiverRefill"
+		],
+		"support": [
+			"autoEatFood",
+			"autoShoot",
+			"cureCurse",
+			"cureFire"
+		],
+		"reconnect": [
+			"autoReconnect"
+		]
+	},
+	"uncompatibleModules": [
+		"reconnect",
+		"fullLight"
+	]
+}

@@ -1,0 +1,43 @@
+{
+	"attackSpells": {
+		"useScriptImageForRunes": true
+	},
+	"battleListImages": {
+		"baseImage": "battle_list_retrocores.png",
+		"baseImageVariation": 50,
+		"emptyImage": "battle_list_empty_retrocores.png",
+		"emptyImageVariation": 50
+	},
+	"battleListSetup": {
+		"offsetFromBaseImagePositionX": -10,
+		"offsetFromBaseImagePositionY": 0,
+		"width": 165,
+		"getHeight": false,
+		"height": 300
+	},
+	"redPixelArea": {
+		"pixelImage": "red_pixel_retrocores.png",
+		"pixelImageVariation": 30,
+		"offsetFromBattleListX": 8,
+		"offsetFromBattleListY": 0,
+		"width": 7,
+		"getCreatureImage": {
+			"offsetX": 22,
+			"offsetY": 2
+		}
+	},
+	"useItemOnCorpse": {
+		"customCorpseImages": true,
+		"corpseImageVariation": 15,
+		"delayBeforeSearchingForCorpses": 500
+	},
+	"options": {
+		"disableAttackModeChange": true,
+		"disableCreatureLifeCheck": true,
+		"disableCreaturePositionCheck": false,
+		"disableCreatureUnreachableCheck": true,
+		"getCreatureImageManually": true,
+		"randomizeSameCreatureAttackByDefault": true,
+		"debug": false
+	}
+}

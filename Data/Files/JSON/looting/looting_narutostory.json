@@ -1,0 +1,25 @@
+{
+	"delays": {
+		"delayBeforeLooting": 250,
+		"delayAfterClickOnOpenOption": 0,
+		"delayAfterDraggingLoot": 400,
+		"delayBeforeSearchingOpenCorpseOption": 60,
+		"delayBeforeSearchingItemsAfterOpenCorpse": 100
+	},
+	"images": {
+		"openCorpseImage": "narutostory.png"
+	},
+	"mainBackpacks": {
+		"bag": "bag_narutostory.png",
+		"alias": "old bag",
+		"options": {
+			"offsetFromImageX": -9,
+			"offsetFromImageY": 13
+		}
+	},
+	"options": {
+		"closeMenuMethod": "Click",
+		"openCorpsesAround": true,
+		"debug": false
+	}
+}

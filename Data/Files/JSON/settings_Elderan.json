@@ -1,0 +1,41 @@
+{
+	"__extends": "otclient.json",
+	"clientFeatures": {
+		"fullLight": 1
+	},
+	"disconnectedCheck": {
+		"connectedWindowTitle": "Elderan -",
+		"enabled": 1
+	},
+	"files": {
+		"cavebot": "elderan.json",
+		"clientAreas": "elderan.json",
+		"containers": "crs_kasteria.json",
+		"minimap": "mp_elderan.json",
+		"healing": "elderan.json",
+		"itemRefill": "lunos.json",
+		"looting": "elderan.json",
+		"sioFriend": "lunos.json",
+		"support": "elderan.json",
+		"targeting": "elderan.json"
+	},
+	"images": {
+		"client": {
+			"menu": {
+				"follow": "elderan.png",
+				"menuImagesVariation": 40
+			}
+		},
+		"convertGold": {
+			"100goldCoin": "100_gold_coin_olders.png",
+			"100platinumCoin": "100_platinum_coin_olders.png"
+		}
+	},
+	"tibiaClient": {
+		"memoryIdentifier": "elderan",
+		"clientImagesCategoryIdentifier": "elderan",
+		"windowClassFilter": "otclient",
+		"windowTitle": "Elderan",
+		"clientExeName": "elderan_gl"
+	}
+}

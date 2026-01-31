@@ -1,0 +1,47 @@
+{
+	"__extends": "otclient.json",
+	"attackSpells": {
+		"useScriptImageForRunes": true
+	},
+	"battleListImages": {
+		"baseImage": "blacktalon.png",
+		"baseImageVariation": 80,
+		"emptyImage": "blacktalon.png",
+		"emptyImageVariation": 80,
+		"battleListButtonsVisibleVariation": 80,
+		"battleListButtonsVisible": "black_talon.png"
+	},
+	"battleListSetup": {
+		"offsetFromBaseImagePositionX": -10,
+		"offsetFromBaseImagePositionY": 0,
+		"width": 165,
+		"getHeight": false,
+		"height": 300
+	},
+	"redPixelArea": {
+		"pixelImage": "red_pixel.png",
+		"pixelImageVariation": 20,
+		"offsetFromBattleListX": 29,
+		"offsetFromBattleListY": 0,
+		"getCreatureImage": {
+			"offsetX": 20,
+			"offsetY": 2
+		}
+	},
+	"useItemOnCorpse": {
+		"customCorpseImages": true,
+		"corpseImageVariation": 15,
+		"delayBeforeSearchingForCorpses": 500
+	},
+	"options": {
+		"searchCreatureVariation": 70,
+		"disableAttackModeChange": true,
+		"disableCreatureLifeCheck": true,
+		"disableCreaturePositionCheck": false,
+		"disableCreatureUnreachableCheck": true,
+		"searchOpenOptionOnEntireScreen": false,
+		"getCreatureImageManually": true,
+		"randomizeSameCreatureAttackByDefault": false,
+		"debug": false
+	}
+}

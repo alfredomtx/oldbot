@@ -1,0 +1,33 @@
+{
+	"__extends": "otclient.json",
+	"clientFeatures": {
+		"fullLight": 1
+	},
+	"disconnectedCheck": {
+		"connectedWindowTitle": "",
+		"enabled": 0
+	},
+	"files": {
+		"cavebot": "otclient_classic.json",
+		"clientAreas": "otclient.json",
+		"clientMenus": "cm_otclient_classic.json",
+		"containers": "crs_otclient.json",
+		"fishing": "otclient.json",
+		"healing": "otclient_classic.json",
+		"itemRefill": "otclient_classic.json",
+		"looting": "otclient_word_bp_images.json",
+		"minimap": "mp_otclient_classic.json",
+		"sioFriend": "otclient.json",
+		"support": "otclient_classic.json",
+		"targeting": "otclient_classic.json"
+	},
+	"tibiaClient": {
+		"clientExeName": "",
+		"memoryIdentifier": "",
+		"windowClassFilter": "",
+		"windowTitle": ""
+	},
+	"uncompatibleModules": [
+		"floorSpy"
+	]
+}

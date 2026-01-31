@@ -1,0 +1,34 @@
+{
+	"coordinates": {
+		"offsetClickX": -1,
+		"offsetClickY": -1
+	},
+	"images": {
+		"use": "use_wearedragons.png",
+		"useVariation": 50
+	},
+	"minimap": {
+		"images": {
+			"center": "center_wearetibia.png",
+			"zoomPlus": "zoom_plus.png",
+			"zoomMinus": "zoom_minus.png"
+		},
+		"areaSetup": {
+			"baseImage": "minimap_wearetibia.png",
+			"baseImageVariation": 50,
+			"offsetFromBaseImagePositionX": 2,
+			"offsetFromBaseImagePositionY": 15,
+			"width": 169,
+			"height": "",
+			"getHeight": true,
+			"heightImage": "minus\\zoom_minus.png",
+			"heightImageVariation": 50,
+			"offsetFromHeightImagePositionY": 49
+		}
+	},
+	"options": {
+		"dontAdjustMinimapHeightWaypoint": true,
+		"checkStoppedInterval": 1000,
+		"debug": true
+	}
+}

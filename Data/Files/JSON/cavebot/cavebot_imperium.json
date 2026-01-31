@@ -1,0 +1,30 @@
+{
+	"images": {
+		"use": "use_aibit.png",
+		"useVariation": 50
+	},
+	"minimap": {
+		"images": {
+			"zoomPlus": "zoom_plus_aibit.png",
+			"zoomMinus": "zoom_minus_aibit.png",
+			"variation": 30
+		},
+		"areaSetup": {
+			"baseImage": "center\\center_imperium.png",
+			"baseImageVariation": 30,
+			"offsetFromBaseImagePositionX": -2,
+			"offsetFromBaseImagePositionY": -2,
+			"width": 172,
+			"height": "",
+			"getHeight": true,
+			"heightImage": "minus\\zoom_minus_aibit.png",
+			"heightImageVariation": 40,
+			"offsetFromHeightImagePositionY": 24
+		}
+	},
+	"options": {
+		"checkStoppedInterval": 800,
+		"debug": false,
+		"debugCharArea": false
+	}
+}

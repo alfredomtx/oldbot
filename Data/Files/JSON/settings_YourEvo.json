@@ -1,0 +1,30 @@
+{
+	"__extends": "otclient.json",
+	"clientFeatures": {
+		"fullLight": 1
+	},
+	"disconnectedCheck": {
+		"connectedWindowTitle": "YurEvo",
+		"enabled": 1
+	},
+	"files": {
+		"cavebot": "otclient.json",
+		"clientAreas": "otclient.json",
+		"clientMenus": "cm_otclient.json",
+		"containers": "crs_otclient.json",
+		"fishing": "otclient.json",
+		"healing": "otclient.json",
+		"itemRefill": "otclient_classic.json",
+		"looting": "otclient_word_bp_images.json",
+		"minimap": "mp_exoria.json",
+		"sioFriend": "otclient.json",
+		"support": "otclient.json",
+		"targeting": "otclient.json"
+	},
+	"tibiaClient": {
+		"clientExeName": "otclient_dx",
+		"memoryIdentifier": "yurevo",
+		"windowClassFilter": "YurEvo",
+		"windowTitle": "YurEvo"
+	}
+}

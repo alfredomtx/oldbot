@@ -1,0 +1,79 @@
+{
+	"disconnectedCheck": {
+		"enabled": false,
+		"connectedWindowTitle": ""
+	},
+	"files": {
+		"cavebot": "cavebot_pokezarpicuno.json",
+		"healing": "otclient_large.json",
+		"itemRefill": "itemRefill.json",
+		"looting": "looting_pokezarpicuno.json",
+		"sioFriend": "sioFriend.json",
+		"support": "support_tibiascape.json",
+		"targeting": "targeting_pokezarpicuno.json"
+	},
+	"input": {
+		"classicControlDisabled": false,
+		"backgroundKeyboardInput": true,
+		"backgroundMouseInput": true,
+		"defaultImageSearch": false,
+		"pressKeyDefaultMethod": false
+	},
+	"settings": {
+		"cavebot": {
+			"getCharCoordinatesFromMemory": true,
+			"automaticFloorDetection": true,
+			"coordinatesFunctioningMode": 1
+		}
+	},
+	"options": {
+		"forceGameWindowHeight": true,
+		"manualCharacterPosition": true
+	},
+	"tibiaClient": {
+		"memoryIdentifier": "pokezarpicuno",
+		"clientImagesCategoryIdentifier": "pokezarpicuno",
+		"removeStringFromTitle": "",
+		"windowTitle": "Pokemon Zarpicuno",
+		"windowClassFilter": "otclient",
+		"clientExeName": ""
+	},
+	"uncompatibleFunctions": {
+		"itemRefill": [],
+		"support": [
+			"quiverRefillEnabled"
+		]
+	},
+	"uncompatibleModules": [
+		"fullLight",
+		"itemRefill",
+		"sioFriend",
+		"reconnect"
+	],
+	"uncompatibleModuleFunctions": {
+		"alerts": [
+			"pkOnScreen",
+			"pkOnScreen",
+			"playerOnScreen",
+			"privateMessage"
+		],
+		"healing": [
+			"manaHealing",
+			"manaTrain"
+		],
+		"support": [
+			"autoHaste",
+			"autoUtamoVita",
+			"autoBuffSpell",
+			"autoEatFood",
+			"autoShoot",
+			"cureParalyze",
+			"curePoison",
+			"cureCurse",
+			"cureFire"
+		],
+		"others": [
+			"smartExit"
+		]
+	}
+}

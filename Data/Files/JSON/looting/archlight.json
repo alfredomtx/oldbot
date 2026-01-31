@@ -1,0 +1,13 @@
+{
+	"delays": {
+		"delayBeforeLooting": 500,
+		"delayBeforePressLootingHotkey": 100,
+		"quickLootClickAroundDelay": 0
+	},
+	"options": {
+		"delayBeforeLooting": 0,
+		"openCorpsesAround": true,
+		"dontPressEscBeforeLooting": true,
+		"debug": false
+	}
+}

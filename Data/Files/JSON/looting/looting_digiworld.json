@@ -1,0 +1,24 @@
+{
+	"delays": {
+		"delayBeforeLooting": 600,
+		"delayAfterClickOnOpenOption": 0,
+		"delayAfterDraggingLoot": 300,
+		"delayBeforeSearchingOpenCorpseOption": 100,
+		"delayBeforeSearchingItemsAfterOpenCorpse": 300
+	},
+	"mainBackpacks": {
+		"bag": "backpack_digiworld.png",
+		"options": {
+			"offsetFromImageX": -9,
+			"offsetFromImageY": 0
+		}
+	},
+	"images": {
+		"openCorpseImage": "open_digiworld.png"
+	},
+	"options": {
+		"searchOpenOptionOnEntireScreen": false,
+		"openCorpsesAround": true,
+		"debug": false
+	}
+}

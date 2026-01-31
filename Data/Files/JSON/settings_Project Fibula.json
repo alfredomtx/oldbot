@@ -1,0 +1,47 @@
+{
+	"__extends": "otclient.json",
+	"clientFeatures": {
+		"autoStack": 0,
+		"fullLight": 0
+	},
+	"disconnectedCheck": {
+		"connectedWindowTitle": "",
+		"enabled": 0
+	},
+	"files": {
+		"cavebot": "otclient_classic.json",
+		"clientAreas": "otclient.json",
+		"clientMenus": "cm_otclient_2.json",
+		"containers": "crs_otclient_2.json",
+		"fishing": "otclient.json",
+		"healing": "otclient_classic.json",
+		"itemRefill": "otclient_classic.json",
+		"looting": "otclient_classic_2.json",
+		"minimap": "mp_otclient_classic_2.json",
+		"sioFriend": "otclient.json",
+		"support": "otclient_classic_small_2.json",
+		"targeting": "otclient_3.json"
+	},
+	"input": {
+		"physicalPressModifierKeys": 0,
+		"mouseDragDefaultMethod": 0,
+		"pressEscDefaultMethod": 0
+	},
+	"settings": {
+		"cavebot": {
+			"getCharCoordinatesFromMemory": false,
+			"coordinatesFunctioningMode": 0,
+			"dragItemsFromSqmBeforeUsingRopeShovel": 1
+		}
+	},
+	"tibiaClient": {
+		"clientExeName": "Tibia.exe",
+		"memoryIdentifier": "Project Fibula",
+		"windowClassFilter": "TibiaClient",
+		"windowTitle": "Tibia"
+	},
+	"uncompatibleModules": [
+		"fullLight",
+		"floorSpy"
+	]
+}

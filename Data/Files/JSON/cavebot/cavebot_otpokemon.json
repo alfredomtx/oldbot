@@ -1,0 +1,36 @@
+{
+	"coordinates": {
+		"offsetClickX": -1,
+		"offsetClickY": -1
+	},
+	"images": {
+		"use": "use_otpokemon.png",
+		"useVariation": 50
+	},
+	"minimap": {
+		"images": {
+			"center": "center_otpokemon.png",
+			"zoomPlus": "zoom_plus_otpokemon.png",
+			"zoomMinus": "zoom_minus_otpokemon.png",
+			"variation": 60
+		},
+		"areaSetup": {
+			"baseImage": "minimap_otpokemon.png",
+			"baseImageVariation": 60,
+			"offsetFromBaseImagePositionX": -1,
+			"offsetFromBaseImagePositionY": 16,
+			"width": 186,
+			"height": "",
+			"getHeight": true,
+			"heightImage": "minus\\zoom_minus_otpokemon.png",
+			"heightImageVariation": 60,
+			"offsetFromHeightImagePositionY": 24
+		}
+	},
+	"options": {
+		"moveMouseToMinimapPosition": true,
+		"checkStoppedInterval": 800,
+		"debug": false,
+		"debugCharArea": false
+	}
+}

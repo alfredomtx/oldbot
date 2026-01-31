@@ -1,0 +1,30 @@
+{
+	"__extends": "otclient.json",
+	"clientFeatures": {
+		"fullLight": 1
+	},
+	"disconnectedCheck": {
+		"connectedWindowTitle": "Arcanum Online -",
+		"enabled": 1
+	},
+	"files": {
+		"cavebot": "otclient_classic.json",
+		"clientAreas": "otclient.json",
+		"clientMenus": "cm_otclient_classic.json",
+		"containers": "crs_arcanum.json",
+		"fishing": "otclient.json",
+		"healing": "otclient_classic.json",
+		"itemRefill": "otclient_classic.json",
+		"looting": "otclient_word_bp_images.json",
+		"minimap": "mp_otclient_classic_3.json",
+		"sioFriend": "otclient.json",
+		"support": "otclient_classic_2.json",
+		"targeting": "otclient_classic_4.json"
+	},
+	"tibiaClient": {
+		"clientExeName": "arcanum_dx",
+		"memoryIdentifier": "arcanum",
+		"windowClassFilter": "Arcanum",
+		"windowTitle": "Arcanum Online"
+	}
+}

@@ -1,0 +1,38 @@
+{
+    "backpack": {
+        "firstSlotArea": {
+            "setupClass": "_MainBackpackArea",
+            "offsets": {
+                "x": 10,
+                "y": 20
+            },
+            "debug": false
+        }
+    },
+    "equipment": {
+        "ringArea": {
+            "setupClass": "_LeftHandArea",
+            "offsets": {
+                "x": 0,
+                "y": 36
+            },
+            "debug": false
+        },
+        "amuletArea": {
+            "setupClass": "_LeftHandArea",
+            "offsets": {
+                "x": 0,
+                "y": -36
+            },
+            "debug": false
+        },
+        "bootsArea": {
+            "setupClass": "_RingArea",
+            "offsets": {
+                "x": 38,
+                "y": 23
+            },
+            "debug": false
+        }
+    }
+}

@@ -1,0 +1,56 @@
+{
+	"__extends": "otclient.json",
+	"clientFeatures": {
+		"autoStack": 0,
+		"useItemWithHotkey": 1,
+		"fullLight": 1
+	},
+	"disconnectedCheck": {
+		"connectedWindowTitle": "",
+		"enabled": 0
+	},
+	"input": {
+		"mouseDragDefaultMethod": 0
+	},
+	"images": {
+		"client": {
+			"buttons": {
+				"exit": "aldoria.png",
+				"exitVariation": 30
+			},
+			"menu": {
+				"follow": "aldoria.png",
+				"menuImagesVariation": 40
+			}
+		},
+		"convertGold": {
+			"100goldCoin": "100_gold_coin_otclientv8.png",
+			"100platinumCoin": "100_platinum_coin_otclientv8.png"
+		}
+	},
+	"files": {
+		"cavebot": "otclient_classic_2.json",
+		"clientAreas": "aldoria.json",
+		"clientMenus": "cm_aldoria.json",
+		"containers": "crs_aldoria.json",
+		"fishing": "otclient.json",
+		"healing": "otclient_classic.json",
+		"itemRefill": "otclient_classic.json",
+		"looting": "aldoria.json",
+		"minimap": "mp_aldoria.json",
+		"sioFriend": "otclient.json",
+		"support": "aldoria.json",
+		"targeting": "aldoria.json"
+	},
+	"tibiaClient": {
+		"clientExeName": "",
+		"memoryIdentifier": "aldoria",
+		"windowClassFilter": "TibiaClient",
+		"windowTitle": "*"
+	},
+	"uncompatibleModules": [
+		"fullLight",
+		"reconnect",
+		"floorSpy"
+	]
+}

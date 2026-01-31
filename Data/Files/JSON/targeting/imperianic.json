@@ -1,0 +1,33 @@
+{
+	"__extends": "otclient.json",
+	"battleListImages": {
+		"baseImage": "battle_list_imperianic.png",
+		"baseImageVariation": 50,
+		"emptyImage": "battle_list_empty_imperianic.png",
+		"emptyImageVariation": 50,
+		"battleListButtonsVisibleVariation": 20,
+		"battleListButtonsVisible": "imperianic.png"
+	},
+	"battleListSetup": {
+		"attackOffsetY": 35,
+		"offsetFromBaseImagePositionX": -10,
+		"offsetFromBaseImagePositionY": 0,
+		"width": 165,
+		"getHeight": false,
+		"height": 300
+	},
+	"redPixelArea": {
+		"pixelImage": "red_pixel.png",
+		"offsetFromBattleListX": 7,
+		"offsetFromBattleListY": 0,
+		"width": 6,
+		"getCreatureImage": {
+			"offsetX": 21,
+			"offsetY": 1
+		}
+	},
+	"options": {
+		"disableCreatureLifeCheck": true,
+		"getCreatureImageManually": true
+	}
+}

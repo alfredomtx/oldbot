@@ -1,0 +1,35 @@
+{
+	"coordinates": {
+		"offsetClickX": -1,
+		"offsetClickY": -1
+	},
+	"images": {
+		"use": "use_pxg.png",
+		"useVariation": 50
+	},
+	"minimap": {
+		"images": {
+			"center": "pokeimperium.png",
+			"zoomPlus": "zoom_plus_pokeimperium.png",
+			"zoomMinus": "zoom_minus_pokeimperium.png",
+			"variation": 60
+		},
+		"areaSetup": {
+			"baseImage": "center\\pokeimperium.png",
+			"baseImageVariation": 60,
+			"offsetFromBaseImagePositionX": -7,
+			"offsetFromBaseImagePositionY": -7,
+			"width": 188,
+			"height": "",
+			"getHeight": true,
+			"heightImage": "minus\\zoom_minus_pokeimperium.png",
+			"heightImageVariation": 60,
+			"offsetFromHeightImagePositionY": 23
+		}
+	},
+	"options": {
+		"checkStoppedInterval": 800,
+		"debug": false,
+		"debugCharArea": false
+	}
+}

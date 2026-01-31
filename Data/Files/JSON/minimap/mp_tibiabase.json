@@ -1,0 +1,21 @@
+{
+	"__extends": "mp_otclient.json",
+	"images": {
+		"center": "otclient_classic.png",
+		"zoomPlus": "otclient_classic.png",
+		"zoomMinus": "otclient_classic.png"
+	},
+	"areaSetup": {
+		"getWidth": true,
+		"getHeight": true,
+		"offsetFromBaseImagePositionX": -3,
+		"offsetFromBaseImagePositionY": -4,
+		"baseImage": "center\\otclient_classic.png",
+		"heightImage": "plus\\otclient_classic.png",
+		"widthImage": "plus\\otclient_classic.png",
+		"offsetFromWidthImagePositionX": 26
+	},
+	"options": {
+		"dontAdjustMinimapHeightWaypoint": true
+	}
+}

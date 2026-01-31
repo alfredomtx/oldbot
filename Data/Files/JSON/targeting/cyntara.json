@@ -1,0 +1,40 @@
+{
+	"attackSpells": {
+		"useScriptImageForRunes": true
+	},
+	"battleListImages": {
+		"baseImage": "cyntara.png",
+		"baseImageVariation": 60,
+		"emptyImage": "cyntara.png",
+		"emptyImageVariation": 60
+	},
+	"battleListSetup": {
+		"attackOffsetY": 25,
+		"offsetFromBaseImagePositionX": 0,
+		"offsetFromBaseImagePositionY": -3,
+		"width": 165,
+		"getHeight": false,
+		"height": 300
+	},
+	"redPixelArea": {
+		"pixelImage": "red_pixel_otclient.png",
+		"pixelImageVariation": 20,
+		"offsetFromBattleListX": 25,
+		"offsetFromBattleListY": 0,
+		"width": 6
+	},
+	"useItemOnCorpse": {
+		"customCorpseImages": true,
+		"corpseImageVariation": 15,
+		"delayBeforeSearchingForCorpses": 500
+	},
+	"options": {
+		"disableCreatureLifeCheck": true,
+		"disableAttackModeChange": true,
+		"disableCreaturePositionCheck": false,
+		"disableCreatureUnreachableCheck": true,
+		"randomizeSameCreatureAttackByDefault": false,
+		"getCreatureImageManually": true,
+		"debug": false
+	}
+}

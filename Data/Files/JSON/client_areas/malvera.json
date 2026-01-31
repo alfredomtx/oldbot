@@ -1,0 +1,17 @@
+{
+	"__extends": "otclient.json",
+	"equipment": {
+		"torchArea": {
+			"offsets": {
+				"x": 76,
+				"y": -62
+			}
+		},
+		"leftHandArea": {
+			"offsets": {
+				"x": -76,
+				"y": -36
+			}
+		}
+	}
+}

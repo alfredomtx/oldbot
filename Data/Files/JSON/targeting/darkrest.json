@@ -1,0 +1,19 @@
+{
+	"__extends": "otclient.json",
+	"battleListImages": {
+		"emptyImage": "darkrest.png"
+	},
+	"battleListSetup": {
+		"width": 170
+	},
+	"redPixelArea": {
+		"pixelImage": "red_pixel.png",
+		"offsetFromBattleListX": 29,
+		"getCreatureImage": {
+			"offsetY": 2
+		}
+	},
+	"options": {
+		"debug": false
+	}
+}

@@ -1,0 +1,9 @@
+{
+	"__extends": "otclient_classic.json",
+	"delays": {
+		"delayBeforeLooting": 650
+	},
+	"options": {
+		"searchOpenOptionOnEntireScreen": true
+	}
+}

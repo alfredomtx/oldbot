@@ -1,0 +1,27 @@
+{
+	"__extends": [
+		"otclient_classic.json"
+	],
+	"autoHaste": {
+		"statusBarImage": "haste_otclientNewer.png",
+		"variation": 50,
+		"timerIntervalMs": 500
+	},
+	"autoUtamoVita": {
+		"statusBarImage": "manashield_otclientNewer.png",
+		"variation": 50,
+		"timerIntervalMs": 500
+	},
+	"cureParalyze": {
+		"statusBarImage": "paralyze_otclientNewer.png",
+		"variation": 50,
+		"timerIntervalMs": 500
+	},
+	"statusBarAreaSetup": {
+		"baseImage": "logout_otclient.png",
+		"offsetFromBaseImagePositionY": 7
+	},
+	"options": {
+		"debug": false
+	}
+}

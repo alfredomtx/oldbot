@@ -1,0 +1,24 @@
+{
+	"life": {
+		"pixelImageName": "nwo.png",
+		"pixelColor": "0x2EAD0F",
+		"pixelVariation": 30,
+		"offsetFromBaseImagePositionX": 0,
+		"offsetFromBaseImagePositionY": 0
+	},
+	"mana": {
+		"pixelImageName": "nwo.png",
+		"pixelColor": "0x1173AE",
+		"pixelVariation": 30,
+		"offsetFromLifeBarX": 234,
+		"offsetFromLifeBarY": 0
+	},
+	"options": {
+		"checkHealingIntervalDelay": 125,
+		"baseImage": "nwo.png",
+		"baseImageVariation": 30,
+		"barWidth": 231,
+		"barHeight": 15,
+		"debug": false
+	}
+}

@@ -1,0 +1,10 @@
+{
+	"__extends": "otclient_classic.json",
+	"statusBarAreaSetup": {
+		"baseImage": "base_image_kingdomswap.png",
+		"baseImageVariation": 60,
+		"offsetFromBaseImagePositionX": -115,
+		"offsetFromBaseImagePositionY": 32,
+		"height": 11
+	}
+}

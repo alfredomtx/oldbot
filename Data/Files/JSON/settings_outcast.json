@@ -1,0 +1,53 @@
+{
+	"__extends": "otclient.json",
+	"clientFeatures": {
+		"autoStack": 1,
+		"fullLight": 1
+	},
+	"disconnectedCheck": {
+		"connectedWindowTitle": "Outcast -",
+		"enabled": true
+	},
+	"files": {
+		"clientMenus": "cm_otclient.json",
+		"cavebot": "kingdomswap.json",
+		"clientAreas": "outcast.json",
+		"containers": "crs_outcast.json",
+		"fishing": "otclient.json",
+		"healing": "otclient_large.json",
+		"itemRefill": "itemRefill_imperianic.json",
+		"looting": "otclient.json",
+		"sioFriend": "sioFriend_imperianic.json",
+		"support": "outcast.json",
+		"targeting": "kingdomswap.json"
+	},
+	"images": {
+		"client": {
+			"buttons": {
+				"exit": "exit_outcast.png",
+				"exitVariation": 20
+			},
+			"menu": {
+				"follow": "follow_imperianic.png",
+				"menuImagesVariation": 40
+			}
+		},
+		"convertGold": {
+			"100goldCoin": "100_gold_coin_olders.png",
+			"100platinumCoin": "100_platinum_coin_olders.png"
+		}
+	},
+	"tibiaClient": {
+		"memoryIdentifier": "outcast",
+		"clientImagesCategoryIdentifier": "outcast",
+		"selectClientButtonOpenFolderInsteadOfClient": true,
+		"removeStringFromTitle": "",
+		"windowClassFilter": "outcast",
+		"windowTitle": "Outcast",
+		"clientExeName": "outcastX"
+	},
+	"uncompatibleModules": [
+		"reconnect",
+		"fullLight"
+	]
+}

@@ -1,0 +1,6 @@
+{
+	"__extends": "otclient_word_bp_images.json",
+	"delays": {
+		"delayBeforeLooting": 500
+	}
+}

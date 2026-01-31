@@ -1,0 +1,57 @@
+{
+	"autoEatFood": {
+		"statusBarImage": "hungry.png",
+		"variation": 60,
+		"timerIntervalMs": 2000
+	},
+	"autoBuffSpell": {
+		"statusBarImage": "buff.png",
+		"variation": 60,
+		"timerIntervalMs": 1200
+	},
+	"autoHaste": {
+		"statusBarImage": "haste.png",
+		"variation": 60,
+		"timerIntervalMs": 500
+	},
+	"autoUtamoVita": {
+		"statusBarImage": "manashield_new.png",
+		"variation": 60,
+		"timerIntervalMs": 500
+	},
+	"cureParalyze": {
+		"statusBarImage": "paralyze.png",
+		"variation": 60,
+		"timerIntervalMs": 500
+	},
+	"cureCurse": {
+		"statusBarImage": "curse.png",
+		"variation": 60,
+		"timerIntervalMs": 2000
+	},
+	"cureFire": {
+		"statusBarImage": "fire.png",
+		"variation": 60,
+		"timerIntervalMs": 2000
+	},
+	"curePoison": {
+		"statusBarImage": "poison.png",
+		"variation": 60,
+		"timerIntervalMs": 2000
+	},
+	"statusBarAreaSetup": {
+		"baseImage": "base_image.png",
+		"baseImage2": "base_image_2.png",
+		"baseImage3": "base_image_3.png",
+		"baseImageVariation": 60,
+		"offsetFromBaseImagePositionX": -118,
+		"offsetFromBaseImagePositionY": 0,
+		"width": 80,
+		"height": 13
+	},
+	"options": {
+		"pzZoneStatusBarImage": "pz_zone.png",
+		"disableChatCondition": false,
+		"debug": false
+	}
+}

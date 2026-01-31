@@ -1,0 +1,41 @@
+{
+	"attackSpells": {
+		"useScriptImageForRunes": true
+	},
+	"battleListImages": {
+		"baseImage": "battle_list_tibijka.png",
+		"baseImageVariation": 60,
+		"emptyImage": "revolution.png",
+		"emptyImageVariation": 60,
+		"battleListButtonsVisibleVariation": 60,
+		"battleListButtonsVisible": "revolution.png"
+	},
+	"battleListSetup": {
+		"attackOffsetY": 30,
+		"offsetFromBaseImagePositionX": -10,
+		"offsetFromBaseImagePositionY": 0,
+		"width": 165,
+		"getHeight": false,
+		"height": 300
+	},
+	"redPixelArea": {
+		"pixelImage": "red_pixel.png",
+		"pixelImageVariation": 30,
+		"offsetFromBattleListX": 9,
+		"offsetFromBattleListY": 0,
+		"width": 10
+	},
+	"useItemOnCorpse": {
+		"customCorpseImages": true,
+		"corpseImageVariation": 15,
+		"delayBeforeSearchingForCorpses": 500
+	},
+	"options": {
+		"disableAttackModeChange": true,
+		"disableCreatureLifeCheck": true,
+		"randomizeSameCreatureAttackByDefault": true,
+		"delayBeforeAttackClick": 200,
+		"getCreatureImageManually": true,
+		"debug": false
+	}
+}

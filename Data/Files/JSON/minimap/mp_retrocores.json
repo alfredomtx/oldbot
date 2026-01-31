@@ -1,0 +1,17 @@
+{
+	"__extends": "mp_otclient_classic.json",
+	"images": {
+		"center": "center_retrocores.png",
+		"zoomPlus": "zoom_plus_otclient.png",
+		"zoomMinus": "zoom_minus_otclient.png",
+		"variation": 60
+	},
+	"areaSetup": {
+		"baseImage": "minus\\zoom_minus_otclient.png",
+		"baseImageVariation": 50,
+		"offsetFromBaseImagePositionX": -146,
+		"offsetFromBaseImagePositionY": -121,
+		"width": 171,
+		"height": 146
+	}
+}

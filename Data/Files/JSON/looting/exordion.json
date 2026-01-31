@@ -1,0 +1,15 @@
+{
+	"__extends": "otclient.json",
+	"mainBackpacks": {
+		"backpacksList": [
+			"backpack_otclient_dark.png",
+			"bag_otclient_dark.png"
+		],
+		"options": {
+			"offsetFromImageY": 1
+		}
+	},
+	"images": {
+		"openCorpseImage": "exordion.png"
+	}
+}

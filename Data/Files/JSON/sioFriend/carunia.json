@@ -1,0 +1,6 @@
+{
+	"__extends": "otclient.json",
+	"followOptions": {
+		"pixelImage": "following_otclient.png"
+	}
+}

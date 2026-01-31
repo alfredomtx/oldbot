@@ -1,0 +1,22 @@
+{
+	"battleListSetup": {
+		"baseImage": "battle_list_rubinot.png",
+		"baseImageVariation": 70,
+		"offsetFromBaseImagePositionX": 0,
+		"offsetFromBaseImagePositionY": 0,
+		"width": 165,
+		"height": 260
+	},
+	"followOptions": {
+		"pixelImage": "following.png",
+		"pixelImageVariation": 50,
+		"waitWindowActive": false
+	},
+	"options": {
+		"playerImageWidth": 90,
+		"enableFollowOption": true,
+		"enableAttackRune": true,
+		"dedicatedSioBattleList": true,
+		"debug": false
+	}
+}

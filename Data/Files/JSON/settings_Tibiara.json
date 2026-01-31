@@ -1,0 +1,29 @@
+{
+	"__extends": "otclient.json",
+	"disconnectedCheck": {
+		"connectedWindowTitle": "Tibiara - ",
+		"enabled": true
+	},
+	"files": {
+		"cavebot": "otclient_classic.json",
+		"clientAreas": "otclient_classic_small.json",
+		"fishing": "otclient.json",
+		"healing": "otclient_classic.json",
+		"itemRefill": "otclient_classic.json",
+		"looting": "Tibiara.json",
+		"minimap": "mp_otclient_classic_2.json",
+		"sioFriend": "otclient.json",
+		"support": "otclient_classic_small.json",
+		"targeting": "Tibiara.json"
+	},
+	"tibiaClient": {
+		"tibia7x": 1,
+		"memoryIdentifier": "Tibiara",
+		"clientImagesCategoryIdentifier": "otclientv8",
+		"selectClientButtonOpenFolderInsteadOfClient": 1,
+		"removeStringFromTitle": "",
+		"windowClassFilter": "Tibiara",
+		"windowTitle": "Tibiara",
+		"clientExeName": "TibiaraDX"
+	}
+}

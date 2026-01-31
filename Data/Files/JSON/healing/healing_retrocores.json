@@ -1,0 +1,22 @@
+{
+	"life": {
+		"pixelImageName": "life_pixel_retrocores.png",
+		"pixelColor": "0xCB423B",
+		"pixelVariation": 0,
+		"offsetFromBaseImagePositionX": 0,
+		"offsetFromBaseImagePositionY": 0
+	},
+	"mana": {
+		"pixelImageName": "mana_pixel_retrocores.png",
+		"pixelVariation": 0,
+		"pixelColor": "0x7260FF",
+		"offsetFromLifeBarY": 12
+	},
+	"options": {
+		"baseImage": "life_bar_retrocores.png",
+		"baseImageVariation": 50,
+		"barWidth": 89,
+		"barHeight": 9,
+		"debug": false
+	}
+}

@@ -1,0 +1,9 @@
+{
+	"__extends": "otclient_classic.json",
+	"mainBackpacks": {
+		"backpacksList": [
+			"backpack_carunia.png",
+			"bag_carunia.png"
+		]
+	}
+}

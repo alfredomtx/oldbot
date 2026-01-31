@@ -1,0 +1,19 @@
+{
+	"delays": {
+		"delayBeforeLooting": 150,
+		"delayAfterClickOnOpenOption": 0,
+		"delayAfterDraggingLoot": 200,
+		"delayBeforeSearchingOpenCorpseOption": 35,
+		"delayBeforeSearchingOpenCorpseOptionWithClassicControlDisabled": 35,
+		"delayBeforeSearchingItemsAfterOpenCorpse": 200
+	},
+	"images": {
+		"openCorpseImage": "otclient_classic.png",
+		"openCorpseImageVariation": 60
+	},
+	"options": {
+		"noDialogBoxToConfirmAfterMoveItem": false,
+		"openCorpsesAround": true,
+		"debug": false
+	}
+}

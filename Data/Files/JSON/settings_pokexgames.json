@@ -1,0 +1,78 @@
+{
+	"disconnectedCheck": {
+		"enabled": false,
+		"connectedWindowTitle": ""
+	},
+	"files": {
+		"cavebot": "cavebot_pokexgames.json",
+		"healing": "healing_pokexgames.json",
+		"itemRefill": "itemRefill.json",
+		"looting": "looting.json",
+		"sioFriend": "sioFriend.json",
+		"support": "support.json",
+		"targeting": "targeting_pokexgames.json"
+	},
+	"input": {
+		"backgroundKeyboardInput": 1,
+		"backgroundImageSearch": 1,
+		"backgroundMouseInput": 0,
+		"classicControlDisabled": 0,
+		"classicControlDisabledByDefault": 0,
+		"defaultImageSearch": 0,
+		"keyPressDelay": 0,
+		"mouseDragDefaultMethod": 1,
+		"physicalPressModifierKeys": 1,
+		"postMsgArrowKeys": 1,
+		"postMsgEscKey": 0,
+		"pressEscDefaultMethod": 1,
+		"pressF1toF12KeysDefaultMethod": 1,
+		"pressKeyDefaultMethod": 1,
+		"pressLetterKeysDefaultMethod": 0,
+		"mouseClickDelay": 120
+	},
+	"options": {
+		"sqmSizeModifier": 0.090,
+		"verticalSqms": 10,
+		"horizontalSqms": 5,
+		"forceGameWindowHeight": true,
+		"manualCharacterPosition": true
+	},
+	"tibiaClient": {
+		"clientImagesCategoryIdentifier": "pokexgames",
+		"removeStringFromTitle": "",
+		"windowTitle": "PokeXGames",
+		"windowClassFilter": "SDL_app",
+		"clientExeName": "pxgme.exe"
+	},
+	"telegram": {
+		"sendPhotoAsDocument": false
+	},
+	"uncompatibleFunctions": {
+		"itemRefill": [],
+		"support": [
+			"quiverRefillEnabled"
+		]
+	},
+	"uncompatibleModules": [
+		"fullLight",
+		"itemRefill",
+		"sioFriend",
+		"support",
+		"reconnect"
+	],
+	"uncompatibleModuleFunctions": {
+		"alerts": [
+			"pkOnScreen",
+			"pkOnScreen",
+			"playerOnScreen",
+			"privateMessage"
+		],
+		"healing": [
+			"manaHealing",
+			"manaTrain"
+		],
+		"others": [
+			"smartExit"
+		]
+	}
+}

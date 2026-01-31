@@ -1,0 +1,9 @@
+{
+	"__extends": "mp_otclient_classic.json",
+	"images": {
+		"center": "otclient_small.png"
+	},
+	"areaSetup": {
+		"baseImage": "center\\otclient_small.png"
+	}
+}

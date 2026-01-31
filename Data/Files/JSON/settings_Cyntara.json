@@ -1,0 +1,111 @@
+{
+	"clientFeatures": {
+		"autoStack": 1,
+		"chatOnOff": 0,
+		"cooldownBar": 0,
+		"fullLight": 1,
+		"protectionZoneIndicator": 0,
+		"useItemWithHotkey": 1,
+		"walkThroughPlayers": 1
+	},
+	"disconnectedCheck": {
+		"connectedWindowTitle": "Cyntara -",
+		"enabled": 1
+	},
+	"files": {
+		"cavebot": "cyntara.json",
+		"fishing": "otclient.json",
+		"healing": "healing.json",
+		"itemRefill": "itemRefill.json",
+		"looting": "looting_kingdomswap.json",
+		"sioFriend": "sioFriend_kingdomswap.json",
+		"support": "cyntara.json",
+		"targeting": "cyntara.json"
+	},
+	"images": {
+		"convertGold": {
+			"100goldCoin": "100_gold_coin.png",
+			"100platinumCoin": "100_platinum_coin.png"
+		}
+	},
+	"input": {
+		"backgroundKeyboardInput": 1,
+		"backgroundImageSearch": 1,
+		"backgroundMouseInput": 1,
+		"classicControlDisabled": 0,
+		"classicControlDisabledByDefault": 0,
+		"defaultImageSearch": 0,
+		"keyPressDelay": 0,
+		"mouseDragDefaultMethod": 1,
+		"physicalPressModifierKeys": 1,
+		"postMsgArrowKeys": 1,
+		"postMsgEscKey": 0,
+		"pressEscDefaultMethod": 1,
+		"pressF1toF12KeysDefaultMethod": 1,
+		"pressKeyDefaultMethod": 1,
+		"pressLetterKeysDefaultMethod": 0
+	},
+	"loadingOptions": {
+		"loadCreatures": 1,
+		"loadItems": 1
+	},
+	"options": {
+		"itemSearchVariation": 50,
+		"manualCharacterPosition": 1
+	},
+	"settings": {
+		"cavebot": {
+			"getCharCoordinatesFromMemory": false,
+			"automaticFloorDetection": 0,
+			"coordinatesFunctioningMode": 0
+		},
+		"looting": {
+			"fastManualLootingByDefault": 1
+		}
+	},
+	"tibiaClient": {
+		"tibia7x": 1,
+		"memoryIdentifier": "cyntara",
+		"clientImagesCategoryIdentifier": "cyntara",
+		"removeStringFromTitle": "",
+		"windowClassFilter": "cyntara",
+		"windowTitle": "Cyntara",
+		"clientExeName": "Cyntara"
+	},
+	"uncompatibleModuleFunctions": {
+		"alerts": [
+			"pkOnScreen",
+			"pkOnScreen",
+			"playerOnScreen",
+			"privateMessage"
+		],
+		"itemRefill": [
+			"quiverRefill"
+		],
+		"others": [
+			"smartExit"
+		],
+		"reconnect": [
+			"autoReconnect"
+		],
+		"support": [
+			"autoBuffSpell",
+			"autoUtamoVita",
+			"autoHaste",
+			"autoEatFood",
+			"autoShoot",
+			"cureCurse",
+			"curePoison",
+			"cureParalyze",
+			"cureFire"
+		]
+	},
+	"uncompatibleModules": [
+		"sioFriend",
+		"fullLight",
+		"looting",
+		"itemRefill",
+		"healing",
+		"reconnect"
+	]
+}

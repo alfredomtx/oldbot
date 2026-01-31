@@ -1,0 +1,35 @@
+{
+	"battleListImages": {
+		"baseImage": "battle_list_pokemonbr.png",
+		"baseImageVariation": 40,
+		"emptyImage": "battle_list_empty_pokemonbr.png",
+		"emptyImageVariation": 80
+	},
+	"battleListSetup": {
+		"offsetFromBaseImagePositionX": -5,
+		"offsetFromBaseImagePositionY": -2,
+		"width": 185,
+		"getHeight": false,
+		"height": 250
+	},
+	"redPixelArea": {
+		"pixelImage": "red_pixel_pxg.png",
+		"pixelImageVariation": 10,
+		"offsetFromBattleListX": 27,
+		"offsetFromBattleListY": 0,
+		"width": 25
+	},
+	"useItemOnCorpse": {
+		"customCorpseImages": true,
+		"corpseImageVariation": 15,
+		"delayBeforeSearchingForCorpses": 1000
+	},
+	"options": {
+		"disableAttackModeChange": true,
+		"disableCreatureLifeCheck": true,
+		"disableCreaturePositionCheck": true,
+		"disableCreatureUnreachableCheck": true,
+		"getCreatureImageManually": true,
+		"debug": false
+	}
+}

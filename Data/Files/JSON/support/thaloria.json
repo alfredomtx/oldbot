@@ -1,0 +1,12 @@
+{
+	"__extends": "support_retrocores.json",
+	"statusBarAreaSetup": {
+		"offsetFromBaseImagePositionX": -115,
+		"offsetFromBaseImagePositionY": 7,
+		"width": 108,
+		"height": 13
+	},
+	"options": {
+		"debug": false
+	}
+}

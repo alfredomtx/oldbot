@@ -1,0 +1,24 @@
+{
+	"delays": {
+		"delayBeforeLooting": 100,
+		"delayAfterClickOnOpenOption": 0,
+		"delayAfterDraggingLoot": 300,
+		"delayBeforeSearchingOpenCorpseOption": 50,
+		"delayBeforeSearchingItemsAfterOpenCorpse": 250
+	},
+	"images": {
+		"openCorpseImage": "open_corpse_otclient.png"
+	},
+	"mainBackpacks": {
+		"bag": "bag_otclient.png",
+		"options": {
+			"offsetFromImageX": -2,
+			"offsetFromImageY": 0
+		}
+	},
+	"options": {
+		"mininumLootSearchAreaWidth": 172,
+		"openCorpsesAround": true,
+		"debug": false
+	}
+}

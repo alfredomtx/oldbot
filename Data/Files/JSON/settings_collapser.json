@@ -1,0 +1,67 @@
+{
+	"disconnectedCheck": {
+		"enabled": false,
+		"connectedWindowTitle": ""
+	},
+	"files": {
+		"cavebot": "cavebot_kingdomswap.json",
+		"healing": "otclient_large.json",
+		"itemRefill": "otclient_classic.json",
+		"looting": "looting_kingdomswap.json",
+		"sioFriend": "sioFriend_kingdomswap.json",
+		"support": "support_kingdomswap.json",
+		"targeting": "targeting_kingdomswap.json"
+	},
+	"images": {
+		"convertGold": {
+			"100goldCoin": "100_gold_coin.png",
+			"100platinumCoin": "100_platinum_coin.png"
+		}
+	},
+	"input": {
+		"classicControlDisabled": false,
+		"backgroundKeyboardInput": true,
+		"backgroundMouseInput": true,
+		"defaultImageSearch": false,
+		"pressKeyDefaultMethod": true,
+		"pressLetterKeysDefaultMethod": false,
+		"pressF1toF12KeysDefaultMethod": true,
+		"physicalPressModifierKeys": true
+	},
+	"options": {
+		"manualCharacterPosition": true
+	},
+	"tibiaClient": {
+		"clientImagesCategoryIdentifier": "collapser",
+		"windowTitle": "Zulu",
+		"windowClassFilter": "Zulu"
+	},
+	"uncompatibleModuleFunctions": {
+		"alerts": [
+			"pkOnScreen",
+			"pkOnScreen",
+			"playerOnScreen",
+			"privateMessage"
+		],
+		"itemRefill": [
+			"quiverRefill"
+		],
+		"support": [
+			"autoEatFood",
+			"autoShoot",
+			"cureCurse",
+			"cureFire",
+			"floorSpy"
+		],
+		"reconnect": [
+			"autoReconnect"
+		],
+		"others": [
+			"smartExit"
+		]
+	},
+	"uncompatibleModules": [
+		"reconnect",
+		"fullLight"
+	]
+}

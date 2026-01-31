@@ -1,0 +1,41 @@
+{
+	"attackSpells": {
+		"useScriptImageForRunes": true
+	},
+	"battleListImages": {
+		"baseImage": "battle_list_medivia.png",
+		"baseImageVariation": 60,
+		"emptyImage": "battle_list_empty_medivia.png",
+		"emptyImageVariation": 60,
+		"battleListButtonsVisible": "medivia.png",
+		"battleListButtonsVisible2": "medivia2.png"
+	},
+	"battleListSetup": {
+		"attackOffsetY": 20,
+		"offsetFromBaseImagePositionX": -2,
+		"offsetFromBaseImagePositionY": 0,
+		"width": 165,
+		"getHeight": false,
+		"height": 300
+	},
+	"redPixelArea": {
+		"pixelImage": "red_pixel_medivia.png",
+		"pixelImageVariation": 0,
+		"width": 6
+	},
+	"useItemOnCorpse": {
+		"customCorpseImages": true,
+		"corpseImageVariation": 15,
+		"delayBeforeSearchingForCorpses": 500
+	},
+	"options": {
+		"pressEscBeforeAttack": true,
+		"disableAttackModeChange": true,
+		"disableCreaturePositionCheck": true,
+		"disableCreatureLifeCheck": true,
+		"disableCreatureUnreachableCheck": true,
+		"getCreatureImageManually": true,
+		"delayBeforeAttackClick": 200,
+		"debug": false
+	}
+}

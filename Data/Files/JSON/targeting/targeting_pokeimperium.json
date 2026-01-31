@@ -1,0 +1,38 @@
+{
+	"battleListImages": {
+		"baseImage": "pokeimperium.png",
+		"baseImageVariation": 60,
+		"emptyImage": "pokeimperium.png",
+		"emptyImageVariation": 80
+	},
+	"battleListSetup": {
+		"attackOffsetY": 40,
+		"offsetFromBaseImagePositionX": -5,
+		"offsetFromBaseImagePositionY": -2,
+		"width": 185,
+		"getHeight": false,
+		"height": 250
+	},
+	"redPixelArea": {
+		"pixelImage": "red_pixel_pxg.png",
+		"pixelImageVariation": 10,
+		"offsetFromBattleListX": 27,
+		"offsetFromBattleListY": 0,
+		"width": 6
+	},
+	"useItemOnCorpse": {
+		"customCorpseImages": true,
+		"corpseImageVariation": 15,
+		"delayBeforeSearchingForCorpses": 1000
+	},
+	"options": {
+		"disableAttackModeChange": true,
+		"disableCreaturePositionCheck": true,
+		"disableCreatureLifeCheck": true,
+		"disableCreatureUnreachableCheck": true,
+		"getCreatureImageManually": true,
+		"delayBeforeAttackClick": 200,
+		"searchCreatureVariation": 80,
+		"debug": false
+	}
+}

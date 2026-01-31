@@ -1,0 +1,22 @@
+{
+	"life": {
+		"pixelImageName": "life_pixel_aibit.png",
+		"pixelColor": "0xF16161",
+		"pixelVariation": 30,
+		"offsetFromBaseImagePositionX": 0,
+		"offsetFromBaseImagePositionY": 0
+	},
+	"mana": {
+		"pixelImageName": "mana_pixel_aibit.png",
+		"pixelVariation": 30,
+		"pixelColor": "0x5350DA",
+		"offsetFromLifeBarY": 13
+	},
+	"options": {
+		"baseImage": "life_bar_aibit.png",
+		"baseImageVariation": 40,
+		"barWidth": 90,
+		"barHeight": 10,
+		"debug": false
+	}
+}
