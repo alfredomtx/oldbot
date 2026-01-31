@@ -2,7 +2,7 @@
 
 # OldBot - Tibia Automation Bot
 
-> **8 years of passion, learning, and late nights.**
+![OldBot GUI](gui.png)
 
 ## The Story
 
@@ -47,15 +47,15 @@ Rather than let the code rot on a private repo, I wanted to give it a proper far
 
 ## Important Notice
 
-**This project is ARCHIVED and NOT MAINTAINED.**
+**This project is not actively maintained, but pull requests are welcome.**
 
-- No issues or pull requests can be opened
 - No support will be provided
+- Pull requests for bug fixes and improvements are welcome
 
 The code has been modified to work without authentication, you can use it freely and it still works on all the servers up to the day this repo was created (2026-01-31).
-I may update it from time to time, nothing guaranteed, if I have the time and motivation, or if someone is willing to pay for me to do so.
+I may update it from time to time, nothing guaranteed, if I have the time or motivation.
 
-**Use at your own risk. Fork if you want to continue development.**
+**Use at your own risk.**
 
 ## How to Run
 
@@ -68,8 +68,8 @@ I may update it from time to time, nothing guaranteed, if I have the time and mo
 
 ### Option B: Running from Source (For Developers)
 
-1. Install [AutoHotkey v1.1](https://www.autohotkey.com/)
-2. Clone or download this repository
+1. Clone or download this repository
+2. Install AutoHotkey v1.1 using `Data/AutoHotkey_1.1.32.00_setup.exe` (included in the repo)
 3. **Run `Setup.ahk` once** (configures paths for your system)
 4. Run `OldBot Pro.ahk`
 5. Select your Tibia client window
