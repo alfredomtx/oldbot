@@ -16,6 +16,9 @@ This project taught me more about programming than any course ever could:
 
 For years, OldBot was my creative outlet, my side income, and honestly, a big part of my identity as a developer.
 
+### Join our Discord
+https://discord.com/invite/MwekUAJ3te
+
 ## A Word About the Code
 
 **I learned to program by writing this bot.**
